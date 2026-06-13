@@ -1,0 +1,60 @@
+{
+  "name": "Bolão dos Follis",
+  "season": "Copa do Mundo 2026",
+  "lastResultsCheckedAt": null,
+  "champion": null,
+  "runnerUp": null,
+  "groups": {
+    "A": { "first": null, "second": null },
+    "B": { "first": null, "second": null },
+    "C": { "first": null, "second": null },
+    "D": { "first": null, "second": null },
+    "E": { "first": null, "second": null },
+    "F": { "first": null, "second": null },
+    "G": { "first": null, "second": null },
+    "H": { "first": null, "second": null },
+    "I": { "first": null, "second": null },
+    "J": { "first": null, "second": null },
+    "K": { "first": null, "second": null },
+    "L": { "first": null, "second": null }
+  },
+  "matches": [
+    {
+      "id": "bra-mar",
+      "stage": "group_brazil",
+      "stageLabel": "Brasil na fase de grupos",
+      "group": "C",
+      "homeTeam": "Brasil",
+      "awayTeam": "Marrocos",
+      "kickoff": null,
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "bra-hai",
+      "stage": "group_brazil",
+      "stageLabel": "Brasil na fase de grupos",
+      "group": "C",
+      "homeTeam": "Brasil",
+      "awayTeam": "Haiti",
+      "kickoff": null,
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "sco-bra",
+      "stage": "group_brazil",
+      "stageLabel": "Brasil na fase de grupos",
+      "group": "C",
+      "homeTeam": "Escócia",
+      "awayTeam": "Brasil",
+      "kickoff": null,
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    }
+  ],
+  "knockoutMatches": []
+}

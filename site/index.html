@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bolão dos Follis</title>
+    <meta
+      name="description"
+      content="Ranking, palpites e resultados do Bolão dos Follis na Copa do Mundo 2026."
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <img class="hero-image" src="assets/bolao-hero.png" alt="" />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Copa do Mundo 2026</p>
+          <h1>Bolão dos Follis</h1>
+          <p class="hero-copy">A disputa da família, rodada por rodada.</p>
+          <div class="hero-stats" id="hero-stats"></div>
+        </div>
+      </header>
+
+      <nav class="tabs" aria-label="Seções">
+        <button class="tab-button is-active" type="button" data-view="ranking">Ranking</button>
+        <button class="tab-button" type="button" data-view="palpites">Palpites</button>
+        <button class="tab-button" type="button" data-view="resultados">Resultados</button>
+        <button class="tab-button" type="button" data-view="regras">Regras</button>
+      </nav>
+
+      <main>
+        <section class="view is-active" id="view-ranking">
+          <div id="warnings"></div>
+          <section class="panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Classificação</p>
+                <h2>Ranking geral</h2>
+              </div>
+              <span class="status-pill" id="ranking-status">Aguardando resultados</span>
+            </div>
+            <div class="table-wrap">
+              <table class="ranking-table">
+                <thead>
+                  <tr>
+                    <th>Pos.</th>
+                    <th>Participante</th>
+                    <th>Total</th>
+                    <th>Grupos</th>
+                    <th>Brasil</th>
+                    <th>Mata-mata</th>
+                    <th>Campeão</th>
+                    <th>Vice</th>
+                    <th>Desempates</th>
+                  </tr>
+                </thead>
+                <tbody id="ranking-body"></tbody>
+              </table>
+            </div>
+          </section>
+        </section>
+
+        <section class="view" id="view-palpites">
+          <section class="panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Apostas abertas</p>
+                <h2>Palpites da família</h2>
+              </div>
+              <select class="participant-select" id="participant-select" aria-label="Participante"></select>
+            </div>
+            <div id="participant-detail"></div>
+          </section>
+          <section class="panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Mapa dos campeões</p>
+                <h2>Escolhas para campeão e vice</h2>
+              </div>
+            </div>
+            <div class="champion-grid" id="champion-grid"></div>
+          </section>
+        </section>
+
+        <section class="view" id="view-resultados">
+          <section class="panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Conferência</p>
+                <h2>Resultados oficiais</h2>
+              </div>
+              <span class="status-pill" id="results-status">Sem jogos finalizados</span>
+            </div>
+            <div class="match-list" id="match-list"></div>
+          </section>
+          <section class="panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Classificados</p>
+                <h2>Grupos A a L</h2>
+              </div>
+            </div>
+            <div class="groups-grid" id="actual-groups"></div>
+          </section>
+        </section>
+
+        <section class="view" id="view-regras">
+          <section class="rules-layout">
+            <article class="panel">
+              <p class="eyebrow">Pontuação</p>
+              <h2>Regras do bolão</h2>
+              <div class="rules-list" id="rules-list"></div>
+            </article>
+            <article class="panel">
+              <p class="eyebrow">Nomes</p>
+              <h2>Aliases cadastrados</h2>
+              <div class="alias-list" id="alias-list"></div>
+            </article>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="assets/app.js"></script>
+  </body>
+</html>

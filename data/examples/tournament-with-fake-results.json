@@ -1,0 +1,60 @@
+{
+  "name": "Bolão dos Follis",
+  "season": "Copa do Mundo 2026",
+  "lastResultsCheckedAt": "2026-06-13T16:00:00-03:00",
+  "champion": "Brasil",
+  "runnerUp": "Argentina",
+  "groups": {
+    "A": { "first": "México", "second": "Rep. Tcheca" },
+    "B": { "first": "Suíça", "second": "Canadá" },
+    "C": { "first": "Brasil", "second": "Marrocos" },
+    "D": { "first": "EUA", "second": "Turquia" },
+    "E": { "first": "Alemanha", "second": "Equador" },
+    "F": { "first": "Holanda", "second": "Suécia" },
+    "G": { "first": "Bélgica", "second": "Egito" },
+    "H": { "first": "Espanha", "second": "Uruguai" },
+    "I": { "first": "França", "second": "Noruega" },
+    "J": { "first": "Argentina", "second": "Áustria" },
+    "K": { "first": "Portugal", "second": "Colômbia" },
+    "L": { "first": "Croácia", "second": "Inglaterra" }
+  },
+  "matches": [
+    {
+      "id": "bra-mar",
+      "stage": "group_brazil",
+      "stageLabel": "Brasil na fase de grupos",
+      "group": "C",
+      "homeTeam": "Brasil",
+      "awayTeam": "Marrocos",
+      "kickoff": null,
+      "status": "final",
+      "result": { "home": 3, "away": 1 },
+      "sourceUrl": "fake-demo"
+    },
+    {
+      "id": "bra-hai",
+      "stage": "group_brazil",
+      "stageLabel": "Brasil na fase de grupos",
+      "group": "C",
+      "homeTeam": "Brasil",
+      "awayTeam": "Haiti",
+      "kickoff": null,
+      "status": "final",
+      "result": { "home": 2, "away": 0 },
+      "sourceUrl": "fake-demo"
+    },
+    {
+      "id": "sco-bra",
+      "stage": "group_brazil",
+      "stageLabel": "Brasil na fase de grupos",
+      "group": "C",
+      "homeTeam": "Escócia",
+      "awayTeam": "Brasil",
+      "kickoff": null,
+      "status": "final",
+      "result": { "home": 1, "away": 3 },
+      "sourceUrl": "fake-demo"
+    }
+  ],
+  "knockoutMatches": []
+}

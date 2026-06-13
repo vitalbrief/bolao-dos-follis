@@ -1,0 +1,2863 @@
+{
+  "meta": {
+    "generatedAt": "2026-06-13T17:32:28.291Z",
+    "source": "Google Forms CSV + arquivos manuais",
+    "participantCount": 7,
+    "submissionCount": 7,
+    "scoringVersion": "2026-06-13.1"
+  },
+  "rules": {
+    "groupQualified": 2,
+    "groupExactPositionBonus": 1,
+    "champion": 15,
+    "runnerUp": 10,
+    "matchOutcome": 3,
+    "exactScoreBonus": 2,
+    "matchMax": 5,
+    "tiebreakers": [
+      "Maior número de placares exatos no mata-mata",
+      "Maior número de resultados acertados, incluindo empate",
+      "Maior pontuação na fase de grupos",
+      "Empate compartilhado"
+    ]
+  },
+  "warnings": [],
+  "aliases": {
+    "people": [
+      {
+        "id": "marcelo-tasso",
+        "displayName": "Marcelo Tasso",
+        "aliases": [
+          "Marcelo Tasso"
+        ]
+      },
+      {
+        "id": "lucas-taveira-follis",
+        "displayName": "Lucas Taveira Follis",
+        "aliases": [
+          "Lucas Taveira Follis",
+          "Lucas Taveira Follis "
+        ]
+      },
+      {
+        "id": "flavia-follis-bartolomeo",
+        "displayName": "Flavia Follis Bartolomeo",
+        "aliases": [
+          "Flavia Follis Bartolomeo"
+        ]
+      },
+      {
+        "id": "jacques-bartolomeo",
+        "displayName": "Jacques Bartolomeo",
+        "aliases": [
+          "Jacques Bartolomeo"
+        ]
+      },
+      {
+        "id": "rose",
+        "displayName": "Rose",
+        "aliases": [
+          "ROSE",
+          "Rose"
+        ]
+      },
+      {
+        "id": "lara-vieira-balieiro-tasso",
+        "displayName": "Lara Vieira Balieiro Tasso",
+        "aliases": [
+          "Lara Vieira Balieiro Tasso"
+        ]
+      },
+      {
+        "id": "helio-tasso-junior",
+        "displayName": "Hélio Tasso Júnior",
+        "aliases": [
+          "Hélio Tasso Júnior",
+          "Helio Tasso Junior"
+        ]
+      }
+    ]
+  },
+  "tournament": {
+    "name": "Bolão dos Follis",
+    "season": "Copa do Mundo 2026",
+    "lastResultsCheckedAt": null,
+    "champion": null,
+    "runnerUp": null,
+    "groups": {
+      "A": {
+        "first": null,
+        "second": null
+      },
+      "B": {
+        "first": null,
+        "second": null
+      },
+      "C": {
+        "first": null,
+        "second": null
+      },
+      "D": {
+        "first": null,
+        "second": null
+      },
+      "E": {
+        "first": null,
+        "second": null
+      },
+      "F": {
+        "first": null,
+        "second": null
+      },
+      "G": {
+        "first": null,
+        "second": null
+      },
+      "H": {
+        "first": null,
+        "second": null
+      },
+      "I": {
+        "first": null,
+        "second": null
+      },
+      "J": {
+        "first": null,
+        "second": null
+      },
+      "K": {
+        "first": null,
+        "second": null
+      },
+      "L": {
+        "first": null,
+        "second": null
+      }
+    },
+    "matches": [
+      {
+        "id": "bra-mar",
+        "stage": "group_brazil",
+        "stageLabel": "Brasil na fase de grupos",
+        "group": "C",
+        "homeTeam": "Brasil",
+        "awayTeam": "Marrocos",
+        "kickoff": null,
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null
+      },
+      {
+        "id": "bra-hai",
+        "stage": "group_brazil",
+        "stageLabel": "Brasil na fase de grupos",
+        "group": "C",
+        "homeTeam": "Brasil",
+        "awayTeam": "Haiti",
+        "kickoff": null,
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null
+      },
+      {
+        "id": "sco-bra",
+        "stage": "group_brazil",
+        "stageLabel": "Brasil na fase de grupos",
+        "group": "C",
+        "homeTeam": "Escócia",
+        "awayTeam": "Brasil",
+        "kickoff": null,
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null
+      }
+    ]
+  },
+  "participants": [
+    {
+      "id": "flavia-follis-bartolomeo",
+      "displayName": "Flavia Follis Bartolomeo",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      },
+      "predictions": {
+        "champion": "França",
+        "runnerUp": "Portugal",
+        "groups": {
+          "A": {
+            "first": "Coreia do Sul",
+            "second": "México"
+          },
+          "B": {
+            "first": "Suíça",
+            "second": "Canadá"
+          },
+          "C": {
+            "first": "Marrocos",
+            "second": "Brasil"
+          },
+          "D": {
+            "first": "EUA",
+            "second": "Turquia"
+          },
+          "E": {
+            "first": "Alemanha",
+            "second": "Equador"
+          },
+          "F": {
+            "first": "Holanda",
+            "second": "Suécia"
+          },
+          "G": {
+            "first": "Bélgica",
+            "second": "Egito"
+          },
+          "H": {
+            "first": "Uruguai",
+            "second": "Espanha"
+          },
+          "I": {
+            "first": "França",
+            "second": "Senegal"
+          },
+          "J": {
+            "first": "Argentina",
+            "second": "Áustria"
+          },
+          "K": {
+            "first": "Portugal",
+            "second": "Colômbia"
+          },
+          "L": {
+            "first": "Croácia",
+            "second": "Inglaterra"
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Marrocos"
+          },
+          "bra-hai": {
+            "home": 3,
+            "away": 0,
+            "label": "Brasil x Haiti"
+          },
+          "sco-bra": {
+            "home": 1,
+            "away": 1,
+            "label": "Escócia x Brasil"
+          }
+        }
+      },
+      "breakdown": {
+        "groups": {
+          "A": {
+            "prediction": {
+              "first": "Coreia do Sul",
+              "second": "México"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "B": {
+            "prediction": {
+              "first": "Suíça",
+              "second": "Canadá"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "C": {
+            "prediction": {
+              "first": "Marrocos",
+              "second": "Brasil"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "D": {
+            "prediction": {
+              "first": "EUA",
+              "second": "Turquia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "E": {
+            "prediction": {
+              "first": "Alemanha",
+              "second": "Equador"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "F": {
+            "prediction": {
+              "first": "Holanda",
+              "second": "Suécia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "G": {
+            "prediction": {
+              "first": "Bélgica",
+              "second": "Egito"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "H": {
+            "prediction": {
+              "first": "Uruguai",
+              "second": "Espanha"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "I": {
+            "prediction": {
+              "first": "França",
+              "second": "Senegal"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "J": {
+            "prediction": {
+              "first": "Argentina",
+              "second": "Áustria"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "K": {
+            "prediction": {
+              "first": "Portugal",
+              "second": "Colômbia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "L": {
+            "prediction": {
+              "first": "Croácia",
+              "second": "Inglaterra"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "match": {
+              "id": "bra-mar",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Marrocos",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-hai": {
+            "match": {
+              "id": "bra-hai",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Haiti",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 0,
+              "label": "Brasil x Haiti"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "sco-bra": {
+            "match": {
+              "id": "sco-bra",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Escócia",
+              "awayTeam": "Brasil",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 1,
+              "label": "Escócia x Brasil"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          }
+        },
+        "champion": {
+          "prediction": "França",
+          "actual": null,
+          "points": 0
+        },
+        "runnerUp": {
+          "prediction": "Portugal",
+          "actual": null,
+          "points": 0
+        }
+      }
+    },
+    {
+      "id": "helio-tasso-junior",
+      "displayName": "Hélio Tasso Júnior",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      },
+      "predictions": {
+        "champion": "Argentina",
+        "runnerUp": "Brasil",
+        "groups": {
+          "A": {
+            "first": "México",
+            "second": "Rep. Tcheca"
+          },
+          "B": {
+            "first": "Bósnia e Herz.",
+            "second": "Suíça"
+          },
+          "C": {
+            "first": "Brasil",
+            "second": "Marrocos"
+          },
+          "D": {
+            "first": "EUA",
+            "second": "Turquia"
+          },
+          "E": {
+            "first": "Equador",
+            "second": "Alemanha"
+          },
+          "F": {
+            "first": "Holanda",
+            "second": "Suécia"
+          },
+          "G": {
+            "first": "Bélgica",
+            "second": "Nova Zelândia"
+          },
+          "H": {
+            "first": "Espanha",
+            "second": "Uruguai"
+          },
+          "I": {
+            "first": "França",
+            "second": "Noruega"
+          },
+          "J": {
+            "first": "Argentina",
+            "second": "Áustria"
+          },
+          "K": {
+            "first": "Portugal",
+            "second": "Colômbia"
+          },
+          "L": {
+            "first": "Croácia",
+            "second": "Inglaterra"
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Marrocos"
+          },
+          "bra-hai": {
+            "home": 3,
+            "away": 1,
+            "label": "Brasil x Haiti"
+          },
+          "sco-bra": {
+            "home": 0,
+            "away": 2,
+            "label": "Escócia x Brasil"
+          }
+        }
+      },
+      "breakdown": {
+        "groups": {
+          "A": {
+            "prediction": {
+              "first": "México",
+              "second": "Rep. Tcheca"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "B": {
+            "prediction": {
+              "first": "Bósnia e Herz.",
+              "second": "Suíça"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "C": {
+            "prediction": {
+              "first": "Brasil",
+              "second": "Marrocos"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "D": {
+            "prediction": {
+              "first": "EUA",
+              "second": "Turquia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "E": {
+            "prediction": {
+              "first": "Equador",
+              "second": "Alemanha"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "F": {
+            "prediction": {
+              "first": "Holanda",
+              "second": "Suécia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "G": {
+            "prediction": {
+              "first": "Bélgica",
+              "second": "Nova Zelândia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "H": {
+            "prediction": {
+              "first": "Espanha",
+              "second": "Uruguai"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "I": {
+            "prediction": {
+              "first": "França",
+              "second": "Noruega"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "J": {
+            "prediction": {
+              "first": "Argentina",
+              "second": "Áustria"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "K": {
+            "prediction": {
+              "first": "Portugal",
+              "second": "Colômbia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "L": {
+            "prediction": {
+              "first": "Croácia",
+              "second": "Inglaterra"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "match": {
+              "id": "bra-mar",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Marrocos",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-hai": {
+            "match": {
+              "id": "bra-hai",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Haiti",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 1,
+              "label": "Brasil x Haiti"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "sco-bra": {
+            "match": {
+              "id": "sco-bra",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Escócia",
+              "awayTeam": "Brasil",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 0,
+              "away": 2,
+              "label": "Escócia x Brasil"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          }
+        },
+        "champion": {
+          "prediction": "Argentina",
+          "actual": null,
+          "points": 0
+        },
+        "runnerUp": {
+          "prediction": "Brasil",
+          "actual": null,
+          "points": 0
+        }
+      }
+    },
+    {
+      "id": "jacques-bartolomeo",
+      "displayName": "Jacques Bartolomeo",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      },
+      "predictions": {
+        "champion": "Portugal",
+        "runnerUp": "França",
+        "groups": {
+          "A": {
+            "first": "Coreia do Sul",
+            "second": "México"
+          },
+          "B": {
+            "first": "Suíça",
+            "second": "Bósnia e Herz."
+          },
+          "C": {
+            "first": "Marrocos",
+            "second": "Brasil"
+          },
+          "D": {
+            "first": "EUA",
+            "second": "Turquia"
+          },
+          "E": {
+            "first": "Alemanha",
+            "second": "Costa do Marfim"
+          },
+          "F": {
+            "first": "Holanda",
+            "second": "Suécia"
+          },
+          "G": {
+            "first": "Bélgica",
+            "second": "Egito"
+          },
+          "H": {
+            "first": "Espanha",
+            "second": "Uruguai"
+          },
+          "I": {
+            "first": "França",
+            "second": "Noruega"
+          },
+          "J": {
+            "first": "Argentina",
+            "second": "Áustria"
+          },
+          "K": {
+            "first": "Portugal",
+            "second": "Colômbia"
+          },
+          "L": {
+            "first": "Inglaterra",
+            "second": "Croácia"
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "home": 1,
+            "away": 1,
+            "label": "Brasil x Marrocos"
+          },
+          "bra-hai": {
+            "home": 2,
+            "away": 0,
+            "label": "Brasil x Haiti"
+          },
+          "sco-bra": {
+            "home": 1,
+            "away": 1,
+            "label": "Escócia x Brasil"
+          }
+        }
+      },
+      "breakdown": {
+        "groups": {
+          "A": {
+            "prediction": {
+              "first": "Coreia do Sul",
+              "second": "México"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "B": {
+            "prediction": {
+              "first": "Suíça",
+              "second": "Bósnia e Herz."
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "C": {
+            "prediction": {
+              "first": "Marrocos",
+              "second": "Brasil"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "D": {
+            "prediction": {
+              "first": "EUA",
+              "second": "Turquia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "E": {
+            "prediction": {
+              "first": "Alemanha",
+              "second": "Costa do Marfim"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "F": {
+            "prediction": {
+              "first": "Holanda",
+              "second": "Suécia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "G": {
+            "prediction": {
+              "first": "Bélgica",
+              "second": "Egito"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "H": {
+            "prediction": {
+              "first": "Espanha",
+              "second": "Uruguai"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "I": {
+            "prediction": {
+              "first": "França",
+              "second": "Noruega"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "J": {
+            "prediction": {
+              "first": "Argentina",
+              "second": "Áustria"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "K": {
+            "prediction": {
+              "first": "Portugal",
+              "second": "Colômbia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "L": {
+            "prediction": {
+              "first": "Inglaterra",
+              "second": "Croácia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "match": {
+              "id": "bra-mar",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Marrocos",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 1,
+              "label": "Brasil x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-hai": {
+            "match": {
+              "id": "bra-hai",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Haiti",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 0,
+              "label": "Brasil x Haiti"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "sco-bra": {
+            "match": {
+              "id": "sco-bra",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Escócia",
+              "awayTeam": "Brasil",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 1,
+              "label": "Escócia x Brasil"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          }
+        },
+        "champion": {
+          "prediction": "Portugal",
+          "actual": null,
+          "points": 0
+        },
+        "runnerUp": {
+          "prediction": "França",
+          "actual": null,
+          "points": 0
+        }
+      }
+    },
+    {
+      "id": "lara-vieira-balieiro-tasso",
+      "displayName": "Lara Vieira Balieiro Tasso",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      },
+      "predictions": {
+        "champion": "Brasil",
+        "runnerUp": "Argentina",
+        "groups": {
+          "A": {
+            "first": "México",
+            "second": "Rep. Tcheca"
+          },
+          "B": {
+            "first": "Suíça",
+            "second": "Canadá"
+          },
+          "C": {
+            "first": "Brasil",
+            "second": "Marrocos"
+          },
+          "D": {
+            "first": "EUA",
+            "second": "Turquia"
+          },
+          "E": {
+            "first": "Alemanha",
+            "second": "Equador"
+          },
+          "F": {
+            "first": "Holanda",
+            "second": "Japão"
+          },
+          "G": {
+            "first": "Bélgica",
+            "second": "Egito"
+          },
+          "H": {
+            "first": "Espanha",
+            "second": "Uruguai"
+          },
+          "I": {
+            "first": "França",
+            "second": "Noruega"
+          },
+          "J": {
+            "first": "Argentina",
+            "second": "Áustria"
+          },
+          "K": {
+            "first": "Portugal",
+            "second": "Colômbia"
+          },
+          "L": {
+            "first": "Croácia",
+            "second": "Inglaterra"
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "home": 4,
+            "away": 0,
+            "label": "Brasil x Marrocos"
+          },
+          "bra-hai": {
+            "home": 5,
+            "away": 0,
+            "label": "Brasil x Haiti"
+          },
+          "sco-bra": {
+            "home": 1,
+            "away": 3,
+            "label": "Escócia x Brasil"
+          }
+        }
+      },
+      "breakdown": {
+        "groups": {
+          "A": {
+            "prediction": {
+              "first": "México",
+              "second": "Rep. Tcheca"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "B": {
+            "prediction": {
+              "first": "Suíça",
+              "second": "Canadá"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "C": {
+            "prediction": {
+              "first": "Brasil",
+              "second": "Marrocos"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "D": {
+            "prediction": {
+              "first": "EUA",
+              "second": "Turquia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "E": {
+            "prediction": {
+              "first": "Alemanha",
+              "second": "Equador"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "F": {
+            "prediction": {
+              "first": "Holanda",
+              "second": "Japão"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "G": {
+            "prediction": {
+              "first": "Bélgica",
+              "second": "Egito"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "H": {
+            "prediction": {
+              "first": "Espanha",
+              "second": "Uruguai"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "I": {
+            "prediction": {
+              "first": "França",
+              "second": "Noruega"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "J": {
+            "prediction": {
+              "first": "Argentina",
+              "second": "Áustria"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "K": {
+            "prediction": {
+              "first": "Portugal",
+              "second": "Colômbia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "L": {
+            "prediction": {
+              "first": "Croácia",
+              "second": "Inglaterra"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "match": {
+              "id": "bra-mar",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Marrocos",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 4,
+              "away": 0,
+              "label": "Brasil x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-hai": {
+            "match": {
+              "id": "bra-hai",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Haiti",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 5,
+              "away": 0,
+              "label": "Brasil x Haiti"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "sco-bra": {
+            "match": {
+              "id": "sco-bra",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Escócia",
+              "awayTeam": "Brasil",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 3,
+              "label": "Escócia x Brasil"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          }
+        },
+        "champion": {
+          "prediction": "Brasil",
+          "actual": null,
+          "points": 0
+        },
+        "runnerUp": {
+          "prediction": "Argentina",
+          "actual": null,
+          "points": 0
+        }
+      }
+    },
+    {
+      "id": "lucas-taveira-follis",
+      "displayName": "Lucas Taveira Follis",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      },
+      "predictions": {
+        "champion": "Brasil",
+        "runnerUp": "Espanha",
+        "groups": {
+          "A": {
+            "first": "México",
+            "second": "África do Sul"
+          },
+          "B": {
+            "first": "Suíça",
+            "second": "Canadá"
+          },
+          "C": {
+            "first": "Brasil",
+            "second": "Marrocos"
+          },
+          "D": {
+            "first": "Paraguai",
+            "second": "EUA"
+          },
+          "E": {
+            "first": "Alemanha",
+            "second": "Equador"
+          },
+          "F": {
+            "first": "Holanda",
+            "second": "Japão"
+          },
+          "G": {
+            "first": "Bélgica",
+            "second": "Egito"
+          },
+          "H": {
+            "first": "Espanha",
+            "second": "Uruguai"
+          },
+          "I": {
+            "first": "França",
+            "second": "Noruega"
+          },
+          "J": {
+            "first": "Argentina",
+            "second": "Áustria"
+          },
+          "K": {
+            "first": "Portugal",
+            "second": "Colômbia"
+          },
+          "L": {
+            "first": "Croácia",
+            "second": "Inglaterra"
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "home": 3,
+            "away": 1,
+            "label": "Brasil x Marrocos"
+          },
+          "bra-hai": {
+            "home": 3,
+            "away": 0,
+            "label": "Brasil x Haiti"
+          },
+          "sco-bra": {
+            "home": 0,
+            "away": 4,
+            "label": "Escócia x Brasil"
+          }
+        }
+      },
+      "breakdown": {
+        "groups": {
+          "A": {
+            "prediction": {
+              "first": "México",
+              "second": "África do Sul"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "B": {
+            "prediction": {
+              "first": "Suíça",
+              "second": "Canadá"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "C": {
+            "prediction": {
+              "first": "Brasil",
+              "second": "Marrocos"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "D": {
+            "prediction": {
+              "first": "Paraguai",
+              "second": "EUA"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "E": {
+            "prediction": {
+              "first": "Alemanha",
+              "second": "Equador"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "F": {
+            "prediction": {
+              "first": "Holanda",
+              "second": "Japão"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "G": {
+            "prediction": {
+              "first": "Bélgica",
+              "second": "Egito"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "H": {
+            "prediction": {
+              "first": "Espanha",
+              "second": "Uruguai"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "I": {
+            "prediction": {
+              "first": "França",
+              "second": "Noruega"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "J": {
+            "prediction": {
+              "first": "Argentina",
+              "second": "Áustria"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "K": {
+            "prediction": {
+              "first": "Portugal",
+              "second": "Colômbia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "L": {
+            "prediction": {
+              "first": "Croácia",
+              "second": "Inglaterra"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "match": {
+              "id": "bra-mar",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Marrocos",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 1,
+              "label": "Brasil x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-hai": {
+            "match": {
+              "id": "bra-hai",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Haiti",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 0,
+              "label": "Brasil x Haiti"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "sco-bra": {
+            "match": {
+              "id": "sco-bra",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Escócia",
+              "awayTeam": "Brasil",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 0,
+              "away": 4,
+              "label": "Escócia x Brasil"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          }
+        },
+        "champion": {
+          "prediction": "Brasil",
+          "actual": null,
+          "points": 0
+        },
+        "runnerUp": {
+          "prediction": "Espanha",
+          "actual": null,
+          "points": 0
+        }
+      }
+    },
+    {
+      "id": "marcelo-tasso",
+      "displayName": "Marcelo Tasso",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      },
+      "predictions": {
+        "champion": "Brasil",
+        "runnerUp": "Argentina",
+        "groups": {
+          "A": {
+            "first": "México",
+            "second": "África do Sul"
+          },
+          "B": {
+            "first": "Suíça",
+            "second": "Canadá"
+          },
+          "C": {
+            "first": "Brasil",
+            "second": "Escócia"
+          },
+          "D": {
+            "first": "EUA",
+            "second": "Austrália"
+          },
+          "E": {
+            "first": "Alemanha",
+            "second": "Equador"
+          },
+          "F": {
+            "first": "Holanda",
+            "second": "Japão"
+          },
+          "G": {
+            "first": "Bélgica",
+            "second": "Nova Zelândia"
+          },
+          "H": {
+            "first": "Espanha",
+            "second": "Uruguai"
+          },
+          "I": {
+            "first": "França",
+            "second": "Noruega"
+          },
+          "J": {
+            "first": "Argentina",
+            "second": "Áustria"
+          },
+          "K": {
+            "first": "Portugal",
+            "second": "Colômbia"
+          },
+          "L": {
+            "first": "Inglaterra",
+            "second": "Gana"
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "home": 3,
+            "away": 0,
+            "label": "Brasil x Marrocos"
+          },
+          "bra-hai": {
+            "home": 4,
+            "away": 1,
+            "label": "Brasil x Haiti"
+          },
+          "sco-bra": {
+            "home": 2,
+            "away": 0,
+            "label": "Escócia x Brasil"
+          }
+        }
+      },
+      "breakdown": {
+        "groups": {
+          "A": {
+            "prediction": {
+              "first": "México",
+              "second": "África do Sul"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "B": {
+            "prediction": {
+              "first": "Suíça",
+              "second": "Canadá"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "C": {
+            "prediction": {
+              "first": "Brasil",
+              "second": "Escócia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "D": {
+            "prediction": {
+              "first": "EUA",
+              "second": "Austrália"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "E": {
+            "prediction": {
+              "first": "Alemanha",
+              "second": "Equador"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "F": {
+            "prediction": {
+              "first": "Holanda",
+              "second": "Japão"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "G": {
+            "prediction": {
+              "first": "Bélgica",
+              "second": "Nova Zelândia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "H": {
+            "prediction": {
+              "first": "Espanha",
+              "second": "Uruguai"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "I": {
+            "prediction": {
+              "first": "França",
+              "second": "Noruega"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "J": {
+            "prediction": {
+              "first": "Argentina",
+              "second": "Áustria"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "K": {
+            "prediction": {
+              "first": "Portugal",
+              "second": "Colômbia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "L": {
+            "prediction": {
+              "first": "Inglaterra",
+              "second": "Gana"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "match": {
+              "id": "bra-mar",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Marrocos",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 0,
+              "label": "Brasil x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-hai": {
+            "match": {
+              "id": "bra-hai",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Haiti",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 4,
+              "away": 1,
+              "label": "Brasil x Haiti"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "sco-bra": {
+            "match": {
+              "id": "sco-bra",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Escócia",
+              "awayTeam": "Brasil",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 0,
+              "label": "Escócia x Brasil"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          }
+        },
+        "champion": {
+          "prediction": "Brasil",
+          "actual": null,
+          "points": 0
+        },
+        "runnerUp": {
+          "prediction": "Argentina",
+          "actual": null,
+          "points": 0
+        }
+      }
+    },
+    {
+      "id": "rose",
+      "displayName": "Rose",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      },
+      "predictions": {
+        "champion": "Brasil",
+        "runnerUp": "Portugal",
+        "groups": {
+          "A": {
+            "first": "México",
+            "second": "Rep. Tcheca"
+          },
+          "B": {
+            "first": "Canadá",
+            "second": "Bósnia e Herz."
+          },
+          "C": {
+            "first": "Brasil",
+            "second": "Marrocos"
+          },
+          "D": {
+            "first": "EUA",
+            "second": "Austrália"
+          },
+          "E": {
+            "first": "Alemanha",
+            "second": "Equador"
+          },
+          "F": {
+            "first": "Holanda",
+            "second": "Suécia"
+          },
+          "G": {
+            "first": "Bélgica",
+            "second": "Nova Zelândia"
+          },
+          "H": {
+            "first": "Espanha",
+            "second": "Arábia Saudita"
+          },
+          "I": {
+            "first": "França",
+            "second": "Noruega"
+          },
+          "J": {
+            "first": "Argentina",
+            "second": "Áustria"
+          },
+          "K": {
+            "first": "Portugal",
+            "second": "Colômbia"
+          },
+          "L": {
+            "first": "Inglaterra",
+            "second": "Croácia"
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Marrocos"
+          },
+          "bra-hai": {
+            "home": 2,
+            "away": 0,
+            "label": "Brasil x Haiti"
+          },
+          "sco-bra": {
+            "home": 1,
+            "away": 3,
+            "label": "Escócia x Brasil"
+          }
+        }
+      },
+      "breakdown": {
+        "groups": {
+          "A": {
+            "prediction": {
+              "first": "México",
+              "second": "Rep. Tcheca"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "B": {
+            "prediction": {
+              "first": "Canadá",
+              "second": "Bósnia e Herz."
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "C": {
+            "prediction": {
+              "first": "Brasil",
+              "second": "Marrocos"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "D": {
+            "prediction": {
+              "first": "EUA",
+              "second": "Austrália"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "E": {
+            "prediction": {
+              "first": "Alemanha",
+              "second": "Equador"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "F": {
+            "prediction": {
+              "first": "Holanda",
+              "second": "Suécia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "G": {
+            "prediction": {
+              "first": "Bélgica",
+              "second": "Nova Zelândia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "H": {
+            "prediction": {
+              "first": "Espanha",
+              "second": "Arábia Saudita"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "I": {
+            "prediction": {
+              "first": "França",
+              "second": "Noruega"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "J": {
+            "prediction": {
+              "first": "Argentina",
+              "second": "Áustria"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "K": {
+            "prediction": {
+              "first": "Portugal",
+              "second": "Colômbia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          },
+          "L": {
+            "prediction": {
+              "first": "Inglaterra",
+              "second": "Croácia"
+            },
+            "actual": {
+              "first": null,
+              "second": null
+            },
+            "points": 0,
+            "qualifiedHits": 0,
+            "exactPositionHits": 0,
+            "pending": true,
+            "slots": []
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "match": {
+              "id": "bra-mar",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Marrocos",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-hai": {
+            "match": {
+              "id": "bra-hai",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Haiti",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 0,
+              "label": "Brasil x Haiti"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "sco-bra": {
+            "match": {
+              "id": "sco-bra",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Escócia",
+              "awayTeam": "Brasil",
+              "kickoff": null,
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 3,
+              "label": "Escócia x Brasil"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          }
+        },
+        "champion": {
+          "prediction": "Brasil",
+          "actual": null,
+          "points": 0
+        },
+        "runnerUp": {
+          "prediction": "Portugal",
+          "actual": null,
+          "points": 0
+        }
+      }
+    }
+  ],
+  "ranking": [
+    {
+      "id": "flavia-follis-bartolomeo",
+      "displayName": "Flavia Follis Bartolomeo",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      }
+    },
+    {
+      "id": "helio-tasso-junior",
+      "displayName": "Hélio Tasso Júnior",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      }
+    },
+    {
+      "id": "jacques-bartolomeo",
+      "displayName": "Jacques Bartolomeo",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      }
+    },
+    {
+      "id": "lara-vieira-balieiro-tasso",
+      "displayName": "Lara Vieira Balieiro Tasso",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      }
+    },
+    {
+      "id": "lucas-taveira-follis",
+      "displayName": "Lucas Taveira Follis",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      }
+    },
+    {
+      "id": "marcelo-tasso",
+      "displayName": "Marcelo Tasso",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      }
+    },
+    {
+      "id": "rose",
+      "displayName": "Rose",
+      "rank": 1,
+      "score": {
+        "total": 0,
+        "groupClassificationPoints": 0,
+        "brazilGroupMatchPoints": 0,
+        "groupPhasePoints": 0,
+        "knockoutPoints": 0,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 0,
+        "exactScoreHits": 0,
+        "exactKnockoutHits": 0
+      }
+    }
+  ]
+}

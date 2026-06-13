@@ -1,0 +1,33 @@
+{
+  "forms": [
+    {
+      "id": "group-stage-2026",
+      "label": "Fase de grupos",
+      "stage": "group",
+      "sourceCsv": "data/raw/group-stage-current.csv",
+      "timestampColumnIndex": 0,
+      "nameColumnIndex": 1,
+      "championColumnIndex": 2,
+      "runnerUpColumnIndex": 3,
+      "groupColumns": {
+        "A": { "firstColumnIndex": 4, "secondColumnIndex": 5 },
+        "B": { "firstColumnIndex": 6, "secondColumnIndex": 7 },
+        "C": { "firstColumnIndex": 8, "secondColumnIndex": 9 },
+        "D": { "firstColumnIndex": 10, "secondColumnIndex": 11 },
+        "E": { "firstColumnIndex": 12, "secondColumnIndex": 13 },
+        "F": { "firstColumnIndex": 14, "secondColumnIndex": 15 },
+        "G": { "firstColumnIndex": 16, "secondColumnIndex": 17 },
+        "H": { "firstColumnIndex": 18, "secondColumnIndex": 19 },
+        "I": { "firstColumnIndex": 20, "secondColumnIndex": 21 },
+        "J": { "firstColumnIndex": 22, "secondColumnIndex": 23 },
+        "K": { "firstColumnIndex": 24, "secondColumnIndex": 25 },
+        "L": { "firstColumnIndex": 26, "secondColumnIndex": 27 }
+      },
+      "matchScoreColumns": [
+        { "matchId": "bra-mar", "homeScoreColumnIndex": 28, "awayScoreColumnIndex": 29 },
+        { "matchId": "bra-hai", "homeScoreColumnIndex": 30, "awayScoreColumnIndex": 31 },
+        { "matchId": "sco-bra", "homeScoreColumnIndex": 32, "awayScoreColumnIndex": 33 }
+      ]
+    }
+  ]
+}

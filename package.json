@@ -1,0 +1,12 @@
+{
+  "name": "bolao-dos-follis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-data.mjs",
+    "build:demo": "node scripts/build-data.mjs --tournament data/examples/tournament-with-fake-results.json --out data/generated/site-data-demo.json --generated-out data/generated/site-data-demo.json",
+    "test": "node --test",
+    "dev": "python3 -m http.server 4173 -d site"
+  }
+}
