@@ -14,6 +14,7 @@ const formatDate = new Intl.DateTimeFormat("pt-BR", {
 const TEAM_FLAGS = {
   "África do Sul": "🇿🇦",
   Alemanha: "🇩🇪",
+  Argélia: "🇩🇿",
   "Arábia Saudita": "🇸🇦",
   Argentina: "🇦🇷",
   Austrália: "🇦🇺",
@@ -35,6 +36,8 @@ const TEAM_FLAGS = {
   Gana: "🇬🇭",
   Haiti: "🇭🇹",
   Holanda: "🇳🇱",
+  Irã: "🇮🇷",
+  Iraque: "🇮🇶",
   Inglaterra: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
   Japão: "🇯🇵",
   Marrocos: "🇲🇦",
@@ -43,6 +46,7 @@ const TEAM_FLAGS = {
   "Nova Zelândia": "🇳🇿",
   Paraguai: "🇵🇾",
   Portugal: "🇵🇹",
+  "RD Congo": "🇨🇩",
   "Rep. Tcheca": "🇨🇿",
   Senegal: "🇸🇳",
   Suécia: "🇸🇪",
@@ -114,12 +118,13 @@ function renderHeroStats() {
     statCard(meta.participantCount, "palpiteiros"),
     leaderStat,
     statCard(finishedMatches, "jogos com resultado"),
-    statCard(formatDate.format(generatedAt).split(",")[0] ?? "—", "atualizado em"),
+    statCard(formatDate.format(generatedAt).split(",")[0] ?? "—", "atualizado em", "stat-card--date"),
   ].join("");
 }
 
-function statCard(value, label) {
-  return `<div class="stat-card"><strong>${escapeHtml(value)}</strong><span>${escapeHtml(label)}</span></div>`;
+function statCard(value, label, className = "") {
+  const classes = ["stat-card", className].filter(Boolean).join(" ");
+  return `<div class="${classes}"><strong>${escapeHtml(value)}</strong><span>${escapeHtml(label)}</span></div>`;
 }
 
 function renderWarnings() {

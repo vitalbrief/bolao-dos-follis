@@ -2,6 +2,8 @@
 
 Site estatico para acompanhar o Bolao dos Follis na Copa do Mundo 2026.
 
+Producao: https://bolao-dos-follis.pages.dev/
+
 ## Fluxo de atualizacao
 
 1. Exporte o CSV do Google Forms.
@@ -23,7 +25,7 @@ npm run dev
 
 Abra `http://localhost:4173`.
 
-7. **Publique** comitando o JSON gerado e dando push:
+7. **Publique** comitando o JSON gerado e dando push. O Cloudflare Pages faz o deploy automaticamente:
 
 ```bash
 git add site/data/site-data.json data/manual
@@ -31,7 +33,7 @@ git commit -m "Atualiza rodada"
 git push
 ```
 
-> ⚠️ **Importante:** o workflow do GitHub Pages **não roda o `npm run build`** — ele só envia a pasta `site/` como está. O CSV bruto fica fora do Git, então o site só muda se você rodar `npm run build` localmente e comitar o `site/data/site-data.json` atualizado. Se editar `tournament.json` e der push sem rebuildar, o site continua igual.
+> ⚠️ **Importante:** o deploy do Cloudflare Pages usa a pasta `site/` como está. O CSV bruto fica fora do Git, então o site só muda se você rodar `npm run build` localmente e comitar o `site/data/site-data.json` atualizado. Se editar `tournament.json` e der push sem rebuildar, o site continua igual.
 
 ## Dados
 
@@ -41,4 +43,11 @@ git push
 
 ## Publicacao
 
-O workflow em `.github/workflows/pages.yml` publica apenas a pasta `site/` no GitHub Pages.
+O Cloudflare Pages publica a pasta `site/`.
+
+Configuracao recomendada:
+
+- Project name: `bolao-dos-follis`
+- Production branch: `main`
+- Build command: vazio
+- Build output directory: `site`

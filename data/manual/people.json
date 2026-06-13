@@ -21,8 +21,8 @@
   },
   {
     "id": "rose",
-    "displayName": "Rose",
-    "aliases": ["ROSE", "Rose"]
+    "displayName": "Rose Follis Tasso",
+    "aliases": ["ROSE", "Rose", "Rose Follis Tasso"]
   },
   {
     "id": "lara-vieira-balieiro-tasso",
@@ -33,5 +33,20 @@
     "id": "helio-tasso-junior",
     "displayName": "Hélio Tasso Júnior",
     "aliases": ["Hélio Tasso Júnior", "Helio Tasso Junior"]
+  },
+  {
+    "id": "vinicius-follis-tasso",
+    "displayName": "Vinicius Follis Tasso",
+    "aliases": ["Vinicius Follis Tasso", "Vinícius Follis Tasso"]
+  },
+  {
+    "id": "mayara-gielow",
+    "displayName": "Mayara Gielow",
+    "aliases": ["Mayara Gielow"]
+  },
+  {
+    "id": "jose-roberto-follis",
+    "displayName": "José Roberto Follis",
+    "aliases": ["José Roberto Follis", "Jose Roberto Follis"]
   }
 ]

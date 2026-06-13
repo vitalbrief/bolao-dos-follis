@@ -191,11 +191,13 @@ select {
 }
 
 .stat-card {
+  min-width: 0;
   padding: 16px 16px 14px;
   border: 1px solid rgba(255, 255, 255, 0.26);
   border-radius: var(--radius-sm);
   background: rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(14px);
+  overflow: hidden;
 }
 
 .stat-card strong {
@@ -205,6 +207,14 @@ select {
   font-size: clamp(1.7rem, 3.2vw, 2.3rem);
   line-height: 1;
   letter-spacing: 0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stat-card--date strong {
+  font-size: clamp(1.35rem, 2.1vw, 1.75rem);
+  line-height: 1.08;
 }
 
 .stat-card span {
@@ -1354,6 +1364,10 @@ table {
   .hero-stats {
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
+  }
+
+  .stat-card--date strong {
+    font-size: clamp(1.2rem, 7vw, 1.6rem);
   }
 
   .tabs {
