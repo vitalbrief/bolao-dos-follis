@@ -25,6 +25,12 @@ npm run dev
 
 Abra `http://localhost:4173`.
 
+Para regenerar a imagem que aparece ao compartilhar no WhatsApp:
+
+```bash
+npm run social:image
+```
+
 7. **Publique** comitando o JSON gerado e dando push. O Cloudflare Pages faz o deploy automaticamente:
 
 ```bash
