@@ -23,6 +23,16 @@ npm run dev
 
 Abra `http://localhost:4173`.
 
+7. **Publique** comitando o JSON gerado e dando push:
+
+```bash
+git add site/data/site-data.json data/manual
+git commit -m "Atualiza rodada"
+git push
+```
+
+> ⚠️ **Importante:** o workflow do GitHub Pages **não roda o `npm run build`** — ele só envia a pasta `site/` como está. O CSV bruto fica fora do Git, então o site só muda se você rodar `npm run build` localmente e comitar o `site/data/site-data.json` atualizado. Se editar `tournament.json` e der push sem rebuildar, o site continua igual.
+
 ## Dados
 
 - `data/raw/`: CSVs brutos locais, ignorados pelo Git.

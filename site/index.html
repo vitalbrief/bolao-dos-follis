@@ -3,10 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bolão dos Follis</title>
+    <title>Bolão dos Follis · Copa do Mundo 2026</title>
     <meta
       name="description"
       content="Ranking, palpites e resultados do Bolão dos Follis na Copa do Mundo 2026."
+    />
+    <meta name="theme-color" content="#053824" />
+    <meta property="og:title" content="Bolão dos Follis" />
+    <meta property="og:description" content="A disputa da família na Copa do Mundo 2026 — ranking, palpites e resultados." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
@@ -15,29 +25,41 @@
       <header class="hero">
         <img class="hero-image" src="assets/bolao-hero.png" alt="" />
         <div class="hero-shade"></div>
+        <div class="hero-bunting" aria-hidden="true"></div>
         <div class="hero-content">
-          <p class="eyebrow">Copa do Mundo 2026</p>
-          <h1>Bolão dos Follis</h1>
-          <p class="hero-copy">A disputa da família, rodada por rodada.</p>
+          <p class="eyebrow hero-eyebrow"><span class="dot"></span> Copa do Mundo 2026 · Edição da família</p>
+          <h1 class="hero-title">Bolão<br />dos Follis</h1>
+          <p class="hero-copy">A disputa da família, rodada por rodada. Quem leva a taça de palpiteiro do ano?</p>
           <div class="hero-stats" id="hero-stats"></div>
         </div>
       </header>
 
       <nav class="tabs" aria-label="Seções">
-        <button class="tab-button is-active" type="button" data-view="ranking">Ranking</button>
-        <button class="tab-button" type="button" data-view="palpites">Palpites</button>
-        <button class="tab-button" type="button" data-view="resultados">Resultados</button>
-        <button class="tab-button" type="button" data-view="regras">Regras</button>
+        <button class="tab-button is-active" type="button" data-view="ranking">
+          <span class="tab-emoji" aria-hidden="true">🏆</span> Ranking
+        </button>
+        <button class="tab-button" type="button" data-view="palpites">
+          <span class="tab-emoji" aria-hidden="true">🎯</span> Palpites
+        </button>
+        <button class="tab-button" type="button" data-view="resultados">
+          <span class="tab-emoji" aria-hidden="true">⚽</span> Resultados
+        </button>
+        <button class="tab-button" type="button" data-view="regras">
+          <span class="tab-emoji" aria-hidden="true">📋</span> Regras
+        </button>
       </nav>
 
       <main>
         <section class="view is-active" id="view-ranking">
           <div id="warnings"></div>
+
+          <div id="podium" class="podium"></div>
+
           <section class="panel">
             <div class="section-heading">
               <div>
-                <p class="eyebrow">Classificação</p>
-                <h2>Ranking geral</h2>
+                <p class="eyebrow">Classificação geral</p>
+                <h2>Tabela completa</h2>
               </div>
               <span class="status-pill" id="ranking-status">Aguardando resultados</span>
             </div>
@@ -45,20 +67,21 @@
               <table class="ranking-table">
                 <thead>
                   <tr>
-                    <th>Pos.</th>
+                    <th class="col-pos">#</th>
                     <th>Participante</th>
-                    <th>Total</th>
-                    <th>Grupos</th>
-                    <th>Brasil</th>
-                    <th>Mata-mata</th>
-                    <th>Campeão</th>
-                    <th>Vice</th>
-                    <th>Desempates</th>
+                    <th class="num">Total</th>
+                    <th class="num hide-sm">Grupos</th>
+                    <th class="num hide-sm">Brasil</th>
+                    <th class="num hide-sm">Mata-mata</th>
+                    <th class="num hide-sm">Campeão</th>
+                    <th class="num hide-sm">Vice</th>
+                    <th class="hide-md">Desempates</th>
                   </tr>
                 </thead>
                 <tbody id="ranking-body"></tbody>
               </table>
             </div>
+            <p class="table-note" id="ranking-note"></p>
           </section>
         </section>
 
@@ -69,7 +92,10 @@
                 <p class="eyebrow">Apostas abertas</p>
                 <h2>Palpites da família</h2>
               </div>
-              <select class="participant-select" id="participant-select" aria-label="Participante"></select>
+              <label class="select-field">
+                <span class="select-label">Ver palpiteiro</span>
+                <select class="participant-select" id="participant-select" aria-label="Participante"></select>
+              </label>
             </div>
             <div id="participant-detail"></div>
           </section>
@@ -77,10 +103,10 @@
             <div class="section-heading">
               <div>
                 <p class="eyebrow">Mapa dos campeões</p>
-                <h2>Escolhas para campeão e vice</h2>
+                <h2>Quem cada um aposta na taça</h2>
               </div>
             </div>
-            <div class="champion-grid" id="champion-grid"></div>
+            <div class="champion-board" id="champion-board"></div>
           </section>
         </section>
 
@@ -88,12 +114,13 @@
           <section class="panel">
             <div class="section-heading">
               <div>
-                <p class="eyebrow">Conferência</p>
-                <h2>Resultados oficiais</h2>
+                <p class="eyebrow">Conferência oficial</p>
+                <h2>Resultados dos jogos</h2>
               </div>
               <span class="status-pill" id="results-status">Sem jogos finalizados</span>
             </div>
             <div class="match-list" id="match-list"></div>
+            <p class="table-note" id="results-note"></p>
           </section>
           <section class="panel">
             <div class="section-heading">
@@ -110,17 +137,24 @@
           <section class="rules-layout">
             <article class="panel">
               <p class="eyebrow">Pontuação</p>
-              <h2>Regras do bolão</h2>
+              <h2>Como pontua</h2>
               <div class="rules-list" id="rules-list"></div>
             </article>
             <article class="panel">
-              <p class="eyebrow">Nomes</p>
-              <h2>Aliases cadastrados</h2>
+              <p class="eyebrow">Critérios de desempate</p>
+              <h2>Em caso de empate</h2>
+              <ol class="tiebreak-list" id="tiebreak-list"></ol>
+              <p class="eyebrow alias-eyebrow">Nomes cadastrados</p>
               <div class="alias-list" id="alias-list"></div>
             </article>
           </section>
         </section>
       </main>
+
+      <footer class="site-footer">
+        <span>Bolão dos Follis · Copa do Mundo 2026</span>
+        <span id="footer-updated"></span>
+      </footer>
     </div>
 
     <script type="module" src="assets/app.js"></script>

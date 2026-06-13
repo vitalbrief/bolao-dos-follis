@@ -3,3 +3,4 @@ data/generated/*.json
 site/data/site-data-demo.json
 .DS_Store
 node_modules/
+.claude/

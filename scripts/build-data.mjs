@@ -69,7 +69,8 @@ for (const form of formsConfig.forms) {
       );
       if (submission.sortableTimestamp > existingSubmission.sortableTimestamp) {
         existing.submissions[form.id] = submission;
-        existing.predictions = submission.predictions;
+        // Merge instead of overwrite para preservar palpites de outras fases (formularios futuros).
+        existing.predictions = mergePredictions(existing.predictions, submission.predictions);
       }
     } else {
       existing.submissions[form.id] = submission;
