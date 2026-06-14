@@ -480,11 +480,6 @@ h2 {
   filter: drop-shadow(0 6px 12px rgba(214, 156, 18, 0.4));
 }
 
-.podium-flag {
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
 .podium-name {
   font-weight: 800;
   font-size: 0.98rem;
@@ -514,12 +509,6 @@ h2 {
   text-transform: uppercase;
   color: var(--muted);
   margin-top: 2px;
-}
-
-.podium-pick {
-  font-size: 0.78rem;
-  color: var(--muted);
-  font-weight: 600;
 }
 
 .podium-waiting {

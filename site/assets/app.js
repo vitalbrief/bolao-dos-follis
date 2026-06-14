@@ -161,19 +161,14 @@ function renderPodium() {
 
   const top3 = state.data.ranking.slice(0, 3);
   const medals = ["🥇", "🥈", "🥉"];
-  const byId = new Map(state.data.participants.map((p) => [p.id, p]));
 
   target.innerHTML = top3
     .map((row, index) => {
-      const participant = byId.get(row.id);
-      const champ = participant?.predictions?.champion ?? null;
       return `
         <div class="podium-card p${index + 1}">
           <span class="podium-medal" aria-hidden="true">${medals[index]}</span>
-          <span class="podium-flag" aria-hidden="true">${flag(champ)}</span>
           <span class="podium-name">${escapeHtml(row.displayName)}</span>
           <span class="podium-score">${row.score.total}<span>pontos</span></span>
-          ${champ ? `<span class="podium-pick">aposta: ${escapeHtml(champ)}</span>` : ""}
         </div>
       `;
     })
