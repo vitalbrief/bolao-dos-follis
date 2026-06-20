@@ -1,7 +1,7 @@
 {
   "name": "Bolão dos Follis",
   "season": "Copa do Mundo 2026",
-  "lastResultsCheckedAt": "2026-06-14T00:07:31Z",
+  "lastResultsCheckedAt": "2026-06-20T02:32:56Z",
   "champion": null,
   "runnerUp": null,
   "groups": {
@@ -39,8 +39,8 @@
       "homeTeam": "Brasil",
       "awayTeam": "Haiti",
       "kickoff": null,
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 3, "away": 0 },
       "sourceUrl": null
     },
     {
