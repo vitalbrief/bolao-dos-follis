@@ -9,15 +9,16 @@ Producao: https://bolao-dos-follis.pages.dev/
 1. Exporte o CSV do Google Forms.
 2. Substitua `data/raw/group-stage-current.csv`.
 3. Ajuste nomes em `data/manual/people.json`, se alguem preencher diferente.
-4. Atualize resultados em `data/manual/tournament.json`.
-5. Rode:
+4. Ajuste correcoes manuais de palpites em `data/manual/prediction-overrides.json`, se houver.
+5. Atualize resultados em `data/manual/tournament.json`.
+6. Rode:
 
 ```bash
 npm test
 npm run build
 ```
 
-6. Confira o site local:
+7. Confira o site local:
 
 ```bash
 npm run dev
@@ -31,7 +32,7 @@ Para regenerar a imagem que aparece ao compartilhar no WhatsApp:
 npm run social:image
 ```
 
-7. **Publique** comitando o JSON gerado e dando push. O Cloudflare Pages faz o deploy automaticamente:
+8. **Publique** comitando o JSON gerado e dando push. O Cloudflare Pages faz o deploy automaticamente:
 
 ```bash
 git add site/data/site-data.json data/manual
@@ -44,7 +45,7 @@ git push
 ## Dados
 
 - `data/raw/`: CSVs brutos locais, ignorados pelo Git.
-- `data/manual/`: configuracoes editaveis, nomes, aliases e resultados.
+- `data/manual/`: configuracoes editaveis, nomes, aliases, correcoes manuais e resultados.
 - `site/data/site-data.json`: JSON limpo publicado no site.
 
 ## Publicacao

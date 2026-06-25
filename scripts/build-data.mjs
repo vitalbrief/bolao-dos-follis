@@ -21,14 +21,16 @@ const formsPath = args.forms ?? "data/manual/forms.json";
 const peoplePath = args.people ?? "data/manual/people.json";
 const teamAliasesPath = args.teamAliases ?? "data/manual/team-aliases.json";
 const tournamentPath = args.tournament ?? "data/manual/tournament.json";
+const overridesPath = args.overrides ?? "data/manual/prediction-overrides.json";
 const siteOutPath = args.out ?? "site/data/site-data.json";
 const generatedOutPath = args.generatedOut ?? "data/generated/site-data.json";
 
-const [formsConfig, people, teamAliases, tournamentRaw] = await Promise.all([
+const [formsConfig, people, teamAliases, tournamentRaw, predictionOverrides] = await Promise.all([
   readJson(formsPath),
   readJson(peoplePath),
   readJson(teamAliasesPath),
   readJson(tournamentPath),
+  readJson(overridesPath),
 ]);
 
 const peopleIndex = buildPeopleIndex(people);
@@ -78,6 +80,8 @@ for (const form of formsConfig.forms) {
     }
   }
 }
+
+applyPredictionOverrides(participants, predictionOverrides, matchesById, warnings);
 
 const scoreRows = [...participants.values()].map((participant) => scoreParticipant(participant, tournament));
 const ranking = rankScoreRows(scoreRows);
@@ -250,6 +254,37 @@ function mergePredictions(base, next) {
     groups: { ...(base.groups ?? {}), ...(next.groups ?? {}) },
     matches: { ...(base.matches ?? {}), ...(next.matches ?? {}) },
   };
+}
+
+function applyPredictionOverrides(participantsById, overrides, matchesById, targetWarnings) {
+  for (const override of overrides.matchScores ?? []) {
+    const participant = participantsById.get(override.participantId);
+    if (!participant) {
+      targetWarnings.push(`Correcao ignorada: participante "${override.participantId}" nao encontrado.`);
+      continue;
+    }
+
+    const match = matchesById.get(override.matchId);
+    if (!match) {
+      targetWarnings.push(`Correcao ignorada: jogo "${override.matchId}" nao encontrado.`);
+      continue;
+    }
+
+    const home = Number(override.home);
+    const away = Number(override.away);
+    if (!Number.isInteger(home) || !Number.isInteger(away)) {
+      targetWarnings.push(
+        `Correcao ignorada: placar invalido para ${participant.displayName} em ${override.matchId}.`,
+      );
+      continue;
+    }
+
+    participant.predictions.matches[override.matchId] = {
+      home,
+      away,
+      label: `${match.homeTeam} x ${match.awayTeam}`,
+    };
+  }
 }
 
 function parseBrazilianDateTime(value) {
