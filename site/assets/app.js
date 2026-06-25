@@ -276,6 +276,8 @@ function wireRankingShare() {
 function setShareButtonState(button, text, isBusy) {
   button.disabled = isBusy;
   button.classList.toggle("is-busy", isBusy);
+  button.setAttribute("aria-label", text === "Compartilhar" ? "Compartilhar classificação" : text);
+  button.title = text === "Compartilhar" ? "Compartilhar classificação" : text;
   const label = button.querySelector(".share-button-label");
   if (label) {
     label.textContent = text;

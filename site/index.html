@@ -33,7 +33,7 @@
       href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/styles.css?v=share-fix-20260624" />
+    <link rel="stylesheet" href="assets/styles.css?v=share-icon-20260625" />
   </head>
   <body>
     <div class="app-shell">
@@ -76,13 +76,7 @@
                 <p class="eyebrow">Classificação geral</p>
                 <h2>Tabela completa</h2>
               </div>
-              <div class="ranking-actions">
-                <span class="status-pill" id="ranking-status">Aguardando resultados</span>
-                <button class="share-button" id="share-ranking" type="button">
-                  <span class="share-button-icon" aria-hidden="true">↗</span>
-                  <span class="share-button-label">Compartilhar</span>
-                </button>
-              </div>
+              <span class="status-pill" id="ranking-status">Aguardando resultados</span>
             </div>
             <div class="table-wrap">
               <table class="ranking-table">
@@ -178,6 +172,15 @@
       </footer>
     </div>
 
-    <script type="module" src="assets/app.js?v=share-fix-20260624"></script>
+    <button class="share-button" id="share-ranking" type="button" aria-label="Compartilhar classificação" title="Compartilhar classificação">
+      <svg class="share-button-icon" aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+        <path d="M12 3v12"></path>
+        <path d="m7 8 5-5 5 5"></path>
+        <path d="M6 12v7h12v-7"></path>
+      </svg>
+      <span class="share-button-label">Compartilhar</span>
+    </button>
+
+    <script type="module" src="assets/app.js?v=share-icon-20260625"></script>
   </body>
 </html>
