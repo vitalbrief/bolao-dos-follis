@@ -10,6 +10,13 @@ const formatDate = new Intl.DateTimeFormat("pt-BR", {
   timeStyle: "short",
 });
 
+const SHARE_IMAGE = {
+  width: 390,
+  height: 844,
+  scale: 3,
+  filename: "classificacao-bolao-dos-follis.png",
+};
+
 // Canonical team name (pt-BR) -> flag emoji.
 const TEAM_FLAGS = {
   "África do Sul": "🇿🇦",
@@ -75,6 +82,7 @@ async function init() {
   renderWarnings();
   renderPodium();
   renderRanking();
+  wireRankingShare();
   renderParticipantSelect();
   renderParticipantDetail(state.data.participants[0]?.id);
   renderChampionBoard();
@@ -220,6 +228,366 @@ function renderRanking() {
   document.querySelector("#ranking-note").textContent = live
     ? "Desempate: 🎯 placares exatos no mata-mata · ✅ resultados acertados · 🧩 pontos nos grupos."
     : "Ranking provisório — todos zerados até os jogos começarem. A ordem é só alfabética por enquanto.";
+}
+
+function wireRankingShare() {
+  const button = document.querySelector("#share-ranking");
+  if (!button) {
+    return;
+  }
+
+  button.addEventListener("click", async () => {
+    if (button.disabled) {
+      return;
+    }
+
+    const label = button.querySelector(".share-button-label");
+    const originalLabel = label?.textContent ?? "Compartilhar";
+    let restoreImmediately = true;
+
+    setShareButtonState(button, "Gerando...", true);
+
+    try {
+      const blob = await createRankingShareBlob();
+      const file = new File([blob], SHARE_IMAGE.filename, { type: "image/png" });
+      const shareData = {
+        title: "Classificação do Bolão dos Follis",
+        text: "Tabela completa da classificação do Bolão dos Follis.",
+        files: [file],
+      };
+
+      let canShareFile = false;
+      try {
+        canShareFile = navigator.canShare?.({ files: [file] }) ?? false;
+      } catch {
+        canShareFile = false;
+      }
+
+      if (canShareFile && navigator.share) {
+        await navigator.share(shareData);
+      } else {
+        downloadBlob(blob, SHARE_IMAGE.filename);
+        restoreImmediately = false;
+        setShareButtonState(button, "Baixado", false);
+        window.setTimeout(() => setShareButtonState(button, originalLabel, false), 1500);
+      }
+    } catch (error) {
+      if (error?.name !== "AbortError") {
+        console.error("Erro ao gerar imagem de classificação:", error);
+        window.alert("Não deu para gerar a imagem da classificação agora. Tente de novo em instantes.");
+      }
+    } finally {
+      if (restoreImmediately) {
+        setShareButtonState(button, originalLabel, false);
+      }
+    }
+  });
+}
+
+function setShareButtonState(button, text, isBusy) {
+  button.disabled = isBusy;
+  button.classList.toggle("is-busy", isBusy);
+  const label = button.querySelector(".share-button-label");
+  if (label) {
+    label.textContent = text;
+  }
+}
+
+async function createRankingShareBlob() {
+  if (document.fonts?.ready) {
+    await document.fonts.ready.catch(() => {});
+  }
+
+  const canvas = document.createElement("canvas");
+  canvas.width = SHARE_IMAGE.width * SHARE_IMAGE.scale;
+  canvas.height = SHARE_IMAGE.height * SHARE_IMAGE.scale;
+
+  const ctx = canvas.getContext("2d");
+  if (!ctx) {
+    throw new Error("Canvas indisponível");
+  }
+
+  ctx.scale(SHARE_IMAGE.scale, SHARE_IMAGE.scale);
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = "high";
+
+  drawRankingShareImage(ctx);
+
+  const blob = await new Promise((resolve) => {
+    canvas.toBlob(resolve, "image/png", 0.95);
+  });
+
+  if (!blob) {
+    throw new Error("Não foi possível exportar o PNG");
+  }
+
+  return blob;
+}
+
+function drawRankingShareImage(ctx) {
+  const rows = state.data.ranking;
+  const participantsById = new Map(state.data.participants.map((participant) => [participant.id, participant]));
+  const live = hasAnyPoints();
+  const generatedAt = new Date(state.data.meta.generatedAt);
+
+  drawShareBackground(ctx);
+  drawShareHeader(ctx, rows.length, live, generatedAt);
+  drawShareRankingCard(ctx, rows, participantsById, live);
+  drawShareFooter(ctx);
+}
+
+function drawShareBackground(ctx) {
+  const gradient = ctx.createLinearGradient(0, 0, 0, SHARE_IMAGE.height);
+  gradient.addColorStop(0, "#052f21");
+  gradient.addColorStop(0.55, "#0a4a2e");
+  gradient.addColorStop(1, "#0b2c48");
+  ctx.fillStyle = gradient;
+  ctx.fillRect(0, 0, SHARE_IMAGE.width, SHARE_IMAGE.height);
+
+  ctx.save();
+  ctx.globalAlpha = 0.18;
+  ctx.strokeStyle = "#ffffff";
+  ctx.lineWidth = 1;
+  for (let x = -SHARE_IMAGE.height; x < SHARE_IMAGE.width; x += 26) {
+    ctx.beginPath();
+    ctx.moveTo(x, 0);
+    ctx.lineTo(x + SHARE_IMAGE.height, SHARE_IMAGE.height);
+    ctx.stroke();
+  }
+  ctx.restore();
+
+  ctx.save();
+  ctx.rotate(-0.13);
+  fillRoundedRect(ctx, -38, 68, 470, 9, 5, "#f6c945");
+  fillRoundedRect(ctx, -22, 84, 440, 7, 4, "#1d63bd");
+  fillRoundedRect(ctx, -52, 99, 460, 7, 4, "#16a058");
+  ctx.restore();
+
+  ctx.save();
+  ctx.rotate(-0.16);
+  fillRoundedRect(ctx, -26, 772, 470, 18, 9, "rgba(246, 201, 69, 0.95)");
+  fillRoundedRect(ctx, -18, 796, 440, 11, 6, "rgba(29, 99, 189, 0.9)");
+  ctx.restore();
+}
+
+function drawShareHeader(ctx, participantCount, live, generatedAt) {
+  ctx.fillStyle = "#ffe8a3";
+  ctx.font = "800 9px Inter, Arial, sans-serif";
+  drawFittedText(ctx, "COPA DO MUNDO 2026", 18, 26, 170);
+
+  const statusText = live ? "AO VIVO" : "PROVISÓRIO";
+  fillRoundedRect(ctx, 278, 13, 94, 24, 12, live ? "rgba(232, 248, 239, 0.95)" : "rgba(255, 255, 255, 0.88)");
+  fillRoundedRect(ctx, 289, 22, 7, 7, 4, live ? "#16a058" : "#5e7268");
+  ctx.fillStyle = live ? "#064a2e" : "#2c4338";
+  ctx.font = "800 8px Inter, Arial, sans-serif";
+  drawFittedText(ctx, statusText, 302, 28, 58);
+
+  ctx.fillStyle = "#ffffff";
+  ctx.font = "400 34px Anton, Impact, sans-serif";
+  drawFittedText(ctx, "Classificação", 18, 64, 250);
+
+  ctx.fillStyle = "#f6c945";
+  ctx.font = "400 25px Anton, Impact, sans-serif";
+  drawFittedText(ctx, "Bolão dos Follis", 18, 91, 300);
+
+  const updated = formatDate.format(generatedAt).replace(",", " ·");
+  ctx.fillStyle = "rgba(255, 255, 255, 0.86)";
+  ctx.font = "700 10px Inter, Arial, sans-serif";
+  drawFittedText(ctx, `Tabela completa · ${participantCount} participantes`, 18, 112, 220);
+  drawFittedText(ctx, `Atualizado em ${updated}`, 18, 126, 250);
+}
+
+function drawShareRankingCard(ctx, rows, participantsById, live) {
+  const cardX = 14;
+  const cardY = 142;
+  const cardW = 362;
+  const cardH = 656;
+  const headerH = 38;
+  const rowTop = cardY + headerH + 4;
+  const rowH = Math.min(34, (cardH - headerH - 16) / Math.max(rows.length, 1));
+
+  ctx.save();
+  ctx.shadowColor = "rgba(0, 0, 0, 0.28)";
+  ctx.shadowBlur = 22;
+  ctx.shadowOffsetY = 12;
+  fillRoundedRect(ctx, cardX, cardY, cardW, cardH, 18, "#fffef9");
+  ctx.restore();
+
+  fillRoundedRect(ctx, cardX, cardY, cardW, headerH, 18, "#f6f3e9");
+  ctx.fillStyle = "#5e7268";
+  ctx.font = "800 8px Inter, Arial, sans-serif";
+  drawFittedText(ctx, "#", cardX + 16, cardY + 24, 26, { align: "center" });
+  drawFittedText(ctx, "PARTICIPANTE / APOSTA", cardX + 44, cardY + 24, 190);
+  drawFittedText(ctx, "PTS", cardX + cardW - 58, cardY + 24, 42, { align: "right" });
+
+  rows.forEach((row, index) => {
+    drawShareRankingRow(ctx, {
+      row,
+      index,
+      rowH,
+      y: rowTop + index * rowH,
+      cardX,
+      cardW,
+      participant: participantsById.get(row.id),
+      live,
+    });
+  });
+}
+
+function drawShareRankingRow(ctx, { row, index, rowH, y, cardX, cardW, participant, live }) {
+  const rowX = cardX + 9;
+  const rowW = cardW - 18;
+  const accent = shareRankAccent(row.rank, live);
+  const bgColor = accent?.soft ?? (index % 2 === 0 ? "#fbf8ee" : "#ffffff");
+
+  fillRoundedRect(ctx, rowX, y + 1.5, rowW, rowH - 3, 10, bgColor);
+
+  if (accent) {
+    fillRoundedRect(ctx, rowX, y + 5, 4, rowH - 10, 3, accent.strong);
+  }
+
+  const badgeY = y + (rowH - 22) / 2;
+  fillRoundedRect(ctx, cardX + 18, badgeY, 27, 22, 8, accent?.badge ?? "#e3eefb");
+  ctx.fillStyle = accent?.badgeText ?? "#14488f";
+  ctx.font = "900 10px Inter, Arial, sans-serif";
+  drawFittedText(ctx, String(row.rank), cardX + 18, badgeY + 14.7, 27, { align: "center" });
+
+  const champ = participant?.predictions?.champion ?? null;
+  const nameSize = Math.max(10.1, Math.min(11.4, rowH * 0.34));
+  const subSize = Math.max(7.6, Math.min(8.6, rowH * 0.26));
+
+  ctx.fillStyle = "#0e2018";
+  ctx.font = `800 ${nameSize}px Inter, Arial, sans-serif`;
+  drawFittedText(ctx, row.displayName, cardX + 54, y + rowH * 0.43, 216);
+
+  ctx.fillStyle = "#5e7268";
+  ctx.font = `700 ${subSize}px Inter, Arial, sans-serif`;
+  drawFittedText(ctx, `${flag(champ)} ${champ ?? "sem palpite"}`, cardX + 54, y + rowH * 0.75, 205);
+
+  ctx.fillStyle = accent?.score ?? "#0a6b3c";
+  ctx.font = `400 ${Math.max(17, Math.min(21, rowH * 0.64))}px Anton, Impact, sans-serif`;
+  drawFittedText(ctx, String(row.score.total), cardX + cardW - 86, y + rowH * 0.67, 54, { align: "right" });
+
+  ctx.fillStyle = "#5e7268";
+  ctx.font = "800 6.8px Inter, Arial, sans-serif";
+  drawFittedText(ctx, "pts", cardX + cardW - 28, y + rowH * 0.67, 17);
+}
+
+function shareRankAccent(rank, live) {
+  if (!live) {
+    return null;
+  }
+
+  if (rank === 1) {
+    return {
+      soft: "#fff8df",
+      strong: "#d99c12",
+      badge: "#f6c945",
+      badgeText: "#4a3500",
+      score: "#d99c12",
+    };
+  }
+
+  if (rank === 2) {
+    return {
+      soft: "#f4f7f9",
+      strong: "#b7c2cc",
+      badge: "#dde3e8",
+      badgeText: "#36424c",
+      score: "#52606b",
+    };
+  }
+
+  if (rank === 3) {
+    return {
+      soft: "#fff2e8",
+      strong: "#c8854a",
+      badge: "#e7b187",
+      badgeText: "#4a2c12",
+      score: "#a86432",
+    };
+  }
+
+  return null;
+}
+
+function drawShareFooter(ctx) {
+  ctx.fillStyle = "rgba(255, 255, 255, 0.88)";
+  ctx.font = "800 9px Inter, Arial, sans-serif";
+  drawFittedText(ctx, "bolao-dos-follis.pages.dev", 18, 825, 180);
+
+  ctx.fillStyle = "#ffe8a3";
+  ctx.font = "800 9px Inter, Arial, sans-serif";
+  drawFittedText(ctx, "Classificação feita para compartilhar", 178, 825, 194, { align: "right" });
+}
+
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function fillRoundedRect(ctx, x, y, width, height, radius, color) {
+  ctx.beginPath();
+  roundedRectPath(ctx, x, y, width, height, radius);
+  ctx.fillStyle = color;
+  ctx.fill();
+}
+
+function roundedRectPath(ctx, x, y, width, height, radius) {
+  const r = Math.min(radius, width / 2, height / 2);
+  ctx.moveTo(x + r, y);
+  ctx.lineTo(x + width - r, y);
+  ctx.quadraticCurveTo(x + width, y, x + width, y + r);
+  ctx.lineTo(x + width, y + height - r);
+  ctx.quadraticCurveTo(x + width, y + height, x + width - r, y + height);
+  ctx.lineTo(x + r, y + height);
+  ctx.quadraticCurveTo(x, y + height, x, y + height - r);
+  ctx.lineTo(x, y + r);
+  ctx.quadraticCurveTo(x, y, x + r, y);
+}
+
+function drawFittedText(ctx, value, x, y, maxWidth, options = {}) {
+  const { align = "left" } = options;
+  const originalAlign = ctx.textAlign;
+  const originalBaseline = ctx.textBaseline;
+  const text = fitCanvasText(ctx, value, maxWidth);
+  const drawX = align === "right" ? x + maxWidth : align === "center" ? x + maxWidth / 2 : x;
+
+  ctx.textAlign = align;
+  ctx.textBaseline = "alphabetic";
+  ctx.fillText(text, drawX, y);
+  ctx.textAlign = originalAlign;
+  ctx.textBaseline = originalBaseline;
+}
+
+function fitCanvasText(ctx, value, maxWidth) {
+  const text = String(value ?? "");
+  if (ctx.measureText(text).width <= maxWidth) {
+    return text;
+  }
+
+  const ellipsis = "…";
+  const chars = Array.from(text);
+  let low = 0;
+  let high = chars.length;
+
+  while (low < high) {
+    const mid = Math.ceil((low + high) / 2);
+    const candidate = `${chars.slice(0, mid).join("").trimEnd()}${ellipsis}`;
+    if (ctx.measureText(candidate).width <= maxWidth) {
+      low = mid;
+    } else {
+      high = mid - 1;
+    }
+  }
+
+  return `${chars.slice(0, low).join("").trimEnd()}${ellipsis}`;
 }
 
 function numCell(value) {

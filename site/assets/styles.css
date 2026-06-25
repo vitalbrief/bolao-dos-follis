@@ -343,6 +343,62 @@ h2 {
   margin: 0;
 }
 
+/* ---------- Ranking actions ---------- */
+.ranking-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.share-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 15px 0 12px;
+  border: 0;
+  border-radius: 999px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--green-600), var(--blue-700));
+  box-shadow: 0 10px 22px rgba(10, 107, 60, 0.24);
+  font-size: 0.88rem;
+  font-weight: 800;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.share-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px rgba(10, 107, 60, 0.28);
+}
+
+.share-button:focus-visible {
+  outline: 3px solid rgba(29, 99, 189, 0.35);
+  outline-offset: 2px;
+}
+
+.share-button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+  transform: none;
+  box-shadow: 0 8px 18px rgba(10, 107, 60, 0.18);
+}
+
+.share-button-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  font-size: 0.94rem;
+  line-height: 1;
+}
+
 /* ---------- Pills ---------- */
 .status-pill,
 .score-pill,
@@ -1421,6 +1477,16 @@ table {
   .section-heading {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .ranking-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .share-button {
+    flex: 1;
+    min-width: 170px;
   }
 
   .result-row {
