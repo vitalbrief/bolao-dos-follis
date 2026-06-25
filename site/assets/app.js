@@ -3,6 +3,8 @@ const DATA_URL = "data/site-data.json";
 const state = {
   data: null,
   activeView: "ranking",
+  rankingShareBlob: null,
+  rankingShareBlobPromise: null,
 };
 
 const formatDate = new Intl.DateTimeFormat("pt-BR", {
@@ -236,6 +238,15 @@ function wireRankingShare() {
     return;
   }
 
+  const readyLabel = button.querySelector(".share-button-label")?.textContent ?? "Compartilhar";
+  setShareButtonState(button, "Preparando...", true);
+  prepareRankingShareImage()
+    .then(() => setShareButtonState(button, readyLabel, false))
+    .catch((error) => {
+      console.warn("Não foi possível preparar a imagem de classificação com antecedência:", error);
+      setShareButtonState(button, readyLabel, false);
+    });
+
   button.addEventListener("click", async () => {
     if (button.disabled) {
       return;
@@ -243,43 +254,21 @@ function wireRankingShare() {
 
     const label = button.querySelector(".share-button-label");
     const originalLabel = label?.textContent ?? "Compartilhar";
-    let restoreImmediately = true;
+
+    if (state.rankingShareBlob) {
+      shareOrDownloadRankingImage(state.rankingShareBlob, button, originalLabel);
+      return;
+    }
 
     setShareButtonState(button, "Gerando...", true);
-
     try {
-      const blob = await createRankingShareBlob();
-      const file = new File([blob], SHARE_IMAGE.filename, { type: "image/png" });
-      const shareData = {
-        title: "Classificação do Bolão dos Follis",
-        text: "Tabela completa da classificação do Bolão dos Follis.",
-        files: [file],
-      };
-
-      let canShareFile = false;
-      try {
-        canShareFile = navigator.canShare?.({ files: [file] }) ?? false;
-      } catch {
-        canShareFile = false;
-      }
-
-      if (canShareFile && navigator.share) {
-        await navigator.share(shareData);
-      } else {
-        downloadBlob(blob, SHARE_IMAGE.filename);
-        restoreImmediately = false;
-        setShareButtonState(button, "Baixado", false);
-        window.setTimeout(() => setShareButtonState(button, originalLabel, false), 1500);
-      }
+      const blob = await prepareRankingShareImage({ force: true });
+      setShareButtonState(button, originalLabel, false);
+      shareOrDownloadRankingImage(blob, button, originalLabel);
     } catch (error) {
-      if (error?.name !== "AbortError") {
-        console.error("Erro ao gerar imagem de classificação:", error);
-        window.alert("Não deu para gerar a imagem da classificação agora. Tente de novo em instantes.");
-      }
-    } finally {
-      if (restoreImmediately) {
-        setShareButtonState(button, originalLabel, false);
-      }
+      console.error("Erro ao gerar imagem de classificação:", error);
+      setShareButtonState(button, originalLabel, false);
+      window.alert("Não deu para gerar a imagem da classificação agora. Tente de novo em instantes.");
     }
   });
 }
@@ -293,9 +282,98 @@ function setShareButtonState(button, text, isBusy) {
   }
 }
 
+function prepareRankingShareImage(options = {}) {
+  const { force = false } = options;
+  if (!force && state.rankingShareBlob) {
+    return Promise.resolve(state.rankingShareBlob);
+  }
+
+  if (!force && state.rankingShareBlobPromise) {
+    return state.rankingShareBlobPromise;
+  }
+
+  state.rankingShareBlobPromise = createRankingShareBlob()
+    .then((blob) => {
+      state.rankingShareBlob = blob;
+      return blob;
+    })
+    .catch((error) => {
+      state.rankingShareBlobPromise = null;
+      throw error;
+    });
+
+  return state.rankingShareBlobPromise;
+}
+
+function shareOrDownloadRankingImage(blob, button, originalLabel) {
+  let file = null;
+  try {
+    file = new File([blob], SHARE_IMAGE.filename, { type: "image/png" });
+  } catch {
+    downloadRankingImage(blob, button, originalLabel);
+    return;
+  }
+
+  const shareData = {
+    title: "Classificação do Bolão dos Follis",
+    text: "Tabela completa da classificação do Bolão dos Follis.",
+    files: [file],
+  };
+
+  if (!canShareRankingFile(file) || !navigator.share) {
+    downloadRankingImage(blob, button, originalLabel);
+    return;
+  }
+
+  setShareButtonState(button, "Abrindo...", false);
+
+  let settled = false;
+  window.setTimeout(() => {
+    if (!settled) {
+      setShareButtonState(button, originalLabel, false);
+    }
+  }, 1200);
+
+  try {
+    Promise.resolve(navigator.share(shareData))
+      .catch((error) => {
+        if (error?.name !== "AbortError") {
+          console.error("Erro ao compartilhar imagem de classificação:", error);
+          downloadRankingImage(blob, button, originalLabel);
+        }
+      })
+      .finally(() => {
+        settled = true;
+        setShareButtonState(button, originalLabel, false);
+      });
+  } catch (error) {
+    settled = true;
+    if (error?.name !== "AbortError") {
+      console.error("Erro ao compartilhar imagem de classificação:", error);
+      downloadRankingImage(blob, button, originalLabel);
+      return;
+    }
+    setShareButtonState(button, originalLabel, false);
+  }
+}
+
+function canShareRankingFile(file) {
+  try {
+    return navigator.canShare?.({ files: [file] }) ?? false;
+  } catch {
+    return false;
+  }
+}
+
+function downloadRankingImage(blob, button, originalLabel) {
+  downloadBlob(blob, SHARE_IMAGE.filename);
+  setShareButtonState(button, "Baixado", false);
+  window.setTimeout(() => setShareButtonState(button, originalLabel, false), 1500);
+}
+
 async function createRankingShareBlob() {
   if (document.fonts?.ready) {
-    await document.fonts.ready.catch(() => {});
+    await Promise.race([document.fonts.ready, wait(1200)]).catch(() => {});
   }
 
   const canvas = document.createElement("canvas");
@@ -313,15 +391,59 @@ async function createRankingShareBlob() {
 
   drawRankingShareImage(ctx);
 
-  const blob = await new Promise((resolve) => {
-    canvas.toBlob(resolve, "image/png", 0.95);
-  });
+  const blob = await canvasToPngBlob(canvas);
 
   if (!blob) {
     throw new Error("Não foi possível exportar o PNG");
   }
 
   return blob;
+}
+
+async function canvasToPngBlob(canvas) {
+  if (canvas.toBlob) {
+    const blob = await new Promise((resolve) => {
+      let done = false;
+      const timeout = window.setTimeout(() => {
+        done = true;
+        resolve(null);
+      }, 1800);
+
+      canvas.toBlob((value) => {
+        if (done) {
+          return;
+        }
+        done = true;
+        window.clearTimeout(timeout);
+        resolve(value);
+      }, "image/png", 0.95);
+    });
+
+    if (blob) {
+      return blob;
+    }
+  }
+
+  return dataUrlToBlob(canvas.toDataURL("image/png", 0.95));
+}
+
+function dataUrlToBlob(dataUrl) {
+  const [header, data] = dataUrl.split(",");
+  const mime = header.match(/data:(.*?);base64/)?.[1] ?? "image/png";
+  const binary = window.atob(data);
+  const bytes = new Uint8Array(binary.length);
+
+  for (let index = 0; index < binary.length; index += 1) {
+    bytes[index] = binary.charCodeAt(index);
+  }
+
+  return new Blob([bytes], { type: mime });
+}
+
+function wait(ms) {
+  return new Promise((resolve) => {
+    window.setTimeout(resolve, ms);
+  });
 }
 
 function drawRankingShareImage(ctx) {
