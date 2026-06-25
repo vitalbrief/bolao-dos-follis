@@ -1,7 +1,7 @@
 {
   "name": "Bolão dos Follis",
   "season": "Copa do Mundo 2026",
-  "lastResultsCheckedAt": "2026-06-20T02:32:56Z",
+  "lastResultsCheckedAt": "2026-06-25T00:02:41Z",
   "champion": null,
   "runnerUp": null,
   "groups": {
@@ -51,8 +51,8 @@
       "homeTeam": "Escócia",
       "awayTeam": "Brasil",
       "kickoff": null,
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 0, "away": 3 },
       "sourceUrl": null
     }
   ],
