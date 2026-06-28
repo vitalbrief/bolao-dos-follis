@@ -28,6 +28,32 @@
         { "matchId": "bra-hai", "homeScoreColumnIndex": 30, "awayScoreColumnIndex": 31 },
         { "matchId": "sco-bra", "homeScoreColumnIndex": 32, "awayScoreColumnIndex": 33 }
       ]
+    },
+    {
+      "id": "round-of-32-2026",
+      "label": "16 avos",
+      "stage": "round_of_32",
+      "sourceCsv": "data/raw/round-of-32-current.csv",
+      "timestampColumnIndex": 0,
+      "nameColumnIndex": 1,
+      "matchScoreColumns": [
+        { "matchId": "rsa-can", "homeScoreColumnIndex": 2, "awayScoreColumnIndex": 3 },
+        { "matchId": "bra-jpn", "homeScoreColumnIndex": 4, "awayScoreColumnIndex": 5 },
+        { "matchId": "ger-par", "homeScoreColumnIndex": 6, "awayScoreColumnIndex": 7 },
+        { "matchId": "ned-mar", "homeScoreColumnIndex": 8, "awayScoreColumnIndex": 9 },
+        { "matchId": "civ-nor", "homeScoreColumnIndex": 10, "awayScoreColumnIndex": 11 },
+        { "matchId": "fra-swe", "homeScoreColumnIndex": 12, "awayScoreColumnIndex": 13 },
+        { "matchId": "mex-ecu", "homeScoreColumnIndex": 14, "awayScoreColumnIndex": 15 },
+        { "matchId": "eng-cod", "homeScoreColumnIndex": 16, "awayScoreColumnIndex": 17 },
+        { "matchId": "bel-sen", "homeScoreColumnIndex": 18, "awayScoreColumnIndex": 19 },
+        { "matchId": "usa-bih", "homeScoreColumnIndex": 20, "awayScoreColumnIndex": 21 },
+        { "matchId": "esp-aut", "homeScoreColumnIndex": 22, "awayScoreColumnIndex": 23 },
+        { "matchId": "por-cro", "homeScoreColumnIndex": 24, "awayScoreColumnIndex": 25 },
+        { "matchId": "sui-alg", "homeScoreColumnIndex": 26, "awayScoreColumnIndex": 27 },
+        { "matchId": "aus-egy", "homeScoreColumnIndex": 28, "awayScoreColumnIndex": 29 },
+        { "matchId": "arg-cpv", "homeScoreColumnIndex": 30, "awayScoreColumnIndex": 31 },
+        { "matchId": "col-gan", "homeScoreColumnIndex": 32, "awayScoreColumnIndex": 33 }
+      ]
     }
   ]
 }

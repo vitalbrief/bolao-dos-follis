@@ -43,7 +43,7 @@ const tournament = canonicalizeTournament(tournamentRaw, teamIndex);
 const matchesById = new Map(tournament.matches.map((match) => [match.id, match]));
 
 for (const form of formsConfig.forms) {
-  if (form.stage !== "group") {
+  if (form.stage !== "group" && !KNOCKOUT_STAGES.has(form.stage)) {
     warnings.push(`Formulario ${form.id} ignorado: stage "${form.stage}" ainda nao esta implementado.`);
     continue;
   }
@@ -55,7 +55,10 @@ for (const form of formsConfig.forms) {
   validateColumnCount(form, headers, warnings);
 
   for (const cells of records) {
-    const submission = parseGroupSubmission({ form, cells, peopleIndex, teamIndex, matchesById, warnings });
+    const submission =
+      form.stage === "group"
+        ? parseGroupSubmission({ form, cells, peopleIndex, teamIndex, matchesById, warnings })
+        : parseKnockoutSubmission({ form, cells, peopleIndex, matchesById, warnings });
     submissions.push(submission);
 
     const existing = participants.get(submission.person.id);
@@ -67,16 +70,26 @@ for (const form of formsConfig.forms) {
     const existingSubmission = existing.submissions[form.id];
     if (existingSubmission) {
       warnings.push(
-        `${submission.person.displayName} tem mais de uma resposta em ${form.label}. Foi usada a mais recente.`,
+        `${submission.person.displayName} tem mais de uma resposta em ${form.label}. ${
+          form.stage === "group" ? "Foi usada a mais recente." : "Foi usado o palpite valido mais recente por jogo."
+        }`,
       );
-      if (submission.sortableTimestamp > existingSubmission.sortableTimestamp) {
+      if (form.stage === "group" && submission.sortableTimestamp > existingSubmission.sortableTimestamp) {
         existing.submissions[form.id] = submission;
         // Merge instead of overwrite para preservar palpites de outras fases (formularios futuros).
         existing.predictions = mergePredictions(existing.predictions, submission.predictions);
+      } else if (KNOCKOUT_STAGES.has(form.stage)) {
+        existing.submissions[form.id] =
+          submission.sortableTimestamp > existingSubmission.sortableTimestamp ? submission : existingSubmission;
+        mergeKnockoutPredictions(existing, submission);
       }
     } else {
       existing.submissions[form.id] = submission;
-      existing.predictions = mergePredictions(existing.predictions, submission.predictions);
+      if (KNOCKOUT_STAGES.has(form.stage)) {
+        mergeKnockoutPredictions(existing, submission);
+      } else {
+        existing.predictions = mergePredictions(existing.predictions, submission.predictions);
+      }
     }
   }
 }
@@ -169,9 +182,9 @@ function validateColumnCount(form, headers, targetWarnings) {
     form.nameColumnIndex,
     form.championColumnIndex,
     form.runnerUpColumnIndex,
-    ...Object.values(form.groupColumns).flatMap((group) => [group.firstColumnIndex, group.secondColumnIndex]),
-    ...form.matchScoreColumns.flatMap((match) => [match.homeScoreColumnIndex, match.awayScoreColumnIndex]),
-  ];
+    ...Object.values(form.groupColumns ?? {}).flatMap((group) => [group.firstColumnIndex, group.secondColumnIndex]),
+    ...(form.matchScoreColumns ?? []).flatMap((match) => [match.homeScoreColumnIndex, match.awayScoreColumnIndex]),
+  ].filter(Number.isInteger);
   const maxExpected = Math.max(...expectedIndexes);
   if (headers.length <= maxExpected) {
     targetWarnings.push(
@@ -180,7 +193,7 @@ function validateColumnCount(form, headers, targetWarnings) {
   }
 }
 
-function parseGroupSubmission({ form, cells, peopleIndex, teamIndex, matchesById, warnings: targetWarnings }) {
+function parsePerson(cells, form, peopleIndex, targetWarnings) {
   const rawName = String(cells[form.nameColumnIndex] ?? "").trim();
   const knownPerson = peopleIndex.byAlias.get(slugKey(rawName));
   const person = knownPerson ?? {
@@ -192,6 +205,12 @@ function parseGroupSubmission({ form, cells, peopleIndex, teamIndex, matchesById
   if (!knownPerson) {
     targetWarnings.push(`Nome sem alias cadastrado: "${rawName}". Confira data/manual/people.json.`);
   }
+
+  return { person, rawName };
+}
+
+function parseGroupSubmission({ form, cells, peopleIndex, teamIndex, matchesById, warnings: targetWarnings }) {
+  const { person, rawName } = parsePerson(cells, form, peopleIndex, targetWarnings);
 
   const groupPredictions = {};
   for (const group of GROUP_LETTERS) {
@@ -236,6 +255,69 @@ function parseGroupSubmission({ form, cells, peopleIndex, teamIndex, matchesById
   };
 }
 
+function parseKnockoutSubmission({ form, cells, peopleIndex, matchesById, warnings: targetWarnings }) {
+  const { person, rawName } = parsePerson(cells, form, peopleIndex, targetWarnings);
+  const submittedAt = String(cells[form.timestampColumnIndex] ?? "").trim();
+  const sortableTimestamp = parseBrazilianDateTime(submittedAt);
+  const matchPredictions = {};
+  const matchPredictionMeta = {};
+
+  for (const matchMapping of form.matchScoreColumns ?? []) {
+    const match = matchesById.get(matchMapping.matchId);
+    const label = match ? `${match.homeTeam} x ${match.awayTeam}` : matchMapping.matchId;
+    const prediction = {
+      home: parseScore(cells[matchMapping.homeScoreColumnIndex]),
+      away: parseScore(cells[matchMapping.awayScoreColumnIndex]),
+      label,
+    };
+
+    if (!match) {
+      targetWarnings.push(`${person.displayName}: jogo "${matchMapping.matchId}" nao encontrado.`);
+      continue;
+    }
+
+    if (Number.isNaN(prediction.home) || Number.isNaN(prediction.away)) {
+      targetWarnings.push(`${person.displayName}: placar invalido em ${matchMapping.matchId}.`);
+    }
+
+    const kickoffTimestamp = parseIsoDateTime(match.kickoff);
+    const late = Number.isFinite(kickoffTimestamp) && sortableTimestamp >= kickoffTimestamp;
+
+    if (late) {
+      matchPredictions[matchMapping.matchId] = {
+        home: null,
+        away: null,
+        label,
+        ignored: true,
+        ignoredReason: "after_kickoff",
+      };
+      matchPredictionMeta[matchMapping.matchId] = { sortableTimestamp, ignored: true };
+      targetWarnings.push(
+        `${person.displayName}: palpite de ${label} ignorado porque foi enviado apos o inicio do jogo.`,
+      );
+      continue;
+    }
+
+    matchPredictions[matchMapping.matchId] = prediction;
+    matchPredictionMeta[matchMapping.matchId] = { sortableTimestamp, ignored: false };
+  }
+
+  return {
+    formId: form.id,
+    formLabel: form.label,
+    person,
+    rawName,
+    submittedAt,
+    sortableTimestamp,
+    predictions: {
+      matches: matchPredictions,
+    },
+    predictionMeta: {
+      matches: matchPredictionMeta,
+    },
+  };
+}
+
 function participantFromSubmission(submission) {
   return {
     id: submission.person.id,
@@ -244,6 +326,7 @@ function participantFromSubmission(submission) {
       [submission.formId]: submission,
     },
     predictions: submission.predictions,
+    predictionMeta: submission.predictionMeta ?? { matches: {} },
   };
 }
 
@@ -254,6 +337,41 @@ function mergePredictions(base, next) {
     groups: { ...(base.groups ?? {}), ...(next.groups ?? {}) },
     matches: { ...(base.matches ?? {}), ...(next.matches ?? {}) },
   };
+}
+
+function mergeKnockoutPredictions(participant, submission) {
+  participant.predictionMeta ??= { matches: {} };
+  participant.predictionMeta.matches ??= {};
+  participant.predictions = {
+    ...participant.predictions,
+    matches: mergeMatchPredictions(
+      participant.predictions.matches ?? {},
+      submission.predictions.matches ?? {},
+      participant.predictionMeta.matches,
+      submission.predictionMeta?.matches ?? {},
+    ),
+  };
+}
+
+function mergeMatchPredictions(baseMatches, nextMatches, baseMeta, nextMeta) {
+  const merged = { ...baseMatches };
+
+  for (const [matchId, nextPrediction] of Object.entries(nextMatches)) {
+    const current = merged[matchId];
+    const currentMeta = baseMeta[matchId] ?? { sortableTimestamp: -Infinity, ignored: Boolean(current?.ignored) };
+    const incomingMeta = nextMeta[matchId] ?? { sortableTimestamp: 0, ignored: Boolean(nextPrediction?.ignored) };
+
+    if (incomingMeta.ignored && current && !current.ignored) {
+      continue;
+    }
+
+    if (!current || current.ignored || incomingMeta.sortableTimestamp >= currentMeta.sortableTimestamp) {
+      merged[matchId] = nextPrediction;
+      baseMeta[matchId] = incomingMeta;
+    }
+  }
+
+  return merged;
 }
 
 function applyPredictionOverrides(participantsById, overrides, matchesById, targetWarnings) {
@@ -288,10 +406,22 @@ function applyPredictionOverrides(participantsById, overrides, matchesById, targ
 }
 
 function parseBrazilianDateTime(value) {
-  const match = String(value).match(/^(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2}):(\d{2})$/);
+  const match = String(value).match(/^(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2})(?::(\d{2}))?$/);
   if (!match) return 0;
-  const [, day, month, year, hour, minute, second] = match.map(Number);
-  return Date.UTC(year, month - 1, day, hour, minute, second);
+  const [, day, month, year, hour, minute, second = "0"] = match;
+  const timestamp = Date.parse(
+    `${year}-${pad2(month)}-${pad2(day)}T${pad2(hour)}:${pad2(minute)}:${pad2(second)}-03:00`,
+  );
+  return Number.isNaN(timestamp) ? 0 : timestamp;
+}
+
+function parseIsoDateTime(value) {
+  const timestamp = Date.parse(String(value ?? ""));
+  return Number.isNaN(timestamp) ? Infinity : timestamp;
+}
+
+function pad2(value) {
+  return String(value).padStart(2, "0");
 }
 
 function slugKey(value) {

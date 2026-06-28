@@ -7,7 +7,9 @@ Producao: https://bolao-dos-follis.pages.dev/
 ## Fluxo de atualizacao
 
 1. Exporte o CSV do Google Forms.
-2. Substitua `data/raw/group-stage-current.csv`.
+2. Substitua o CSV bruto local da fase correspondente:
+   - Fase de grupos: `data/raw/group-stage-current.csv`
+   - 16 avos: `data/raw/round-of-32-current.csv`
 3. Ajuste nomes em `data/manual/people.json`, se alguem preencher diferente.
 4. Ajuste correcoes manuais de palpites em `data/manual/prediction-overrides.json`, se houver.
 5. Atualize resultados em `data/manual/tournament.json`.

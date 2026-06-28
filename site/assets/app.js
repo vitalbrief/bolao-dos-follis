@@ -773,7 +773,7 @@ function renderParticipantDetail(participantId) {
           </div>
         </div>
         <div>
-          <p class="block-label">⚽ Jogos do Brasil</p>
+          <p class="block-label">⚽ Palpites dos jogos</p>
           <div class="match-grid">${matchCards}</div>
         </div>
         <div>
@@ -832,8 +832,9 @@ function teamLine(position, team) {
 function matchPredictionCard(match, breakdown) {
   const prediction = breakdown?.prediction ?? { home: null, away: null };
   const result = match.result;
+  const ignored = Boolean(prediction.ignored);
   const resultLabel = isCompleteScore(result) ? `${result.home} – ${result.away}` : "— – —";
-  const predictionLabel = isCompleteScore(prediction) ? `${prediction.home} – ${prediction.away}` : "— – —";
+  const predictionLabel = ignored ? "Fora do prazo" : isCompleteScore(prediction) ? `${prediction.home} – ${prediction.away}` : "— – —";
   const points = breakdown?.points ?? 0;
 
   return `
