@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-06-28T14:38:46.844Z",
+    "generatedAt": "2026-06-28T14:43:06.409Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
-    "submissionCount": 25,
+    "submissionCount": 26,
     "ignoredSubmissionCount": 1,
     "scoringVersion": "2026-06-13.1"
   },
@@ -2710,6 +2710,86 @@
             "home": 2,
             "away": 3,
             "label": "Escócia x Brasil"
+          },
+          "rsa-can": {
+            "home": 1,
+            "away": 2,
+            "label": "África do Sul x Canadá"
+          },
+          "bra-jpn": {
+            "home": 3,
+            "away": 0,
+            "label": "Brasil x Japão"
+          },
+          "ger-par": {
+            "home": 3,
+            "away": 0,
+            "label": "Alemanha x Paraguai"
+          },
+          "ned-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "Holanda x Marrocos"
+          },
+          "civ-nor": {
+            "home": 1,
+            "away": 2,
+            "label": "Costa do Marfim x Noruega"
+          },
+          "fra-swe": {
+            "home": 2,
+            "away": 0,
+            "label": "França x Suécia"
+          },
+          "mex-ecu": {
+            "home": 1,
+            "away": 1,
+            "label": "México x Equador"
+          },
+          "eng-cod": {
+            "home": 3,
+            "away": 0,
+            "label": "Inglaterra x RD Congo"
+          },
+          "bel-sen": {
+            "home": 2,
+            "away": 1,
+            "label": "Bélgica x Senegal"
+          },
+          "usa-bih": {
+            "home": 2,
+            "away": 0,
+            "label": "EUA x Bósnia e Herz."
+          },
+          "esp-aut": {
+            "home": 2,
+            "away": 1,
+            "label": "Espanha x Áustria"
+          },
+          "por-cro": {
+            "home": 2,
+            "away": 1,
+            "label": "Portugal x Croácia"
+          },
+          "sui-alg": {
+            "home": 1,
+            "away": 0,
+            "label": "Suíça x Argélia"
+          },
+          "aus-egy": {
+            "home": 2,
+            "away": 1,
+            "label": "Austrália x Egito"
+          },
+          "arg-cpv": {
+            "home": 3,
+            "away": 0,
+            "label": "Argentina x Cabo Verde"
+          },
+          "col-gan": {
+            "home": 2,
+            "away": 1,
+            "label": "Colômbia x Gana"
           }
         }
       },
@@ -3198,8 +3278,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "África do Sul x Canadá"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3223,8 +3304,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 0,
+              "label": "Brasil x Japão"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3248,8 +3330,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 0,
+              "label": "Alemanha x Paraguai"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3273,8 +3356,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Holanda x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3298,8 +3382,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Costa do Marfim x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3323,8 +3408,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "França x Suécia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3348,8 +3434,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "México x Equador"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3373,8 +3460,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 0,
+              "label": "Inglaterra x RD Congo"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3398,8 +3486,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Bélgica x Senegal"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3423,8 +3512,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "EUA x Bósnia e Herz."
             },
             "points": 0,
             "outcomeHit": false,
@@ -3448,8 +3538,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Espanha x Áustria"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3473,8 +3564,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Portugal x Croácia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3498,8 +3590,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 0,
+              "label": "Suíça x Argélia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3523,8 +3616,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Austrália x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3548,8 +3642,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 0,
+              "label": "Argentina x Cabo Verde"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3573,8 +3668,9 @@
               "sourceUrl": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Colômbia x Gana"
             },
             "points": 0,
             "outcomeHit": false,
