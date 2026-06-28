@@ -19,25 +19,29 @@ const root = process.cwd();
 const args = parseArgs(process.argv.slice(2));
 const formsPath = args.forms ?? "data/manual/forms.json";
 const peoplePath = args.people ?? "data/manual/people.json";
+const ignoredPeoplePath = args.ignoredPeople ?? "data/manual/ignored-people.json";
 const teamAliasesPath = args.teamAliases ?? "data/manual/team-aliases.json";
 const tournamentPath = args.tournament ?? "data/manual/tournament.json";
 const overridesPath = args.overrides ?? "data/manual/prediction-overrides.json";
 const siteOutPath = args.out ?? "site/data/site-data.json";
 const generatedOutPath = args.generatedOut ?? "data/generated/site-data.json";
 
-const [formsConfig, people, teamAliases, tournamentRaw, predictionOverrides] = await Promise.all([
+const [formsConfig, people, ignoredPeople, teamAliases, tournamentRaw, predictionOverrides] = await Promise.all([
   readJson(formsPath),
   readJson(peoplePath),
+  readJson(ignoredPeoplePath),
   readJson(teamAliasesPath),
   readJson(tournamentPath),
   readJson(overridesPath),
 ]);
 
 const peopleIndex = buildPeopleIndex(people);
+const ignoredPeopleIndex = buildIgnoredPeopleIndex(ignoredPeople);
 const teamIndex = buildTeamIndex(teamAliases);
 const warnings = [];
 const participants = new Map();
 const submissions = [];
+const ignoredSubmissions = [];
 
 const tournament = canonicalizeTournament(tournamentRaw, teamIndex);
 const matchesById = new Map(tournament.matches.map((match) => [match.id, match]));
@@ -55,6 +59,16 @@ for (const form of formsConfig.forms) {
   validateColumnCount(form, headers, warnings);
 
   for (const cells of records) {
+    const rawName = String(cells[form.nameColumnIndex] ?? "").trim();
+    if (ignoredPeopleIndex.has(slugKey(rawName))) {
+      ignoredSubmissions.push({
+        formId: form.id,
+        rawName,
+        submittedAt: String(cells[form.timestampColumnIndex] ?? "").trim(),
+      });
+      continue;
+    }
+
     const submission =
       form.stage === "group"
         ? parseGroupSubmission({ form, cells, peopleIndex, teamIndex, matchesById, warnings })
@@ -105,6 +119,7 @@ const output = {
     source: "Google Forms CSV + arquivos manuais",
     participantCount: ranking.length,
     submissionCount: submissions.length,
+    ignoredSubmissionCount: ignoredSubmissions.length,
     scoringVersion: "2026-06-13.1",
   },
   rules: {
@@ -174,6 +189,10 @@ function toCamel(value) {
 
 async function readJson(filePath) {
   return JSON.parse(await fs.readFile(path.resolve(root, filePath), "utf8"));
+}
+
+function buildIgnoredPeopleIndex(names) {
+  return new Set((names ?? []).map((name) => slugKey(name)));
 }
 
 function validateColumnCount(form, headers, targetWarnings) {

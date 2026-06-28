@@ -11,16 +11,17 @@ Producao: https://bolao-dos-follis.pages.dev/
    - Fase de grupos: `data/raw/group-stage-current.csv`
    - 16 avos: `data/raw/round-of-32-current.csv`
 3. Ajuste nomes em `data/manual/people.json`, se alguem preencher diferente.
-4. Ajuste correcoes manuais de palpites em `data/manual/prediction-overrides.json`, se houver.
-5. Atualize resultados em `data/manual/tournament.json`.
-6. Rode:
+4. Cadastre nomes que devem ser ignorados em `data/manual/ignored-people.json`, se houver.
+5. Ajuste correcoes manuais de palpites em `data/manual/prediction-overrides.json`, se houver.
+6. Atualize resultados em `data/manual/tournament.json`.
+7. Rode:
 
 ```bash
 npm test
 npm run build
 ```
 
-7. Confira o site local:
+8. Confira o site local:
 
 ```bash
 npm run dev
@@ -34,7 +35,7 @@ Para regenerar a imagem que aparece ao compartilhar no WhatsApp:
 npm run social:image
 ```
 
-8. **Publique** comitando o JSON gerado e dando push. O Cloudflare Pages faz o deploy automaticamente:
+9. **Publique** comitando o JSON gerado e dando push. O Cloudflare Pages faz o deploy automaticamente:
 
 ```bash
 git add site/data/site-data.json data/manual
