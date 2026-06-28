@@ -1,22 +1,22 @@
 {
   "name": "Bolão dos Follis",
   "season": "Copa do Mundo 2026",
-  "lastResultsCheckedAt": "2026-06-25T00:02:41Z",
+  "lastResultsCheckedAt": "2026-06-28T12:44:49Z",
   "champion": null,
   "runnerUp": null,
   "groups": {
-    "A": { "first": null, "second": null },
-    "B": { "first": null, "second": null },
-    "C": { "first": null, "second": null },
-    "D": { "first": null, "second": null },
-    "E": { "first": null, "second": null },
-    "F": { "first": null, "second": null },
-    "G": { "first": null, "second": null },
-    "H": { "first": null, "second": null },
-    "I": { "first": null, "second": null },
-    "J": { "first": null, "second": null },
-    "K": { "first": null, "second": null },
-    "L": { "first": null, "second": null }
+    "A": { "first": "México", "second": "África do Sul" },
+    "B": { "first": "Suíça", "second": "Canadá" },
+    "C": { "first": "Brasil", "second": "Marrocos" },
+    "D": { "first": "EUA", "second": "Austrália" },
+    "E": { "first": "Alemanha", "second": "Costa do Marfim" },
+    "F": { "first": "Holanda", "second": "Japão" },
+    "G": { "first": "Bélgica", "second": "Egito" },
+    "H": { "first": "Espanha", "second": "Cabo Verde" },
+    "I": { "first": "França", "second": "Noruega" },
+    "J": { "first": "Argentina", "second": "Áustria" },
+    "K": { "first": "Colômbia", "second": "Portugal" },
+    "L": { "first": "Inglaterra", "second": "Croácia" }
   },
   "matches": [
     {

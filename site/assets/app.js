@@ -31,6 +31,7 @@ const TEAM_FLAGS = {
   Bélgica: "🇧🇪",
   "Bósnia e Herz.": "🇧🇦",
   Brasil: "🇧🇷",
+  "Cabo Verde": "🇨🇻",
   Canadá: "🇨🇦",
   Colômbia: "🇨🇴",
   "Coreia do Sul": "🇰🇷",
