@@ -7,7 +7,7 @@
   {
     "id": "lucas-taveira-follis",
     "displayName": "Lucas Taveira Follis",
-    "aliases": ["Lucas Taveira Follis", "Lucas Taveira Follis "]
+    "aliases": ["Lucas Taveira Follis", "Lucas Taveira Follis ", "Lucas Follis"]
   },
   {
     "id": "flavia-follis-bartolomeo",
@@ -22,7 +22,7 @@
   {
     "id": "rose",
     "displayName": "Rose Follis Tasso",
-    "aliases": ["ROSE", "Rose", "Rose Follis Tasso"]
+    "aliases": ["ROSE", "Rose", "Rose Follis Tasso", "Rosemary Follis Tasso"]
   },
   {
     "id": "lara-vieira-balieiro-tasso",
@@ -57,7 +57,14 @@
   {
     "id": "adair-aparecida-taveira-follis",
     "displayName": "Adair Aparecida Taveira Follis",
-    "aliases": ["ADAIR APARECIDA TAVEIRA FOLLIS", "Adair Aparecida Taveira Follis"]
+    "aliases": [
+      "ADAIR APARECIDA TAVEIRA FOLLIS",
+      "Adair Aparecida Taveira Follis",
+      "Vó Cida",
+      "Vo Cida",
+      "Vovó Cida",
+      "Vovo Cida"
+    ]
   },
   {
     "id": "silvia-follis-bartolomeo",
