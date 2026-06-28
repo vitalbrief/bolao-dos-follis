@@ -1501,8 +1501,8 @@ table {
 
   .share-button {
     top: calc(env(safe-area-inset-top, 0px) + 10px);
-    right: auto;
-    left: min(calc(100dvw - env(safe-area-inset-right, 0px) - 54px), 336px);
+    right: calc(env(safe-area-inset-right, 0px) + 10px);
+    left: auto;
     width: 44px;
     height: 44px;
     min-height: 44px;
