@@ -90,6 +90,7 @@ async function init() {
   renderParticipantDetail(state.data.participants[0]?.id);
   renderChampionBoard();
   renderResults();
+  wireMatchModal();
   renderRules();
   renderAliases();
   renderFooter();
@@ -893,8 +894,9 @@ function renderResults() {
         ? `<span class="score-box">${match.result.home}<span class="x">×</span>${match.result.away}</span>`
         : `<span class="score-box pending">—<span class="x">×</span>—</span>`;
       return `
-        <div class="result-row ${final ? "is-final" : ""}">
+        <button type="button" class="result-row ${final ? "is-final" : ""}" data-match-id="${escapeAttr(match.id)}" aria-label="Ver palpites de ${escapeAttr(match.homeTeam)} contra ${escapeAttr(match.awayTeam)}">
           <span class="result-stage">${escapeHtml(match.stageLabel ?? "Jogo")}</span>
+          <span class="result-hint" aria-hidden="true">👁️ palpites</span>
           <span class="result-team home">
             <span class="nm">${escapeHtml(match.homeTeam)}</span>
             <span class="flag" aria-hidden="true">${flag(match.homeTeam)}</span>
@@ -904,10 +906,14 @@ function renderResults() {
             <span class="flag" aria-hidden="true">${flag(match.awayTeam)}</span>
             <span class="nm">${escapeHtml(match.awayTeam)}</span>
           </span>
-        </div>
+        </button>
       `;
     })
     .join("");
+
+  document.querySelectorAll("#match-list .result-row").forEach((row) => {
+    row.addEventListener("click", () => openMatchModal(row.dataset.matchId));
+  });
 
   const checkedAt = state.data.tournament.lastResultsCheckedAt;
   document.querySelector("#results-note").textContent = checkedAt
@@ -925,6 +931,102 @@ function renderResults() {
       `;
     })
     .join("");
+}
+
+function wireMatchModal() {
+  const modal = document.querySelector("#match-modal");
+  if (!modal) {
+    return;
+  }
+  modal.querySelectorAll("[data-close]").forEach((element) => {
+    element.addEventListener("click", closeMatchModal);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !modal.hidden) {
+      closeMatchModal();
+    }
+  });
+}
+
+function openMatchModal(matchId) {
+  const match = state.data.tournament.matches.find((item) => item.id === matchId);
+  const modal = document.querySelector("#match-modal");
+  if (!match || !modal) {
+    return;
+  }
+
+  const final = isCompleteScore(match.result);
+  const scoreText = final ? `${match.result.home} × ${match.result.away}` : "— × —";
+
+  document.querySelector("#match-modal-head").innerHTML = `
+    <span class="mm-stage">${escapeHtml(match.stageLabel ?? "Jogo")}</span>
+    <div class="mm-fixture" id="match-modal-title">
+      <span class="mm-team"><span class="mm-flag" aria-hidden="true">${flag(match.homeTeam)}</span>${escapeHtml(match.homeTeam)}</span>
+      <span class="mm-score ${final ? "" : "pending"}">${escapeHtml(scoreText)}</span>
+      <span class="mm-team"><span class="mm-flag" aria-hidden="true">${flag(match.awayTeam)}</span>${escapeHtml(match.awayTeam)}</span>
+    </div>
+  `;
+
+  const rows = state.data.participants
+    .map((participant) => {
+      const breakdown = participant.breakdown.matches[match.id];
+      const prediction = breakdown?.prediction ?? { home: null, away: null };
+      const ignored = Boolean(prediction.ignored);
+      const hasGuess = isCompleteScore(prediction);
+      const guessLabel = ignored
+        ? "Fora do prazo"
+        : hasGuess
+        ? `${prediction.home} × ${prediction.away}`
+        : "Sem palpite";
+      return {
+        displayName: participant.displayName,
+        guessLabel,
+        guessState: ignored ? "ignored" : hasGuess ? "guess" : "empty",
+        points: breakdown?.points ?? 0,
+        exactHit: Boolean(breakdown?.exactHit),
+        outcomeHit: Boolean(breakdown?.outcomeHit),
+      };
+    })
+    .sort((a, b) => b.points - a.points || a.displayName.localeCompare(b.displayName, "pt-BR"));
+
+  const items = rows
+    .map((row) => {
+      const tag = row.exactHit
+        ? `<span class="mm-tag exact" title="Placar exato">🎯</span>`
+        : row.outcomeHit
+        ? `<span class="mm-tag outcome" title="Acertou o resultado">✅</span>`
+        : "";
+      return `
+        <li class="mm-pred">
+          <span class="mm-name">${escapeHtml(row.displayName)}</span>
+          <span class="mm-guess is-${row.guessState}">${escapeHtml(row.guessLabel)}${tag}</span>
+          <span class="pts-badge ${row.points > 0 ? "has-pts" : ""}">${row.points} pts</span>
+        </li>
+      `;
+    })
+    .join("");
+
+  const hint = final
+    ? `${rows.filter((row) => row.points > 0).length} de ${rows.length} pontuaram neste jogo.`
+    : "Jogo ainda sem resultado — os pontos aparecem quando o placar for confirmado.";
+
+  document.querySelector("#match-modal-body").innerHTML = `
+    <ol class="mm-list">${items}</ol>
+    <p class="mm-foot">${escapeHtml(hint)}</p>
+  `;
+
+  modal.hidden = false;
+  document.body.classList.add("modal-open");
+  modal.querySelector(".match-modal-close")?.focus();
+}
+
+function closeMatchModal() {
+  const modal = document.querySelector("#match-modal");
+  if (!modal) {
+    return;
+  }
+  modal.hidden = true;
+  document.body.classList.remove("modal-open");
 }
 
 function renderRules() {
