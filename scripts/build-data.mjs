@@ -1,9 +1,11 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { parseCsvWithHeaders } from "./csv.mjs";
+import { simulateStandings } from "./simulate.mjs";
 import {
   GROUP_LETTERS,
   KNOCKOUT_STAGES,
+  KNOCKOUT_STAGE_MATCH_COUNTS,
   buildPeopleIndex,
   buildTeamIndex,
   canonicalizeTeam,
@@ -116,6 +118,14 @@ const ranking = rankScoreRows(scoreRows);
 
 const pointsAtStake = computePointsAtStake(tournament);
 
+const hasResults = tournament.matches.some((match) => isCompleteScore(match.result));
+const simulation =
+  hasResults && pointsAtStake.total > 0
+    ? simulateStandings(tournament, ranking, { iterations: 40000 })
+    : { summary: [], warnings: [], iterations: 0 };
+const chancesById = new Map(simulation.summary.map((entry) => [entry.id, entry]));
+warnings.push(...simulation.warnings);
+
 const output = {
   meta: {
     generatedAt: new Date().toISOString(),
@@ -124,6 +134,10 @@ const output = {
     submissionCount: submissions.length,
     ignoredSubmissionCount: ignoredSubmissions.length,
     pointsAtStake,
+    simulation: {
+      iterations: simulation.iterations,
+      note: "Estimativa por Monte Carlo do restante do torneio. Ver scripts/simulate.mjs.",
+    },
     scoringVersion: "2026-06-13.1",
   },
   rules: {
@@ -155,6 +169,7 @@ const output = {
     displayName: row.displayName,
     rank: row.rank,
     score: row.score,
+    chances: chancesById.get(row.id) ? pickChances(chancesById.get(row.id)) : null,
     predictions: row.predictions,
     breakdown: row.breakdown,
   })),
@@ -163,6 +178,7 @@ const output = {
     displayName: row.displayName,
     rank: row.rank,
     score: row.score,
+    chances: chancesById.get(row.id) ? pickChances(chancesById.get(row.id)) : null,
   })),
 };
 
@@ -465,6 +481,7 @@ function canonicalizeTournament(raw, teamIndex) {
     ...match,
     homeTeam: canonicalizeTeam(match.homeTeam, teamIndex),
     awayTeam: canonicalizeTeam(match.awayTeam, teamIndex),
+    advanced: match.advanced ? canonicalizeTeam(match.advanced, teamIndex) : null,
     result: {
       home: Number.isInteger(match.result?.home) ? match.result.home : null,
       away: Number.isInteger(match.result?.away) ? match.result.away : null,
@@ -482,15 +499,21 @@ function canonicalizeTournament(raw, teamIndex) {
   };
 }
 
+function pickChances(entry) {
+  return { titleChance: entry.titleChance, podiumChance: entry.podiumChance };
+}
+
 function computePointsAtStake(tournament) {
-  // Maximo de pontos que um participante ainda pode somar com o que esta indefinido hoje.
+  // Maximo de pontos que ainda podem ser conquistados ate o fim da Copa.
+  // Fases futuras (oitavas, quartas, semi, 3o lugar, final) contam pelo total
+  // previsto do formato mesmo antes de serem cadastradas em tournament.json,
+  // e o valor cai a cada resultado novo registrado.
   const MATCH_MAX = 5; // 3 (resultado) + 2 (placar exato)
   const GROUP_MAX = 6; // por grupo: 2 slots x (2 classificado + 1 posicao exata)
   const CHAMPION = 15;
   const RUNNER_UP = 10;
 
-  let total = 0;
-  const breakdown = { groups: 0, matches: 0, champion: 0, runnerUp: 0 };
+  const breakdown = { groups: 0, brazilMatches: 0, knockout: 0, champion: 0, runnerUp: 0 };
 
   for (const group of GROUP_LETTERS) {
     const actual = tournament.groups?.[group];
@@ -499,16 +522,30 @@ function computePointsAtStake(tournament) {
     }
   }
 
+  // Jogos do Brasil na fase de grupos existem sempre em tournament.json:
+  // contam os que ainda nao tem placar.
+  const decidedByStage = {};
   for (const match of tournament.matches) {
-    if (!isCompleteScore(match.result)) {
-      breakdown.matches += MATCH_MAX;
+    if (match.stage === "group_brazil") {
+      if (!isCompleteScore(match.result)) breakdown.brazilMatches += MATCH_MAX;
+      continue;
     }
+    if (isCompleteScore(match.result)) {
+      decidedByStage[match.stage] = (decidedByStage[match.stage] ?? 0) + 1;
+    }
+  }
+
+  // Mata-mata: total previsto da fase menos os jogos ja decididos.
+  for (const [stage, capacity] of Object.entries(KNOCKOUT_STAGE_MATCH_COUNTS)) {
+    const remaining = Math.max(0, capacity - (decidedByStage[stage] ?? 0));
+    breakdown.knockout += remaining * MATCH_MAX;
   }
 
   if (!tournament.champion) breakdown.champion += CHAMPION;
   if (!tournament.runnerUp) breakdown.runnerUp += RUNNER_UP;
 
-  total = breakdown.groups + breakdown.matches + breakdown.champion + breakdown.runnerUp;
+  const total =
+    breakdown.groups + breakdown.brazilMatches + breakdown.knockout + breakdown.champion + breakdown.runnerUp;
 
   return { total, ...breakdown };
 }

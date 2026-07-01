@@ -88,6 +88,7 @@
       "kickoff": "2026-06-29T17:30:00-03:00",
       "status": "final",
       "result": { "home": 1, "away": 1 },
+      "advanced": "Paraguai",
       "sourceUrl": null
     },
     {
@@ -99,6 +100,7 @@
       "kickoff": "2026-06-29T22:00:00-03:00",
       "status": "final",
       "result": { "home": 1, "away": 1 },
+      "advanced": "Marrocos",
       "sourceUrl": null
     },
     {

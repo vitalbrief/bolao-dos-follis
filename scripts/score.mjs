@@ -1,8 +1,20 @@
 export const GROUP_LETTERS = Object.freeze(["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]);
 
 export const KNOCKOUT_STAGES = Object.freeze(
-  new Set(["round_of_32", "round_of_16", "quarterfinal", "semifinal", "final"]),
+  new Set(["round_of_32", "round_of_16", "quarterfinal", "semifinal", "third_place", "final"]),
 );
+
+// Total previsto de jogos por fase no formato da Copa 2026 (48 selecoes).
+// Serve para saber quantos pontos ainda estao em disputa mesmo quando as fases
+// futuras ainda nao foram cadastradas em tournament.json.
+export const KNOCKOUT_STAGE_MATCH_COUNTS = Object.freeze({
+  round_of_32: 16,
+  round_of_16: 8,
+  quarterfinal: 4,
+  semifinal: 2,
+  third_place: 1,
+  final: 1,
+});
 
 export function normalizeKey(value) {
   return String(value ?? "")

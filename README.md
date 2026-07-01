@@ -51,6 +51,19 @@ git push
 - `data/manual/`: configuracoes editaveis, nomes, aliases, correcoes manuais e resultados.
 - `site/data/site-data.json`: JSON limpo publicado no site.
 
+### Pontos em disputa e chance de titulo
+
+- O card "pontos em disputa" no topo mostra o maximo de pontos que ainda podem ser
+  conquistados ate o fim da Copa (jogos pendentes, campeao e vice). O valor cai
+  sozinho a cada resultado novo em `tournament.json`.
+- A coluna "Chance" estima, por simulacao Monte Carlo, a probabilidade de cada um
+  terminar em 1o. O simulador fica em `scripts/simulate.mjs`:
+  - `TEAM_ELO` guarda a forca estimada de cada selecao — **edite ali** para ajustar
+    as probabilidades. Times sem valor usam um Elo padrao.
+  - `ROUND_OF_16_PAIRS` guarda o chaveamento (quem cruza com quem nas oitavas).
+  - Em empates de mata-mata ja decididos, informe quem avancou com o campo
+    `"advanced"` no jogo em `tournament.json` (o placar sozinho nao diz).
+
 ## Publicacao
 
 O Cloudflare Pages publica a pasta `site/`.

@@ -587,6 +587,17 @@ h2 {
   margin-top: 2px;
 }
 
+.podium-chance {
+  margin-top: 6px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--green-700);
+}
+
+.podium-card.p1 .podium-chance {
+  color: var(--gold-600);
+}
+
 .podium-waiting {
   grid-column: 1 / -1;
   display: flex;
@@ -722,6 +733,17 @@ table {
   color: var(--green-700);
   font-size: 1.5rem;
   letter-spacing: 0.01em;
+}
+
+.chance-score {
+  font-weight: 800;
+  font-size: 1.02rem;
+  color: var(--green-700);
+  font-variant-numeric: tabular-nums;
+}
+
+tr.rank-1 .chance-score {
+  color: var(--gold-600);
 }
 
 .num-soft {

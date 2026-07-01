@@ -187,6 +187,11 @@ function renderPodium() {
           <span class="podium-medal" aria-hidden="true">${medals[index]}</span>
           <span class="podium-name">${escapeHtml(row.displayName)}</span>
           <span class="podium-score">${row.score.total}<span>pontos</span></span>
+          ${
+            row.chances?.titleChance != null
+              ? `<span class="podium-chance">${formatChance(row.chances.titleChance)} de título</span>`
+              : ""
+          }
         </div>
       `;
     })
@@ -218,6 +223,7 @@ function renderRanking() {
             </div>
           </td>
           <td class="num"><span class="total-score">${row.score.total}</span></td>
+          <td class="num"><span class="chance-score">${formatChance(row.chances?.titleChance)}</span></td>
           <td class="num hide-sm">${numCell(row.score.groupClassificationPoints)}</td>
           <td class="num hide-sm">${numCell(row.score.brazilGroupMatchPoints)}</td>
           <td class="num hide-sm">${numCell(row.score.knockoutPoints)}</td>
@@ -235,8 +241,13 @@ function renderRanking() {
     })
     .join("");
 
+  const iterations = state.data.meta?.simulation?.iterations ?? 0;
+  const chanceNote =
+    live && iterations > 0
+      ? ` Chance de título estimada por ${iterations.toLocaleString("pt-BR")} simulações do restante da Copa (força dos times + palpites de campeão/vice).`
+      : "";
   document.querySelector("#ranking-note").textContent = live
-    ? "Desempate: 🎯 placares exatos no mata-mata · ✅ resultados acertados · 🧩 pontos nos grupos."
+    ? `Desempate: 🎯 placares exatos no mata-mata · ✅ resultados acertados · 🧩 pontos nos grupos.${chanceNote}`
     : "Ranking provisório — todos zerados até os jogos começarem. A ordem é só alfabética por enquanto.";
 }
 
@@ -726,6 +737,13 @@ function numCell(value) {
   return value > 0
     ? `<span class="num-soft">${value}</span>`
     : `<span class="num-zero">0</span>`;
+}
+
+function formatChance(value) {
+  if (value == null) return "—";
+  if (value <= 0) return "0%";
+  if (value < 0.01) return "<1%";
+  return `${Math.round(value * 100)}%`;
 }
 
 function renderParticipantSelect() {
