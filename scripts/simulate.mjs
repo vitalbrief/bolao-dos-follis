@@ -1,4 +1,4 @@
-import { isCompleteScore, normalizeKey, outcome, scoreMatchPrediction } from "./score.mjs";
+import { isCompleteScore, KNOCKOUT_STAGES, normalizeKey, outcome, scoreMatchPrediction } from "./score.mjs";
 
 // ----------------------------------------------------------------------------
 // Chaveamento (bracket) da Copa 2026 a partir das 16-avos.
@@ -107,36 +107,66 @@ function simulateScore(eloA, eloB, rng) {
   return { home: poisson(lambdaA, rng), away: poisson(lambdaB, rng) };
 }
 
-// Vencedor de um confronto ja decidido: pelo placar, ou pelo campo "advanced"
-// quando terminou empatado (penaltis).
-function decidedWinner(match) {
-  const result = outcome(match.result);
-  if (result === "home") return match.homeTeam;
-  if (result === "away") return match.awayTeam;
-  return match.advanced ?? null;
+// Chave que identifica um confronto pelo par de times (independe da ordem).
+function pairKey(teamA, teamB) {
+  return [normalizeKey(teamA), normalizeKey(teamB)].sort().join("|");
+}
+
+// Vencedor de um confronto a partir de um placar (real ou sorteado). Empate no
+// tempo normal decide pelo campo "advanced" (penaltis ja acontecidos) ou, se o
+// jogo ainda nao aconteceu, por um sorteio ponderado pela forca dos times.
+function winnerFromScore(match, score, eloIndex, rng) {
+  if (score.home > score.away) return match.homeTeam;
+  if (score.away > score.home) return match.awayTeam;
+  if (match.advanced) return match.advanced;
+  const pA = advanceProbability(eloOf(match.homeTeam, eloIndex), eloOf(match.awayTeam, eloIndex));
+  return rng() < pA ? match.homeTeam : match.awayTeam;
+}
+
+// Vencedor de um confronto entre dois times ja definidos. Se esse jogo ja existe
+// no tournament.json (fase futura ja cadastrada), usa o resultado real/sorteado
+// dele; senao, sorteia direto pela forca (fase ainda nem chaveada).
+function resolveMatch(teamA, teamB, context, rng) {
+  if (!teamA) return teamB ?? null;
+  if (!teamB) return teamA;
+  const real = context.realByPair.get(pairKey(teamA, teamB));
+  if (real) {
+    const score = isCompleteScore(real.result) ? real.result : context.simResults.get(real.id);
+    if (score) return winnerFromScore(real, score, context.eloIndex, rng);
+  }
+  return playKnockout(teamA, teamB, context.eloIndex, rng);
 }
 
 /**
  * Roda o Monte Carlo do restante do torneio e devolve, por participante, a
  * probabilidade de terminar em 1o (titleChance) e no top 3 (podiumChance).
  *
- * So variam entre simulacoes as coisas que ainda tem palpite: os jogos restantes
- * das 16-avos e quem sera campeao/vice (15 e 10 pontos). As fases seguintes ainda
- * nao foram palpitadas, entao nao pontuam para ninguem - mas sao simuladas mesmo
- * assim porque definem o campeao e o vice.
+ * Simula o chaveamento inteiro (16-avos ate a final) para definir campeao e vice,
+ * e pontua todos os jogos de mata-mata que ainda estao pendentes E ja tem palpite.
+ * Hoje isso e so as 16-avos restantes; quando os formularios das oitavas em diante
+ * abrirem, esses jogos entram automaticamente na pontuacao (usam o proprio
+ * homeTeam/awayTeam do jogo para sortear o placar).
  */
 export function simulateStandings(tournament, rows, { iterations = 30000, seed = 20260701 } = {}) {
   const eloIndex = new Map(Object.entries(TEAM_ELO).map(([team, elo]) => [normalizeKey(team), elo]));
   const rng = makeRng(seed);
 
-  const r32Matches = tournament.matches.filter((match) => match.stage === "round_of_32");
-  const r32ById = new Map(r32Matches.map((match) => [match.id, match]));
-  const pendingR32 = r32Matches.filter((match) => !isCompleteScore(match.result));
+  const knockoutMatches = tournament.matches.filter((match) => KNOCKOUT_STAGES.has(match.stage));
+  const knockoutById = new Map(knockoutMatches.map((match) => [match.id, match]));
+  const pendingKnockout = knockoutMatches.filter((match) => !isCompleteScore(match.result));
+  const realByPair = new Map(knockoutMatches.map((match) => [pairKey(match.homeTeam, match.awayTeam), match]));
 
   const warnings = [];
   for (const [a, b] of ROUND_OF_16_PAIRS) {
-    if (!r32ById.has(a) || !r32ById.has(b)) {
+    if (!knockoutById.has(a) || !knockoutById.has(b)) {
       warnings.push(`Simulacao: chaveamento cita jogo inexistente (${a} / ${b}).`);
+    }
+  }
+  for (const match of knockoutMatches) {
+    if (isCompleteScore(match.result) && outcome(match.result) === "draw" && !match.advanced) {
+      warnings.push(
+        `Simulacao: ${match.homeTeam} x ${match.awayTeam} (${match.id}) terminou empatado, mas nao informa quem avancou (campo "advanced"). O chaveamento pode ficar incorreto.`,
+      );
     }
   }
 
@@ -156,33 +186,29 @@ export function simulateStandings(tournament, rows, { iterations = 30000, seed =
   }));
 
   const scratch = players.map(() => ({ total: 0, eko: 0, out: 0, grp: 0 }));
+  const context = { realByPair, simResults: null, eloIndex };
 
   for (let iter = 0; iter < iterations; iter += 1) {
-    // 1) Placar e vencedor de cada jogo das 16-avos.
+    // 1) Placar e vencedor de cada jogo de mata-mata ja cadastrado. Jogos
+    //    decididos usam o placar real; pendentes sorteiam pela forca dos times.
+    const simResults = new Map();
     const advancers = new Map();
-    const pendingResults = new Map();
-    for (const match of r32Matches) {
-      if (isCompleteScore(match.result)) {
-        advancers.set(match.id, decidedWinner(match));
-        continue;
-      }
-      const eloA = eloOf(match.homeTeam, eloIndex);
-      const eloB = eloOf(match.awayTeam, eloIndex);
-      const score = simulateScore(eloA, eloB, rng);
-      pendingResults.set(match.id, score);
-      let winner;
-      if (score.home > score.away) winner = match.homeTeam;
-      else if (score.away > score.home) winner = match.awayTeam;
-      else winner = rng() < advanceProbability(eloA, eloB) ? match.homeTeam : match.awayTeam;
-      advancers.set(match.id, winner);
+    for (const match of knockoutMatches) {
+      const score = isCompleteScore(match.result)
+        ? match.result
+        : simulateScore(eloOf(match.homeTeam, eloIndex), eloOf(match.awayTeam, eloIndex), rng);
+      if (!isCompleteScore(match.result)) simResults.set(match.id, score);
+      advancers.set(match.id, winnerFromScore(match, score, eloIndex, rng));
     }
+    context.simResults = simResults;
 
-    // 2) Oitavas: vencedores emparelhados conforme o chaveamento.
+    // 2) Oitavas: cruza os vencedores das 16-avos conforme o chaveamento.
     let bracket = ROUND_OF_16_PAIRS.map(([a, b]) =>
-      playKnockout(advancers.get(a), advancers.get(b), eloIndex, rng),
+      resolveMatch(advancers.get(a), advancers.get(b), context, rng),
     );
 
-    // 3) Reduz quartas -> semi -> final, sempre emparelhando adjacentes.
+    // 3) Reduz quartas -> semi -> final, sempre emparelhando adjacentes. Se a fase
+    //    ja estiver cadastrada, resolveMatch usa o jogo real; senao, sorteia.
     let champion = null;
     let runnerUp = null;
     while (bracket.length > 1) {
@@ -190,7 +216,7 @@ export function simulateStandings(tournament, rows, { iterations = 30000, seed =
       for (let i = 0; i < bracket.length; i += 2) {
         const teamA = bracket[i];
         const teamB = bracket[i + 1];
-        const winner = playKnockout(teamA, teamB, eloIndex, rng);
+        const winner = resolveMatch(teamA, teamB, context, rng);
         if (bracket.length === 2) {
           champion = winner;
           runnerUp = winner === teamA ? teamB : teamA;
@@ -209,12 +235,10 @@ export function simulateStandings(tournament, rows, { iterations = 30000, seed =
       s.out = player.base.outcomeHits;
       s.grp = player.base.groupPhasePoints;
 
-      for (const match of pendingR32) {
+      for (const match of pendingKnockout) {
         const prediction = player.predictions.matches?.[match.id];
         if (!prediction) continue;
-        const scored = scoreMatchPrediction(prediction, pendingResults.get(match.id), {
-          stage: "round_of_32",
-        });
+        const scored = scoreMatchPrediction(prediction, simResults.get(match.id), { stage: match.stage });
         s.total += scored.points;
         if (scored.outcomeHit) s.out += 1;
         if (scored.exactKnockoutHit) s.eko += 1;

@@ -119,10 +119,16 @@ const ranking = rankScoreRows(scoreRows);
 const pointsAtStake = computePointsAtStake(tournament);
 
 const hasResults = tournament.matches.some((match) => isCompleteScore(match.result));
-const simulation =
-  hasResults && pointsAtStake.total > 0
-    ? simulateStandings(tournament, ranking, { iterations: 40000 })
-    : { summary: [], warnings: [], iterations: 0 };
+let simulation;
+if (!hasResults) {
+  // Nada jogado ainda: sem chance para exibir (a ordem e so alfabetica).
+  simulation = { summary: [], warnings: [], iterations: 0 };
+} else if (pointsAtStake.total > 0) {
+  simulation = simulateStandings(tournament, ranking, { iterations: 40000 });
+} else {
+  // Torneio decidido: o ranking final ja e determinado, sem sorteio.
+  simulation = { summary: deterministicSummary(ranking), warnings: [], iterations: 0 };
+}
 const chancesById = new Map(simulation.summary.map((entry) => [entry.id, entry]));
 const reachById = computeReachability(tournament, ranking, pointsAtStake);
 warnings.push(...simulation.warnings);
@@ -498,6 +504,17 @@ function canonicalizeTournament(raw, teamIndex) {
     groups,
     matches,
   };
+}
+
+// Quando nao ha mais nada em disputa, a classificacao e definitiva: quem esta em
+// 1o tem 100% (dividido em caso de empate real na ponta) e no podio 100%.
+function deterministicSummary(rows) {
+  const leaders = rows.filter((row) => row.rank === 1).length;
+  return rows.map((row) => ({
+    id: row.id,
+    titleChance: row.rank === 1 ? 1 / leaders : 0,
+    podiumChance: row.rank <= 3 ? 1 : 0,
+  }));
 }
 
 function pickChances(entry, reach) {
