@@ -124,6 +124,7 @@ const simulation =
     ? simulateStandings(tournament, ranking, { iterations: 40000 })
     : { summary: [], warnings: [], iterations: 0 };
 const chancesById = new Map(simulation.summary.map((entry) => [entry.id, entry]));
+const reachById = computeReachability(tournament, ranking, pointsAtStake);
 warnings.push(...simulation.warnings);
 
 const output = {
@@ -169,7 +170,7 @@ const output = {
     displayName: row.displayName,
     rank: row.rank,
     score: row.score,
-    chances: chancesById.get(row.id) ? pickChances(chancesById.get(row.id)) : null,
+    chances: chancesById.get(row.id) ? pickChances(chancesById.get(row.id), reachById.get(row.id)) : null,
     predictions: row.predictions,
     breakdown: row.breakdown,
   })),
@@ -178,7 +179,7 @@ const output = {
     displayName: row.displayName,
     rank: row.rank,
     score: row.score,
-    chances: chancesById.get(row.id) ? pickChances(chancesById.get(row.id)) : null,
+    chances: chancesById.get(row.id) ? pickChances(chancesById.get(row.id), reachById.get(row.id)) : null,
   })),
 };
 
@@ -499,8 +500,47 @@ function canonicalizeTournament(raw, teamIndex) {
   };
 }
 
-function pickChances(entry) {
-  return { titleChance: entry.titleChance, podiumChance: entry.podiumChance };
+function pickChances(entry, reach) {
+  return {
+    titleChance: entry.titleChance,
+    podiumChance: entry.podiumChance,
+    eliminated: reach?.eliminated ?? false,
+  };
+}
+
+// Maximo de pontos que cada participante ainda pode somar (cenario otimista) e
+// se ja esta matematicamente sem chance de alcancar o lider. Serve para separar
+// "improvavel" (mostra <1%) de "impossivel" (mostra 0%).
+function computeReachability(tournament, rows, pointsAtStake) {
+  const MATCH_MAX = 5;
+  const pendingR32 = tournament.matches.filter(
+    (match) => match.stage === "round_of_32" && !isCompleteScore(match.result),
+  );
+  // Fases futuras (oitavas em diante) ainda nao foram palpitadas, mas TODOS
+  // poderao pontuar nelas quando os formularios abrirem. So os palpites de
+  // 16-avos ja estao travados: jogo nao palpitado agora vira ponto perdido.
+  const futureKnockoutPoints = pointsAtStake.knockout - pendingR32.length * MATCH_MAX;
+  const openToEveryone = futureKnockoutPoints + pointsAtStake.groups + pointsAtStake.brazilMatches;
+  const leaderTotal = rows.reduce((max, row) => Math.max(max, row.score.total), 0);
+
+  const reach = new Map();
+  for (const row of rows) {
+    let maxAdditional = openToEveryone;
+    for (const match of pendingR32) {
+      const prediction = row.predictions.matches?.[match.id];
+      if (prediction && !prediction.ignored && isCompleteScore(prediction)) {
+        maxAdditional += MATCH_MAX; // melhor caso: placar exato
+      }
+    }
+    if (row.predictions.champion) maxAdditional += pointsAtStake.champion;
+    if (row.predictions.runnerUp) maxAdditional += pointsAtStake.runnerUp;
+
+    const maxTotal = row.score.total + maxAdditional;
+    // O lider so ganha pontos daqui pra frente (monotonico), entao quem nao
+    // alcanca o total atual dele nem no melhor cenario ja era: eliminado.
+    reach.set(row.id, { maxTotal, eliminated: maxTotal < leaderTotal });
+  }
+  return reach;
 }
 
 function computePointsAtStake(tournament) {

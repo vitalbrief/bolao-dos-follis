@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-01T01:13:44.068Z",
+    "generatedAt": "2026-07-01T01:24:29.421Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
     "submissionCount": 33,
@@ -545,7 +545,8 @@
       },
       "chances": {
         "titleChance": 0.236275,
-        "podiumChance": 0.6317
+        "podiumChance": 0.6317,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Portugal",
@@ -1633,7 +1634,8 @@
       },
       "chances": {
         "titleChance": 0.12235,
-        "podiumChance": 0.417175
+        "podiumChance": 0.417175,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Portugal",
@@ -2721,7 +2723,8 @@
       },
       "chances": {
         "titleChance": 0.089025,
-        "podiumChance": 0.32295
+        "podiumChance": 0.32295,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Brasil",
@@ -3809,7 +3812,8 @@
       },
       "chances": {
         "titleChance": 0.0653,
-        "podiumChance": 0.2976
+        "podiumChance": 0.2976,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Espanha",
@@ -4897,7 +4901,8 @@
       },
       "chances": {
         "titleChance": 0.113025,
-        "podiumChance": 0.31495
+        "podiumChance": 0.31495,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Espanha",
@@ -5985,7 +5990,8 @@
       },
       "chances": {
         "titleChance": 0.221175,
-        "podiumChance": 0.33295
+        "podiumChance": 0.33295,
+        "eliminated": false
       },
       "predictions": {
         "champion": "França",
@@ -7073,7 +7079,8 @@
       },
       "chances": {
         "titleChance": 0.0476,
-        "podiumChance": 0.197575
+        "podiumChance": 0.197575,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Brasil",
@@ -8161,7 +8168,8 @@
       },
       "chances": {
         "titleChance": 0.023025,
-        "podiumChance": 0.149025
+        "podiumChance": 0.149025,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Brasil",
@@ -9249,7 +9257,8 @@
       },
       "chances": {
         "titleChance": 0.000775,
-        "podiumChance": 0.0472625
+        "podiumChance": 0.0472625,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Espanha",
@@ -10337,7 +10346,8 @@
       },
       "chances": {
         "titleChance": 0.0710625,
-        "podiumChance": 0.1845875
+        "podiumChance": 0.1845875,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Argentina",
@@ -11425,7 +11435,8 @@
       },
       "chances": {
         "titleChance": 0.001625,
-        "podiumChance": 0.0134
+        "podiumChance": 0.0134,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Brasil",
@@ -12513,7 +12524,8 @@
       },
       "chances": {
         "titleChance": 0.0068375,
-        "podiumChance": 0.0637
+        "podiumChance": 0.0637,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Argentina",
@@ -13601,7 +13613,8 @@
       },
       "chances": {
         "titleChance": 0.001925,
-        "podiumChance": 0.025925
+        "podiumChance": 0.025925,
+        "eliminated": false
       },
       "predictions": {
         "champion": "França",
@@ -14689,7 +14702,8 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000725
+        "podiumChance": 0.000725,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Brasil",
@@ -15777,7 +15791,8 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000475
+        "podiumChance": 0.000475,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Alemanha",
@@ -16865,7 +16880,8 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0
+        "podiumChance": 0,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Holanda",
@@ -17857,7 +17873,8 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0
+        "podiumChance": 0,
+        "eliminated": false
       },
       "predictions": {
         "champion": "França",
@@ -18849,7 +18866,8 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0
+        "podiumChance": 0,
+        "eliminated": false
       },
       "predictions": {
         "champion": "Portugal",
@@ -19843,7 +19861,8 @@
       },
       "chances": {
         "titleChance": 0.236275,
-        "podiumChance": 0.6317
+        "podiumChance": 0.6317,
+        "eliminated": false
       }
     },
     {
@@ -19864,7 +19883,8 @@
       },
       "chances": {
         "titleChance": 0.12235,
-        "podiumChance": 0.417175
+        "podiumChance": 0.417175,
+        "eliminated": false
       }
     },
     {
@@ -19885,7 +19905,8 @@
       },
       "chances": {
         "titleChance": 0.089025,
-        "podiumChance": 0.32295
+        "podiumChance": 0.32295,
+        "eliminated": false
       }
     },
     {
@@ -19906,7 +19927,8 @@
       },
       "chances": {
         "titleChance": 0.0653,
-        "podiumChance": 0.2976
+        "podiumChance": 0.2976,
+        "eliminated": false
       }
     },
     {
@@ -19927,7 +19949,8 @@
       },
       "chances": {
         "titleChance": 0.113025,
-        "podiumChance": 0.31495
+        "podiumChance": 0.31495,
+        "eliminated": false
       }
     },
     {
@@ -19948,7 +19971,8 @@
       },
       "chances": {
         "titleChance": 0.221175,
-        "podiumChance": 0.33295
+        "podiumChance": 0.33295,
+        "eliminated": false
       }
     },
     {
@@ -19969,7 +19993,8 @@
       },
       "chances": {
         "titleChance": 0.0476,
-        "podiumChance": 0.197575
+        "podiumChance": 0.197575,
+        "eliminated": false
       }
     },
     {
@@ -19990,7 +20015,8 @@
       },
       "chances": {
         "titleChance": 0.023025,
-        "podiumChance": 0.149025
+        "podiumChance": 0.149025,
+        "eliminated": false
       }
     },
     {
@@ -20011,7 +20037,8 @@
       },
       "chances": {
         "titleChance": 0.000775,
-        "podiumChance": 0.0472625
+        "podiumChance": 0.0472625,
+        "eliminated": false
       }
     },
     {
@@ -20032,7 +20059,8 @@
       },
       "chances": {
         "titleChance": 0.0710625,
-        "podiumChance": 0.1845875
+        "podiumChance": 0.1845875,
+        "eliminated": false
       }
     },
     {
@@ -20053,7 +20081,8 @@
       },
       "chances": {
         "titleChance": 0.001625,
-        "podiumChance": 0.0134
+        "podiumChance": 0.0134,
+        "eliminated": false
       }
     },
     {
@@ -20074,7 +20103,8 @@
       },
       "chances": {
         "titleChance": 0.0068375,
-        "podiumChance": 0.0637
+        "podiumChance": 0.0637,
+        "eliminated": false
       }
     },
     {
@@ -20095,7 +20125,8 @@
       },
       "chances": {
         "titleChance": 0.001925,
-        "podiumChance": 0.025925
+        "podiumChance": 0.025925,
+        "eliminated": false
       }
     },
     {
@@ -20116,7 +20147,8 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000725
+        "podiumChance": 0.000725,
+        "eliminated": false
       }
     },
     {
@@ -20137,7 +20169,8 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000475
+        "podiumChance": 0.000475,
+        "eliminated": false
       }
     },
     {
@@ -20158,7 +20191,8 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0
+        "podiumChance": 0,
+        "eliminated": false
       }
     },
     {
@@ -20179,7 +20213,8 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0
+        "podiumChance": 0,
+        "eliminated": false
       }
     },
     {
@@ -20200,7 +20235,8 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0
+        "podiumChance": 0,
+        "eliminated": false
       }
     }
   ]

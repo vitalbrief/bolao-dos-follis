@@ -189,7 +189,7 @@ function renderPodium() {
           <span class="podium-score">${row.score.total}<span>pontos</span></span>
           ${
             row.chances?.titleChance != null
-              ? `<span class="podium-chance">${formatChance(row.chances.titleChance)} de título</span>`
+              ? `<span class="podium-chance">${formatChance(row.chances.titleChance, row.chances.eliminated)} de título</span>`
               : ""
           }
         </div>
@@ -223,7 +223,7 @@ function renderRanking() {
             </div>
           </td>
           <td class="num"><span class="total-score">${row.score.total}</span></td>
-          <td class="num"><span class="chance-score">${formatChance(row.chances?.titleChance)}</span></td>
+          <td class="num"><span class="chance-score">${formatChance(row.chances?.titleChance, row.chances?.eliminated)}</span></td>
           <td class="num hide-sm">${numCell(row.score.groupClassificationPoints)}</td>
           <td class="num hide-sm">${numCell(row.score.brazilGroupMatchPoints)}</td>
           <td class="num hide-sm">${numCell(row.score.knockoutPoints)}</td>
@@ -739,11 +739,12 @@ function numCell(value) {
     : `<span class="num-zero">0</span>`;
 }
 
-function formatChance(value) {
+function formatChance(value, eliminated = false) {
   if (value == null) return "—";
-  if (value <= 0) return "0%";
-  if (value < 0.01) return "<1%";
-  return `${Math.round(value * 100)}%`;
+  if (value >= 0.01) return `${Math.round(value * 100)}%`;
+  // Abaixo de 1%: so mostra 0% para quem esta matematicamente eliminado;
+  // os demais ainda tem chance (por menor que seja), entao mostram <1%.
+  return eliminated ? "0%" : "<1%";
 }
 
 function renderParticipantSelect() {
