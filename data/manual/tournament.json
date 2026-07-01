@@ -1,7 +1,7 @@
 {
   "name": "Bolão dos Follis",
   "season": "Copa do Mundo 2026",
-  "lastResultsCheckedAt": "2026-06-30T11:13:53Z",
+  "lastResultsCheckedAt": "2026-07-01T00:37:53Z",
   "champion": null,
   "runnerUp": null,
   "groups": {
@@ -108,8 +108,8 @@
       "homeTeam": "Costa do Marfim",
       "awayTeam": "Noruega",
       "kickoff": "2026-06-30T14:00:00-03:00",
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 1, "away": 2 },
       "sourceUrl": null
     },
     {
@@ -119,8 +119,8 @@
       "homeTeam": "França",
       "awayTeam": "Suécia",
       "kickoff": "2026-06-30T18:00:00-03:00",
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 3, "away": 0 },
       "sourceUrl": null
     },
     {
