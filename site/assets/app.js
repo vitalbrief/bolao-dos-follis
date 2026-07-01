@@ -548,6 +548,7 @@ function drawShareRankingCard(ctx, rows, participantsById, live) {
   const headerH = 38;
   const rowTop = cardY + headerH + 4;
   const rowH = Math.min(34, (cardH - headerH - 16) / Math.max(rows.length, 1));
+  const columns = shareRankingColumns(cardX, cardW);
 
   ctx.save();
   ctx.shadowColor = "rgba(0, 0, 0, 0.28)";
@@ -559,9 +560,10 @@ function drawShareRankingCard(ctx, rows, participantsById, live) {
   fillRoundedRect(ctx, cardX, cardY, cardW, headerH, 18, "#f6f3e9");
   ctx.fillStyle = "#5e7268";
   ctx.font = "800 8px Inter, Arial, sans-serif";
-  drawFittedText(ctx, "#", cardX + 16, cardY + 24, 26, { align: "center" });
-  drawFittedText(ctx, "PARTICIPANTE / APOSTA", cardX + 44, cardY + 24, 190);
-  drawFittedText(ctx, "PTS", cardX + cardW - 58, cardY + 24, 42, { align: "right" });
+  drawFittedText(ctx, "#", columns.rankX, cardY + 24, columns.rankW, { align: "center" });
+  drawFittedText(ctx, "PARTICIPANTE / APOSTA", columns.textX, cardY + 24, columns.textW);
+  drawFittedText(ctx, "CHANCE", columns.chanceX, cardY + 24, columns.chanceW, { align: "right" });
+  drawFittedText(ctx, "PTS", columns.scoreX, cardY + 24, columns.scoreW + columns.ptsW + 5, { align: "right" });
 
   rows.forEach((row, index) => {
     drawShareRankingRow(ctx, {
@@ -571,13 +573,31 @@ function drawShareRankingCard(ctx, rows, participantsById, live) {
       y: rowTop + index * rowH,
       cardX,
       cardW,
+      columns,
       participant: participantsById.get(row.id),
       live,
     });
   });
 }
 
-function drawShareRankingRow(ctx, { row, index, rowH, y, cardX, cardW, participant, live }) {
+function shareRankingColumns(cardX, cardW) {
+  const scoreX = cardX + cardW - 81;
+
+  return {
+    rankX: cardX + 16,
+    rankW: 27,
+    textX: cardX + 54,
+    textW: 174,
+    chanceX: cardX + cardW - 128,
+    chanceW: 40,
+    scoreX,
+    scoreW: 50,
+    ptsX: scoreX + 55,
+    ptsW: 17,
+  };
+}
+
+function drawShareRankingRow(ctx, { row, index, rowH, y, cardX, cardW, columns, participant, live }) {
   const rowX = cardX + 9;
   const rowW = cardW - 18;
   const accent = shareRankAccent(row.rank, live);
@@ -590,10 +610,10 @@ function drawShareRankingRow(ctx, { row, index, rowH, y, cardX, cardW, participa
   }
 
   const badgeY = y + (rowH - 22) / 2;
-  fillRoundedRect(ctx, cardX + 18, badgeY, 27, 22, 8, accent?.badge ?? "#e3eefb");
+  fillRoundedRect(ctx, columns.rankX + 2, badgeY, columns.rankW, 22, 8, accent?.badge ?? "#e3eefb");
   ctx.fillStyle = accent?.badgeText ?? "#14488f";
   ctx.font = "900 10px Inter, Arial, sans-serif";
-  drawFittedText(ctx, String(row.rank), cardX + 18, badgeY + 14.7, 27, { align: "center" });
+  drawFittedText(ctx, String(row.rank), columns.rankX + 2, badgeY + 14.7, columns.rankW, { align: "center" });
 
   const champ = participant?.predictions?.champion ?? null;
   const nameSize = Math.max(10.1, Math.min(11.4, rowH * 0.34));
@@ -601,19 +621,23 @@ function drawShareRankingRow(ctx, { row, index, rowH, y, cardX, cardW, participa
 
   ctx.fillStyle = "#0e2018";
   ctx.font = `800 ${nameSize}px Inter, Arial, sans-serif`;
-  drawFittedText(ctx, row.displayName, cardX + 54, y + rowH * 0.43, 216);
+  drawFittedText(ctx, row.displayName, columns.textX, y + rowH * 0.43, columns.textW);
 
   ctx.fillStyle = "#5e7268";
   ctx.font = `700 ${subSize}px Inter, Arial, sans-serif`;
-  drawFittedText(ctx, `${flag(champ)} ${champ ?? "sem palpite"}`, cardX + 54, y + rowH * 0.75, 205);
+  drawFittedText(ctx, `${flag(champ)} ${champ ?? "sem palpite"}`, columns.textX, y + rowH * 0.75, columns.textW);
+
+  ctx.fillStyle = accent?.score ?? "#0a6b3c";
+  ctx.font = `900 ${Math.max(7.7, Math.min(8.8, rowH * 0.26))}px Inter, Arial, sans-serif`;
+  drawFittedText(ctx, formatChance(row.chances?.titleChance, row.chances?.eliminated), columns.chanceX, y + rowH * 0.61, columns.chanceW, { align: "right" });
 
   ctx.fillStyle = accent?.score ?? "#0a6b3c";
   ctx.font = `400 ${Math.max(17, Math.min(21, rowH * 0.64))}px Anton, Impact, sans-serif`;
-  drawFittedText(ctx, String(row.score.total), cardX + cardW - 86, y + rowH * 0.67, 54, { align: "right" });
+  drawFittedText(ctx, String(row.score.total), columns.scoreX, y + rowH * 0.67, columns.scoreW, { align: "right" });
 
   ctx.fillStyle = "#5e7268";
   ctx.font = "800 6.8px Inter, Arial, sans-serif";
-  drawFittedText(ctx, "pts", cardX + cardW - 28, y + rowH * 0.67, 17);
+  drawFittedText(ctx, "pts", columns.ptsX, y + rowH * 0.67, columns.ptsW);
 }
 
 function shareRankAccent(rank, live) {
