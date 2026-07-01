@@ -1,7 +1,7 @@
 {
   "name": "Bolão dos Follis",
   "season": "Copa do Mundo 2026",
-  "lastResultsCheckedAt": "2026-07-01T00:37:53Z",
+  "lastResultsCheckedAt": "2026-07-01T11:27:24Z",
   "champion": null,
   "runnerUp": null,
   "groups": {
@@ -132,8 +132,8 @@
       "homeTeam": "México",
       "awayTeam": "Equador",
       "kickoff": "2026-06-30T22:00:00-03:00",
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 2, "away": 0 },
       "sourceUrl": null
     },
     {
