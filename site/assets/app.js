@@ -126,8 +126,14 @@ function renderHeroStats() {
     ? statCard("0–0", "placar zerado")
     : statCard(leaderCount, leaderCount === 1 ? "líder isolado" : "empatados na ponta");
 
+  const pointsAtStake = meta.pointsAtStake?.total ?? 0;
+  const stakeStat =
+    pointsAtStake > 0
+      ? statCard(pointsAtStake, "pontos em disputa")
+      : statCard(meta.participantCount, "palpiteiros");
+
   document.querySelector("#hero-stats").innerHTML = [
-    statCard(meta.participantCount, "palpiteiros"),
+    stakeStat,
     leaderStat,
     statCard(finishedMatches, "jogos com resultado"),
     statCard(formatDate.format(generatedAt).split(",")[0] ?? "—", "atualizado em", "stat-card--date"),

@@ -7,6 +7,7 @@ import {
   buildPeopleIndex,
   buildTeamIndex,
   canonicalizeTeam,
+  isCompleteScore,
   parseScore,
   rankScoreRows,
   scoreGroupPrediction,
@@ -113,6 +114,8 @@ applyPredictionOverrides(participants, predictionOverrides, matchesById, warning
 const scoreRows = [...participants.values()].map((participant) => scoreParticipant(participant, tournament));
 const ranking = rankScoreRows(scoreRows);
 
+const pointsAtStake = computePointsAtStake(tournament);
+
 const output = {
   meta: {
     generatedAt: new Date().toISOString(),
@@ -120,6 +123,7 @@ const output = {
     participantCount: ranking.length,
     submissionCount: submissions.length,
     ignoredSubmissionCount: ignoredSubmissions.length,
+    pointsAtStake,
     scoringVersion: "2026-06-13.1",
   },
   rules: {
@@ -476,6 +480,37 @@ function canonicalizeTournament(raw, teamIndex) {
     groups,
     matches,
   };
+}
+
+function computePointsAtStake(tournament) {
+  // Maximo de pontos que um participante ainda pode somar com o que esta indefinido hoje.
+  const MATCH_MAX = 5; // 3 (resultado) + 2 (placar exato)
+  const GROUP_MAX = 6; // por grupo: 2 slots x (2 classificado + 1 posicao exata)
+  const CHAMPION = 15;
+  const RUNNER_UP = 10;
+
+  let total = 0;
+  const breakdown = { groups: 0, matches: 0, champion: 0, runnerUp: 0 };
+
+  for (const group of GROUP_LETTERS) {
+    const actual = tournament.groups?.[group];
+    if (!(actual?.first && actual?.second)) {
+      breakdown.groups += GROUP_MAX;
+    }
+  }
+
+  for (const match of tournament.matches) {
+    if (!isCompleteScore(match.result)) {
+      breakdown.matches += MATCH_MAX;
+    }
+  }
+
+  if (!tournament.champion) breakdown.champion += CHAMPION;
+  if (!tournament.runnerUp) breakdown.runnerUp += RUNNER_UP;
+
+  total = breakdown.groups + breakdown.matches + breakdown.champion + breakdown.runnerUp;
+
+  return { total, ...breakdown };
 }
 
 function scoreParticipant(participant, tournament) {

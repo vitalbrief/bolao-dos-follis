@@ -1,10 +1,17 @@
 {
   "meta": {
-    "generatedAt": "2026-07-01T00:38:16.768Z",
+    "generatedAt": "2026-07-01T00:43:00.263Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
     "submissionCount": 33,
     "ignoredSubmissionCount": 0,
+    "pointsAtStake": {
+      "total": 75,
+      "groups": 0,
+      "matches": 50,
+      "champion": 15,
+      "runnerUp": 10
+    },
     "scoringVersion": "2026-06-13.1"
   },
   "rules": {
