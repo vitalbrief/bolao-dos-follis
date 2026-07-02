@@ -165,8 +165,8 @@
       "homeTeam": "EUA",
       "awayTeam": "Bósnia e Herz.",
       "kickoff": "2026-07-01T21:00:00-03:00",
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 2, "away": 0 },
       "sourceUrl": null
     },
     {
