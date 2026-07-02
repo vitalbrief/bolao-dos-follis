@@ -176,8 +176,8 @@
       "homeTeam": "Espanha",
       "awayTeam": "Áustria",
       "kickoff": "2026-07-02T16:00:00-03:00",
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 3, "away": 0 },
       "sourceUrl": null
     },
     {
