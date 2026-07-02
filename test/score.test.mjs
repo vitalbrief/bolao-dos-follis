@@ -39,15 +39,18 @@ test("jogo: vencedor certo sem placar exato vale 3", () => {
   assert.equal(score.exactHit, false);
 });
 
-test("jogo: placar exato vale 5", () => {
+test("Brasil na fase de grupos: placar exato vale 5 e conta no primeiro desempate", () => {
   const score = scoreMatchPrediction(
     { home: 1, away: 1 },
     { home: 1, away: 1 },
+    { stage: "group_brazil" },
   );
 
   assert.equal(score.points, 5);
   assert.equal(score.outcomeHit, true);
   assert.equal(score.exactHit, true);
+  assert.equal(score.exactTiebreakerHit, true);
+  assert.equal(score.exactKnockoutHit, false);
 });
 
 test("mata-mata: placar exato conta no primeiro desempate", () => {
@@ -58,25 +61,26 @@ test("mata-mata: placar exato conta no primeiro desempate", () => {
   );
 
   assert.equal(score.points, 5);
+  assert.equal(score.exactTiebreakerHit, true);
   assert.equal(score.exactKnockoutHit, true);
 });
 
-test("ranking: aplica total, placar exato mata-mata, resultados e grupos", () => {
+test("ranking: aplica total, placares exatos de desempate, resultados e grupos", () => {
   const ranked = rankScoreRows([
     {
       id: "a",
       displayName: "A",
-      score: { total: 10, exactKnockoutHits: 0, outcomeHits: 4, groupPhasePoints: 8 },
+      score: { total: 10, exactTiebreakerHits: 0, outcomeHits: 4, groupPhasePoints: 8 },
     },
     {
       id: "b",
       displayName: "B",
-      score: { total: 10, exactKnockoutHits: 1, outcomeHits: 3, groupPhasePoints: 7 },
+      score: { total: 10, exactTiebreakerHits: 1, outcomeHits: 3, groupPhasePoints: 7 },
     },
     {
       id: "c",
       displayName: "C",
-      score: { total: 10, exactKnockoutHits: 1, outcomeHits: 3, groupPhasePoints: 7 },
+      score: { total: 10, exactTiebreakerHits: 1, outcomeHits: 3, groupPhasePoints: 7 },
     },
   ]);
 

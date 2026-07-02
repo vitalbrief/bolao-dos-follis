@@ -210,6 +210,7 @@ function renderRanking() {
     .map((row) => {
       const champ = byId.get(row.id)?.predictions?.champion ?? null;
       const rankClass = live ? `rank-${row.rank}` : "";
+      const exactTiebreakerHits = row.score.exactTiebreakerHits ?? row.score.exactKnockoutHits;
       return `
         <tr class="${rankClass}">
           <td class="col-pos"><span class="rank-badge">${row.rank}</span></td>
@@ -231,7 +232,7 @@ function renderRanking() {
           <td class="num hide-sm">${numCell(row.score.runnerUpPoints)}</td>
           <td class="hide-md">
             <div class="tiebreakers">
-              <span class="score-pill" title="Placares exatos no mata-mata">🎯 ${row.score.exactKnockoutHits}</span>
+              <span class="score-pill" title="Placares exatos nos jogos do Brasil e no mata-mata">🎯 ${exactTiebreakerHits}</span>
               <span class="score-pill" title="Resultados acertados">✅ ${row.score.outcomeHits}</span>
               <span class="score-pill" title="Pontos na fase de grupos">🧩 ${row.score.groupPhasePoints}</span>
             </div>
@@ -247,7 +248,7 @@ function renderRanking() {
       ? ` Chance de título estimada por ${iterations.toLocaleString("pt-BR")} simulações do restante da Copa (força dos times + palpites de campeão/vice).`
       : "";
   document.querySelector("#ranking-note").textContent = live
-    ? `Desempate: 🎯 placares exatos no mata-mata · ✅ resultados acertados · 🧩 pontos nos grupos.${chanceNote}`
+    ? `Desempate: 🎯 placares exatos nos jogos do Brasil e no mata-mata · ✅ resultados acertados · 🧩 pontos nos grupos.${chanceNote}`
     : "Ranking provisório — todos zerados até os jogos começarem. A ordem é só alfabética por enquanto.";
 }
 

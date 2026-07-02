@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-02T02:09:57.805Z",
+    "generatedAt": "2026-07-02T14:31:42.504Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
     "submissionCount": 33,
@@ -17,7 +17,7 @@
       "iterations": 40000,
       "note": "Estimativa por Monte Carlo do restante do torneio. Ver scripts/simulate.mjs."
     },
-    "scoringVersion": "2026-06-13.1"
+    "scoringVersion": "2026-07-02.1"
   },
   "rules": {
     "groupQualified": 2,
@@ -28,7 +28,7 @@
     "exactScoreBonus": 2,
     "matchMax": 5,
     "tiebreakers": [
-      "Maior número de placares exatos no mata-mata",
+      "Maior número de placares exatos nos jogos do Brasil na fase de grupos e no mata-mata",
       "Maior número de resultados acertados, incluindo empate",
       "Maior pontuação na fase de grupos",
       "Empate compartilhado"
@@ -541,11 +541,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 12,
         "exactScoreHits": 5,
-        "exactKnockoutHits": 3
+        "exactTiebreakerHits": 5,
+        "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.367225,
-        "podiumChance": 0.763025,
+        "titleChance": 0.3882,
+        "podiumChance": 0.771425,
         "eliminated": false
       },
       "predictions": {
@@ -1112,6 +1113,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -1140,6 +1142,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -1168,6 +1171,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -1195,6 +1199,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -1222,6 +1227,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -1249,6 +1255,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -1276,6 +1283,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -1303,6 +1311,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -1330,6 +1339,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -1357,6 +1367,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -1384,6 +1395,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -1411,6 +1423,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -1438,6 +1451,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -1465,6 +1479,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -1492,6 +1507,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -1519,6 +1535,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -1546,6 +1563,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -1573,6 +1591,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -1600,6 +1619,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -1630,11 +1650,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 10,
         "exactScoreHits": 3,
-        "exactKnockoutHits": 2
+        "exactTiebreakerHits": 3,
+        "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.122525,
-        "podiumChance": 0.438075,
+        "titleChance": 0.122775,
+        "podiumChance": 0.464275,
         "eliminated": false
       },
       "predictions": {
@@ -2201,6 +2222,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -2229,6 +2251,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -2257,6 +2280,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -2284,6 +2308,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -2311,6 +2336,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -2338,6 +2364,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -2365,6 +2392,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -2392,6 +2420,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -2419,6 +2448,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -2446,6 +2476,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -2473,6 +2504,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -2500,6 +2532,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -2527,6 +2560,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -2554,6 +2588,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -2581,6 +2616,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -2608,6 +2644,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -2635,6 +2672,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -2662,6 +2700,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -2689,6 +2728,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -2719,11 +2759,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 11,
         "exactScoreHits": 5,
-        "exactKnockoutHits": 4
+        "exactTiebreakerHits": 5,
+        "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.1088,
-        "podiumChance": 0.405125,
+        "titleChance": 0.108875,
+        "podiumChance": 0.405425,
         "eliminated": false
       },
       "predictions": {
@@ -3290,6 +3331,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -3318,6 +3360,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -3346,6 +3389,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -3373,6 +3417,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -3400,6 +3445,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -3427,6 +3473,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -3454,6 +3501,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -3481,6 +3529,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -3508,6 +3557,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -3535,6 +3585,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -3562,6 +3613,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -3589,6 +3641,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -3616,6 +3669,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -3643,6 +3697,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -3670,6 +3725,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -3697,6 +3753,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -3724,6 +3781,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -3751,6 +3809,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -3778,6 +3837,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -3808,11 +3868,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 10,
         "exactScoreHits": 4,
-        "exactKnockoutHits": 3
+        "exactTiebreakerHits": 4,
+        "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.02845,
-        "podiumChance": 0.25955,
+        "titleChance": 0.01165,
+        "podiumChance": 0.2536,
         "eliminated": false
       },
       "predictions": {
@@ -4379,6 +4440,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -4407,6 +4469,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -4435,6 +4498,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -4462,6 +4526,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -4489,6 +4554,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -4516,6 +4582,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -4543,6 +4610,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -4570,6 +4638,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -4597,6 +4666,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -4624,6 +4694,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -4651,6 +4722,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -4678,6 +4750,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -4705,6 +4778,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -4732,6 +4806,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -4759,6 +4834,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -4786,6 +4862,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -4813,6 +4890,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -4840,6 +4918,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -4867,6 +4946,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -4897,11 +4977,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 9,
         "exactScoreHits": 1,
+        "exactTiebreakerHits": 1,
         "exactKnockoutHits": 1
       },
       "chances": {
-        "titleChance": 0.195625,
-        "podiumChance": 0.328975,
+        "titleChance": 0.19505,
+        "podiumChance": 0.32625,
         "eliminated": false
       },
       "predictions": {
@@ -5468,6 +5549,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5496,6 +5578,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5524,6 +5607,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5551,6 +5635,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5578,6 +5663,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5605,6 +5691,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5632,6 +5719,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5659,6 +5747,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -5686,6 +5775,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5713,6 +5803,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5740,6 +5831,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5767,6 +5859,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5794,6 +5887,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -5821,6 +5915,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -5848,6 +5943,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -5875,6 +5971,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -5902,6 +5999,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -5929,6 +6027,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -5956,6 +6055,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -5986,11 +6086,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 9,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.07635,
-        "podiumChance": 0.246925,
+        "titleChance": 0.074825,
+        "podiumChance": 0.2218,
         "eliminated": false
       },
       "predictions": {
@@ -6557,6 +6658,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -6585,6 +6687,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -6613,6 +6716,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -6640,6 +6744,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -6667,6 +6772,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -6694,6 +6800,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -6721,6 +6828,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -6748,6 +6856,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -6775,6 +6884,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -6802,6 +6912,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -6829,6 +6940,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -6856,6 +6968,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -6883,6 +6996,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -6910,6 +7024,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -6937,6 +7052,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -6964,6 +7080,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -6991,6 +7108,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -7018,6 +7136,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -7045,6 +7164,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -7075,11 +7195,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 9,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.024625,
-        "podiumChance": 0.1545,
+        "titleChance": 0.024575,
+        "podiumChance": 0.1544,
         "eliminated": false
       },
       "predictions": {
@@ -7646,6 +7767,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -7674,6 +7796,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -7702,6 +7825,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -7729,6 +7853,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -7756,6 +7881,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -7783,6 +7909,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -7810,6 +7937,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -7837,6 +7965,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -7864,6 +7993,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -7891,6 +8021,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -7918,6 +8049,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -7945,6 +8077,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -7972,6 +8105,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -7999,6 +8133,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -8026,6 +8161,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -8053,6 +8189,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -8080,6 +8217,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -8107,6 +8245,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -8134,6 +8273,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -8164,6 +8304,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 10,
         "exactScoreHits": 0,
+        "exactTiebreakerHits": 0,
         "exactKnockoutHits": 0
       },
       "chances": {
@@ -8735,6 +8876,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -8763,6 +8905,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -8791,6 +8934,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -8818,6 +8962,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -8845,6 +8990,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -8872,6 +9018,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -8899,6 +9046,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -8926,6 +9074,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -8953,6 +9102,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -8980,6 +9130,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -9007,6 +9158,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -9034,6 +9186,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -9061,6 +9214,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -9088,6 +9242,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -9115,6 +9270,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -9142,6 +9298,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -9169,6 +9326,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -9196,6 +9354,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -9223,6 +9382,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -9253,11 +9413,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 10,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
         "titleChance": 0.000025,
-        "podiumChance": 0.037425,
+        "podiumChance": 0.0367,
         "eliminated": false
       },
       "predictions": {
@@ -9824,6 +9985,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -9852,6 +10014,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -9880,6 +10043,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -9907,6 +10071,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -9934,6 +10099,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -9961,6 +10127,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -9988,6 +10155,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -10015,6 +10183,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -10042,6 +10211,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -10069,6 +10239,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -10096,6 +10267,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -10123,6 +10295,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -10150,6 +10323,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -10177,6 +10351,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -10204,6 +10379,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -10231,6 +10407,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -10258,6 +10435,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -10285,6 +10463,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -10312,6 +10491,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -10342,11 +10522,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 10,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.06195,
-        "podiumChance": 0.17025,
+        "titleChance": 0.0596,
+        "podiumChance": 0.169975,
         "eliminated": false
       },
       "predictions": {
@@ -10913,6 +11094,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -10941,6 +11123,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -10969,6 +11152,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -10996,6 +11180,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -11023,6 +11208,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -11050,6 +11236,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -11077,6 +11264,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -11104,6 +11292,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -11131,6 +11320,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -11158,6 +11348,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -11185,6 +11376,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -11212,6 +11404,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -11239,6 +11432,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -11266,6 +11460,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -11293,6 +11488,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -11320,6 +11516,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -11347,6 +11544,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -11374,6 +11572,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -11401,6 +11600,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -11431,11 +11631,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 9,
         "exactScoreHits": 0,
+        "exactTiebreakerHits": 0,
         "exactKnockoutHits": 0
       },
       "chances": {
         "titleChance": 0.00015,
-        "podiumChance": 0.01305,
+        "podiumChance": 0.013025,
         "eliminated": false
       },
       "predictions": {
@@ -12002,6 +12203,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12030,6 +12232,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12058,6 +12261,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12085,6 +12289,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12112,6 +12317,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12139,6 +12345,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12166,6 +12373,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12193,6 +12401,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12220,6 +12429,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12247,6 +12457,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12274,6 +12485,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12301,6 +12513,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12328,6 +12541,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -12355,6 +12569,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -12382,6 +12597,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -12409,6 +12625,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -12436,6 +12653,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -12463,6 +12681,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -12490,6 +12709,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -12520,11 +12740,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 7,
         "exactScoreHits": 4,
-        "exactKnockoutHits": 3
+        "exactTiebreakerHits": 4,
+        "exactKnockoutHits": 4
       },
       "chances": {
         "titleChance": 0.001925,
-        "podiumChance": 0.021925,
+        "podiumChance": 0.02195,
         "eliminated": false
       },
       "predictions": {
@@ -13091,6 +13312,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -13119,6 +13341,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -13147,6 +13370,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -13174,6 +13398,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -13201,6 +13426,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -13228,6 +13454,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -13255,6 +13482,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -13282,6 +13510,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -13309,6 +13538,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -13336,6 +13566,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -13363,6 +13594,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -13390,6 +13622,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -13417,6 +13650,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -13444,6 +13678,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -13471,6 +13706,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -13498,6 +13734,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -13525,6 +13762,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -13552,6 +13790,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -13579,6 +13818,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -13609,6 +13849,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 8,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
@@ -14180,6 +14421,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -14208,6 +14450,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -14236,6 +14479,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -14263,6 +14507,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -14290,6 +14535,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -14317,6 +14563,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -14344,6 +14591,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -14371,6 +14619,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -14398,6 +14647,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -14425,6 +14675,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -14452,6 +14703,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -14479,6 +14731,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -14506,6 +14759,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -14533,6 +14787,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -14560,6 +14815,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -14587,6 +14843,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -14614,6 +14871,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -14641,6 +14899,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -14668,6 +14927,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -14698,6 +14958,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 8,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
@@ -15269,6 +15530,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -15297,6 +15559,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -15325,6 +15588,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -15352,6 +15616,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -15379,6 +15644,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -15406,6 +15672,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -15433,6 +15700,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -15460,6 +15728,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -15487,6 +15756,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -15514,6 +15784,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -15541,6 +15812,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -15568,6 +15840,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -15595,6 +15868,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -15622,6 +15896,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -15649,6 +15924,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -15676,6 +15952,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -15703,6 +15980,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -15730,6 +16008,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -15757,6 +16036,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -15787,6 +16067,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 5,
         "exactScoreHits": 1,
+        "exactTiebreakerHits": 1,
         "exactKnockoutHits": 1
       },
       "chances": {
@@ -16358,6 +16639,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16386,6 +16668,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16414,6 +16697,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16441,6 +16725,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16468,6 +16753,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16495,6 +16781,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16522,6 +16809,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16549,6 +16837,7 @@
             "points": 5,
             "outcomeHit": true,
             "exactHit": true,
+            "exactTiebreakerHit": true,
             "exactKnockoutHit": true,
             "pending": false
           },
@@ -16576,6 +16865,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16603,6 +16893,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16630,6 +16921,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16657,6 +16949,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16684,6 +16977,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -16711,6 +17005,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -16738,6 +17033,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -16765,6 +17061,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -16792,6 +17089,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -16819,6 +17117,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -16846,6 +17145,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -16876,6 +17176,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 2,
         "exactScoreHits": 0,
+        "exactTiebreakerHits": 0,
         "exactKnockoutHits": 0
       },
       "chances": {
@@ -17367,6 +17668,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17395,6 +17697,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17423,6 +17726,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17449,6 +17753,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17475,6 +17780,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17501,6 +17807,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17527,6 +17834,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17553,6 +17861,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17579,6 +17888,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17605,6 +17915,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17631,6 +17942,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17657,6 +17969,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17683,6 +17996,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -17709,6 +18023,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -17735,6 +18050,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -17761,6 +18077,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -17787,6 +18104,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -17813,6 +18131,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -17839,6 +18158,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -17869,6 +18189,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 2,
         "exactScoreHits": 0,
+        "exactTiebreakerHits": 0,
         "exactKnockoutHits": 0
       },
       "chances": {
@@ -18360,6 +18681,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18388,6 +18710,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18416,6 +18739,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18442,6 +18766,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18468,6 +18793,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18494,6 +18820,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18520,6 +18847,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18546,6 +18874,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18572,6 +18901,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18598,6 +18928,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18624,6 +18955,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18650,6 +18982,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18676,6 +19009,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -18702,6 +19036,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -18728,6 +19063,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -18754,6 +19090,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -18780,6 +19117,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -18806,6 +19144,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -18832,6 +19171,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -18862,6 +19202,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 1,
         "exactScoreHits": 0,
+        "exactTiebreakerHits": 0,
         "exactKnockoutHits": 0
       },
       "chances": {
@@ -19353,6 +19694,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19381,6 +19723,7 @@
             "points": 3,
             "outcomeHit": true,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19409,6 +19752,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19435,6 +19779,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19461,6 +19806,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19487,6 +19833,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19513,6 +19860,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19539,6 +19887,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19565,6 +19914,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19591,6 +19941,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19617,6 +19968,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19643,6 +19995,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19669,6 +20022,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
           },
@@ -19695,6 +20049,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -19721,6 +20076,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -19747,6 +20103,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -19773,6 +20130,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -19799,6 +20157,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           },
@@ -19825,6 +20184,7 @@
             "points": 0,
             "outcomeHit": false,
             "exactHit": false,
+            "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
           }
@@ -19857,11 +20217,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 12,
         "exactScoreHits": 5,
-        "exactKnockoutHits": 3
+        "exactTiebreakerHits": 5,
+        "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.367225,
-        "podiumChance": 0.763025,
+        "titleChance": 0.3882,
+        "podiumChance": 0.771425,
         "eliminated": false
       }
     },
@@ -19879,11 +20240,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 10,
         "exactScoreHits": 3,
-        "exactKnockoutHits": 2
+        "exactTiebreakerHits": 3,
+        "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.122525,
-        "podiumChance": 0.438075,
+        "titleChance": 0.122775,
+        "podiumChance": 0.464275,
         "eliminated": false
       }
     },
@@ -19901,11 +20263,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 11,
         "exactScoreHits": 5,
-        "exactKnockoutHits": 4
+        "exactTiebreakerHits": 5,
+        "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.1088,
-        "podiumChance": 0.405125,
+        "titleChance": 0.108875,
+        "podiumChance": 0.405425,
         "eliminated": false
       }
     },
@@ -19923,11 +20286,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 10,
         "exactScoreHits": 4,
-        "exactKnockoutHits": 3
+        "exactTiebreakerHits": 4,
+        "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.02845,
-        "podiumChance": 0.25955,
+        "titleChance": 0.01165,
+        "podiumChance": 0.2536,
         "eliminated": false
       }
     },
@@ -19945,11 +20309,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 9,
         "exactScoreHits": 1,
+        "exactTiebreakerHits": 1,
         "exactKnockoutHits": 1
       },
       "chances": {
-        "titleChance": 0.195625,
-        "podiumChance": 0.328975,
+        "titleChance": 0.19505,
+        "podiumChance": 0.32625,
         "eliminated": false
       }
     },
@@ -19967,11 +20332,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 9,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.07635,
-        "podiumChance": 0.246925,
+        "titleChance": 0.074825,
+        "podiumChance": 0.2218,
         "eliminated": false
       }
     },
@@ -19989,11 +20355,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 9,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.024625,
-        "podiumChance": 0.1545,
+        "titleChance": 0.024575,
+        "podiumChance": 0.1544,
         "eliminated": false
       }
     },
@@ -20011,6 +20378,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 10,
         "exactScoreHits": 0,
+        "exactTiebreakerHits": 0,
         "exactKnockoutHits": 0
       },
       "chances": {
@@ -20033,11 +20401,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 10,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
         "titleChance": 0.000025,
-        "podiumChance": 0.037425,
+        "podiumChance": 0.0367,
         "eliminated": false
       }
     },
@@ -20055,11 +20424,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 10,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.06195,
-        "podiumChance": 0.17025,
+        "titleChance": 0.0596,
+        "podiumChance": 0.169975,
         "eliminated": false
       }
     },
@@ -20077,11 +20447,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 9,
         "exactScoreHits": 0,
+        "exactTiebreakerHits": 0,
         "exactKnockoutHits": 0
       },
       "chances": {
         "titleChance": 0.00015,
-        "podiumChance": 0.01305,
+        "podiumChance": 0.013025,
         "eliminated": false
       }
     },
@@ -20099,11 +20470,12 @@
         "runnerUpPoints": 0,
         "outcomeHits": 7,
         "exactScoreHits": 4,
-        "exactKnockoutHits": 3
+        "exactTiebreakerHits": 4,
+        "exactKnockoutHits": 4
       },
       "chances": {
         "titleChance": 0.001925,
-        "podiumChance": 0.021925,
+        "podiumChance": 0.02195,
         "eliminated": false
       }
     },
@@ -20121,6 +20493,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 8,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
@@ -20143,6 +20516,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 8,
         "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
@@ -20165,6 +20539,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 5,
         "exactScoreHits": 1,
+        "exactTiebreakerHits": 1,
         "exactKnockoutHits": 1
       },
       "chances": {
@@ -20187,6 +20562,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 2,
         "exactScoreHits": 0,
+        "exactTiebreakerHits": 0,
         "exactKnockoutHits": 0
       },
       "chances": {
@@ -20209,6 +20585,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 2,
         "exactScoreHits": 0,
+        "exactTiebreakerHits": 0,
         "exactKnockoutHits": 0
       },
       "chances": {
@@ -20231,6 +20608,7 @@
         "runnerUpPoints": 0,
         "outcomeHits": 1,
         "exactScoreHits": 0,
+        "exactTiebreakerHits": 0,
         "exactKnockoutHits": 0
       },
       "chances": {

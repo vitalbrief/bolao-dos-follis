@@ -145,7 +145,7 @@ const output = {
       iterations: simulation.iterations,
       note: "Estimativa por Monte Carlo do restante do torneio. Ver scripts/simulate.mjs.",
     },
-    scoringVersion: "2026-06-13.1",
+    scoringVersion: "2026-07-02.1",
   },
   rules: {
     groupQualified: 2,
@@ -156,7 +156,7 @@ const output = {
     exactScoreBonus: 2,
     matchMax: 5,
     tiebreakers: [
-      "Maior número de placares exatos no mata-mata",
+      "Maior número de placares exatos nos jogos do Brasil na fase de grupos e no mata-mata",
       "Maior número de resultados acertados, incluindo empate",
       "Maior pontuação na fase de grupos",
       "Empate compartilhado",
@@ -618,6 +618,8 @@ function scoreParticipant(participant, tournament) {
     runnerUpPoints: 0,
     outcomeHits: 0,
     exactScoreHits: 0,
+    exactTiebreakerHits: 0,
+    // Alias mantido para compatibilidade com o site ja publicado em cache.
     exactKnockoutHits: 0,
   };
 
@@ -650,7 +652,10 @@ function scoreParticipant(participant, tournament) {
 
     if (matchScore.outcomeHit) score.outcomeHits += 1;
     if (matchScore.exactHit) score.exactScoreHits += 1;
-    if (matchScore.exactKnockoutHit) score.exactKnockoutHits += 1;
+    if (matchScore.exactTiebreakerHit) {
+      score.exactTiebreakerHits += 1;
+      score.exactKnockoutHits += 1;
+    }
 
     breakdown.matches[match.id] = {
       match,

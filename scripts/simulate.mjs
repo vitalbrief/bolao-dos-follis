@@ -177,7 +177,7 @@ export function simulateStandings(tournament, rows, { iterations = 30000, seed =
     predictions: row.predictions,
     base: {
       total: row.score.total,
-      exactKnockoutHits: row.score.exactKnockoutHits,
+      exactTiebreakerHits: row.score.exactTiebreakerHits ?? row.score.exactKnockoutHits,
       outcomeHits: row.score.outcomeHits,
       groupPhasePoints: row.score.groupPhasePoints,
     },
@@ -185,7 +185,7 @@ export function simulateStandings(tournament, rows, { iterations = 30000, seed =
     podium: 0,
   }));
 
-  const scratch = players.map(() => ({ total: 0, eko: 0, out: 0, grp: 0 }));
+  const scratch = players.map(() => ({ total: 0, exact: 0, out: 0, grp: 0 }));
   const context = { realByPair, simResults: null, eloIndex };
 
   for (let iter = 0; iter < iterations; iter += 1) {
@@ -231,7 +231,7 @@ export function simulateStandings(tournament, rows, { iterations = 30000, seed =
       const player = players[p];
       const s = scratch[p];
       s.total = player.base.total;
-      s.eko = player.base.exactKnockoutHits;
+      s.exact = player.base.exactTiebreakerHits;
       s.out = player.base.outcomeHits;
       s.grp = player.base.groupPhasePoints;
 
@@ -241,7 +241,7 @@ export function simulateStandings(tournament, rows, { iterations = 30000, seed =
         const scored = scoreMatchPrediction(prediction, simResults.get(match.id), { stage: match.stage });
         s.total += scored.points;
         if (scored.outcomeHit) s.out += 1;
-        if (scored.exactKnockoutHit) s.eko += 1;
+        if (scored.exactTiebreakerHit) s.exact += 1;
       }
 
       if (champion && player.predictions.champion === champion) s.total += 15;
@@ -270,7 +270,7 @@ function playKnockout(teamA, teamB, eloIndex, rng) {
 
 function better(a, b) {
   return (
-    b.total - a.total || b.eko - a.eko || b.out - a.out || b.grp - a.grp
+    b.total - a.total || b.exact - a.exact || b.out - a.out || b.grp - a.grp
   );
 }
 

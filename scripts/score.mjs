@@ -16,6 +16,8 @@ export const KNOCKOUT_STAGE_MATCH_COUNTS = Object.freeze({
   final: 1,
 });
 
+export const EXACT_SCORE_TIEBREAKER_STAGES = Object.freeze(new Set(["group_brazil", ...KNOCKOUT_STAGES]));
+
 export function normalizeKey(value) {
   return String(value ?? "")
     .trim()
@@ -86,6 +88,7 @@ export function scoreMatchPrediction(prediction, actual, { stage = "group_brazil
     points: 0,
     outcomeHit: false,
     exactHit: false,
+    exactTiebreakerHit: false,
     exactKnockoutHit: false,
     pending: !isCompleteScore(actual),
   };
@@ -96,12 +99,14 @@ export function scoreMatchPrediction(prediction, actual, { stage = "group_brazil
 
   const outcomeHit = outcome(prediction) === outcome(actual);
   const exactHit = prediction.home === actual.home && prediction.away === actual.away;
+  const exactTiebreakerHit = exactHit && EXACT_SCORE_TIEBREAKER_STAGES.has(stage);
   const points = (outcomeHit ? 3 : 0) + (exactHit ? 2 : 0);
 
   return {
     points,
     outcomeHit,
     exactHit,
+    exactTiebreakerHit,
     exactKnockoutHit: exactHit && KNOCKOUT_STAGES.has(stage),
     pending: false,
   };
@@ -168,7 +173,7 @@ export function scoreGroupPrediction(prediction, actual) {
 export function sameRankingTie(a, b) {
   return (
     a.score.total === b.score.total &&
-    a.score.exactKnockoutHits === b.score.exactKnockoutHits &&
+    exactTiebreakerHits(a) === exactTiebreakerHits(b) &&
     a.score.outcomeHits === b.score.outcomeHits &&
     a.score.groupPhasePoints === b.score.groupPhasePoints
   );
@@ -177,11 +182,15 @@ export function sameRankingTie(a, b) {
 export function compareScoreRows(a, b) {
   return (
     b.score.total - a.score.total ||
-    b.score.exactKnockoutHits - a.score.exactKnockoutHits ||
+    exactTiebreakerHits(b) - exactTiebreakerHits(a) ||
     b.score.outcomeHits - a.score.outcomeHits ||
     b.score.groupPhasePoints - a.score.groupPhasePoints ||
     a.displayName.localeCompare(b.displayName, "pt-BR")
   );
+}
+
+function exactTiebreakerHits(row) {
+  return row.score.exactTiebreakerHits ?? row.score.exactKnockoutHits ?? 0;
 }
 
 export function rankScoreRows(rows) {
