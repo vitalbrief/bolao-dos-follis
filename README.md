@@ -61,6 +61,9 @@ git push
   - `TEAM_ELO` guarda a forca estimada de cada selecao — **edite ali** para ajustar
     as probabilidades. Times sem valor usam um Elo padrao.
   - `ROUND_OF_16_PAIRS` guarda o chaveamento (quem cruza com quem nas oitavas).
+  - Palpites reais ja enviados sempre prevalecem. Para fases futuras ainda sem
+    palpite, o simulador cria palpites provaveis por participante usando forca
+    dos times, campeao/vice escolhido e historico de acertos suavizado.
   - Em empates de mata-mata ja decididos, informe quem avancou com o campo
     `"advanced"` no jogo em `tournament.json` (o placar sozinho nao diz).
 

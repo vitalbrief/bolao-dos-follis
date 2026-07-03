@@ -143,7 +143,8 @@ const output = {
     pointsAtStake,
     simulation: {
       iterations: simulation.iterations,
-      note: "Estimativa por Monte Carlo do restante do torneio. Ver scripts/simulate.mjs.",
+      modelVersion: "future-predictions-2026-07-03",
+      note: "Estimativa por Monte Carlo do restante do torneio, usando palpites reais ja enviados e palpites futuros simulados. Ver scripts/simulate.mjs.",
     },
     scoringVersion: "2026-07-02.1",
   },

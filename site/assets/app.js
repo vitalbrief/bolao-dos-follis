@@ -245,7 +245,7 @@ function renderRanking() {
   const iterations = state.data.meta?.simulation?.iterations ?? 0;
   const chanceNote =
     live && iterations > 0
-      ? ` Chance de título estimada por ${iterations.toLocaleString("pt-BR")} simulações do restante da Copa (força dos times + palpites de campeão/vice).`
+      ? ` Chance de título estimada por ${iterations.toLocaleString("pt-BR")} simulações do restante da Copa (palpites reais + palpites futuros simulados).`
       : "";
   document.querySelector("#ranking-note").textContent = live
     ? `Desempate: 🎯 placares exatos nos jogos do Brasil e no mata-mata · ✅ resultados acertados · 🧩 pontos nos grupos.${chanceNote}`

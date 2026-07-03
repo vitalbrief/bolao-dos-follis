@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-03T10:25:40.724Z",
+    "generatedAt": "2026-07-03T18:05:49.052Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
     "submissionCount": 33,
@@ -15,7 +15,8 @@
     },
     "simulation": {
       "iterations": 40000,
-      "note": "Estimativa por Monte Carlo do restante do torneio. Ver scripts/simulate.mjs."
+      "modelVersion": "future-predictions-2026-07-03",
+      "note": "Estimativa por Monte Carlo do restante do torneio, usando palpites reais ja enviados e palpites futuros simulados. Ver scripts/simulate.mjs."
     },
     "scoringVersion": "2026-07-02.1"
   },
@@ -545,8 +546,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.3908,
-        "podiumChance": 0.7109,
+        "titleChance": 0.266425,
+        "podiumChance": 0.5914,
         "eliminated": false
       },
       "predictions": {
@@ -1654,8 +1655,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.1163,
-        "podiumChance": 0.4857,
+        "titleChance": 0.115375,
+        "podiumChance": 0.381925,
         "eliminated": false
       },
       "predictions": {
@@ -2763,8 +2764,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.21695,
-        "podiumChance": 0.37965,
+        "titleChance": 0.190225,
+        "podiumChance": 0.384125,
         "eliminated": false
       },
       "predictions": {
@@ -3872,8 +3873,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.0778,
-        "podiumChance": 0.3381,
+        "titleChance": 0.10865,
+        "podiumChance": 0.368425,
         "eliminated": false
       },
       "predictions": {
@@ -4981,8 +4982,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.115125,
-        "podiumChance": 0.241875,
+        "titleChance": 0.10915,
+        "podiumChance": 0.32115,
         "eliminated": false
       },
       "predictions": {
@@ -6090,8 +6091,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0,
-        "podiumChance": 0.234025,
+        "titleChance": 0.05295,
+        "podiumChance": 0.254875,
         "eliminated": false
       },
       "predictions": {
@@ -7199,8 +7200,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.03515,
-        "podiumChance": 0.1885,
+        "titleChance": 0.049375,
+        "podiumChance": 0.207775,
         "eliminated": false
       },
       "predictions": {
@@ -8308,8 +8309,8 @@
         "exactKnockoutHits": 1
       },
       "chances": {
-        "titleChance": 0.0122,
-        "podiumChance": 0.1428,
+        "titleChance": 0.039425,
+        "podiumChance": 0.188275,
         "eliminated": false
       },
       "predictions": {
@@ -9417,8 +9418,8 @@
         "exactKnockoutHits": 1
       },
       "chances": {
-        "titleChance": 0.000175,
-        "podiumChance": 0.015325,
+        "titleChance": 0.00545,
+        "podiumChance": 0.033175,
         "eliminated": false
       },
       "predictions": {
@@ -10526,8 +10527,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0,
-        "podiumChance": 0.041875,
+        "titleChance": 0.006175,
+        "podiumChance": 0.0600875,
         "eliminated": false
       },
       "predictions": {
@@ -11635,8 +11636,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.030275,
-        "podiumChance": 0.1204,
+        "titleChance": 0.028675,
+        "podiumChance": 0.093075,
         "eliminated": false
       },
       "predictions": {
@@ -12744,8 +12745,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.005225,
-        "podiumChance": 0.0718,
+        "titleChance": 0.0235,
+        "podiumChance": 0.0777125,
         "eliminated": false
       },
       "predictions": {
@@ -13853,8 +13854,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0,
-        "podiumChance": 0.02905,
+        "titleChance": 0.004225,
+        "podiumChance": 0.033125,
         "eliminated": false
       },
       "predictions": {
@@ -14962,8 +14963,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0,
-        "podiumChance": 0,
+        "titleChance": 0.0004,
+        "podiumChance": 0.004875,
         "eliminated": false
       },
       "predictions": {
@@ -20221,8 +20222,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.3908,
-        "podiumChance": 0.7109,
+        "titleChance": 0.266425,
+        "podiumChance": 0.5914,
         "eliminated": false
       }
     },
@@ -20244,8 +20245,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.1163,
-        "podiumChance": 0.4857,
+        "titleChance": 0.115375,
+        "podiumChance": 0.381925,
         "eliminated": false
       }
     },
@@ -20267,8 +20268,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.21695,
-        "podiumChance": 0.37965,
+        "titleChance": 0.190225,
+        "podiumChance": 0.384125,
         "eliminated": false
       }
     },
@@ -20290,8 +20291,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.0778,
-        "podiumChance": 0.3381,
+        "titleChance": 0.10865,
+        "podiumChance": 0.368425,
         "eliminated": false
       }
     },
@@ -20313,8 +20314,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.115125,
-        "podiumChance": 0.241875,
+        "titleChance": 0.10915,
+        "podiumChance": 0.32115,
         "eliminated": false
       }
     },
@@ -20336,8 +20337,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0,
-        "podiumChance": 0.234025,
+        "titleChance": 0.05295,
+        "podiumChance": 0.254875,
         "eliminated": false
       }
     },
@@ -20359,8 +20360,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.03515,
-        "podiumChance": 0.1885,
+        "titleChance": 0.049375,
+        "podiumChance": 0.207775,
         "eliminated": false
       }
     },
@@ -20382,8 +20383,8 @@
         "exactKnockoutHits": 1
       },
       "chances": {
-        "titleChance": 0.0122,
-        "podiumChance": 0.1428,
+        "titleChance": 0.039425,
+        "podiumChance": 0.188275,
         "eliminated": false
       }
     },
@@ -20405,8 +20406,8 @@
         "exactKnockoutHits": 1
       },
       "chances": {
-        "titleChance": 0.000175,
-        "podiumChance": 0.015325,
+        "titleChance": 0.00545,
+        "podiumChance": 0.033175,
         "eliminated": false
       }
     },
@@ -20428,8 +20429,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0,
-        "podiumChance": 0.041875,
+        "titleChance": 0.006175,
+        "podiumChance": 0.0600875,
         "eliminated": false
       }
     },
@@ -20451,8 +20452,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.030275,
-        "podiumChance": 0.1204,
+        "titleChance": 0.028675,
+        "podiumChance": 0.093075,
         "eliminated": false
       }
     },
@@ -20474,8 +20475,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.005225,
-        "podiumChance": 0.0718,
+        "titleChance": 0.0235,
+        "podiumChance": 0.0777125,
         "eliminated": false
       }
     },
@@ -20497,8 +20498,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0,
-        "podiumChance": 0.02905,
+        "titleChance": 0.004225,
+        "podiumChance": 0.033125,
         "eliminated": false
       }
     },
@@ -20520,8 +20521,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0,
-        "podiumChance": 0,
+        "titleChance": 0.0004,
+        "podiumChance": 0.004875,
         "eliminated": false
       }
     },
