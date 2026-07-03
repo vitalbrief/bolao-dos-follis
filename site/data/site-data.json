@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-03T21:19:48.968Z",
+    "generatedAt": "2026-07-03T21:29:43.704Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
     "submissionCount": 33,
@@ -35,9 +35,7 @@
       "Empate compartilhado"
     ]
   },
-  "warnings": [
-    "Simulacao: Austrália x Egito (aus-egy) terminou empatado, mas nao informa quem avancou (campo \"advanced\"). O chaveamento pode ficar incorreto."
-  ],
+  "warnings": [],
   "aliases": {
     "people": [
       {
@@ -185,7 +183,7 @@
   "tournament": {
     "name": "Bolão dos Follis",
     "season": "Copa do Mundo 2026",
-    "lastResultsCheckedAt": "2026-07-01T11:27:24Z",
+    "lastResultsCheckedAt": "2026-07-03T18:28:57-03:00",
     "champion": null,
     "runnerUp": null,
     "groups": {
@@ -494,8 +492,8 @@
           "home": 1,
           "away": 1
         },
-        "sourceUrl": null,
-        "advanced": null
+        "advanced": "Egito",
+        "sourceUrl": null
       },
       {
         "id": "arg-cpv",
@@ -526,6 +524,96 @@
         },
         "sourceUrl": null,
         "advanced": null
+      },
+      {
+        "id": "par-fra",
+        "stage": "round_of_16",
+        "stageLabel": "Oitavas 1 · 04/07 18:00",
+        "homeTeam": "Paraguai",
+        "awayTeam": "França",
+        "kickoff": "2026-07-04T18:00:00-03:00",
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null,
+        "advanced": null
+      },
+      {
+        "id": "can-mar",
+        "stage": "round_of_16",
+        "stageLabel": "Oitavas 2 · 04/07 14:00",
+        "homeTeam": "Canadá",
+        "awayTeam": "Marrocos",
+        "kickoff": "2026-07-04T14:00:00-03:00",
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null,
+        "advanced": null
+      },
+      {
+        "id": "por-esp",
+        "stage": "round_of_16",
+        "stageLabel": "Oitavas 3 · 06/07 16:00",
+        "homeTeam": "Portugal",
+        "awayTeam": "Espanha",
+        "kickoff": "2026-07-06T16:00:00-03:00",
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null,
+        "advanced": null
+      },
+      {
+        "id": "usa-bel",
+        "stage": "round_of_16",
+        "stageLabel": "Oitavas 4 · 06/07 21:00",
+        "homeTeam": "EUA",
+        "awayTeam": "Bélgica",
+        "kickoff": "2026-07-06T21:00:00-03:00",
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null,
+        "advanced": null
+      },
+      {
+        "id": "bra-nor",
+        "stage": "round_of_16",
+        "stageLabel": "Oitavas 5 · 05/07 17:00",
+        "homeTeam": "Brasil",
+        "awayTeam": "Noruega",
+        "kickoff": "2026-07-05T17:00:00-03:00",
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null,
+        "advanced": null
+      },
+      {
+        "id": "mex-eng",
+        "stage": "round_of_16",
+        "stageLabel": "Oitavas 6 · 05/07 21:00",
+        "homeTeam": "México",
+        "awayTeam": "Inglaterra",
+        "kickoff": "2026-07-05T21:00:00-03:00",
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null,
+        "advanced": null
       }
     ]
   },
@@ -548,8 +636,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.293,
-        "podiumChance": 0.6683,
+        "titleChance": 0.32285,
+        "podiumChance": 0.688725,
         "eliminated": false
       },
       "predictions": {
@@ -1555,8 +1643,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 0,
@@ -1625,6 +1713,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -1657,8 +1907,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.1865,
-        "podiumChance": 0.518575,
+        "titleChance": 0.194775,
+        "podiumChance": 0.51485,
         "eliminated": false
       },
       "predictions": {
@@ -2664,8 +2914,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 1,
@@ -2734,6 +2984,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -2766,8 +3178,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.060225,
-        "podiumChance": 0.298,
+        "titleChance": 0.0657,
+        "podiumChance": 0.311575,
         "eliminated": false
       },
       "predictions": {
@@ -3773,8 +4185,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 0,
@@ -3843,6 +4255,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -3875,8 +4449,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.0885,
-        "podiumChance": 0.2981,
+        "titleChance": 0.10275,
+        "podiumChance": 0.300125,
         "eliminated": false
       },
       "predictions": {
@@ -4882,8 +5456,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 2,
@@ -4952,6 +5526,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -4984,8 +5720,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.152575,
-        "podiumChance": 0.319725,
+        "titleChance": 0.149825,
+        "podiumChance": 0.34335,
         "eliminated": false
       },
       "predictions": {
@@ -5991,8 +6727,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 2,
@@ -6061,6 +6797,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -6093,8 +6991,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.0612,
-        "podiumChance": 0.246075,
+        "titleChance": 0.06305,
+        "podiumChance": 0.25435,
         "eliminated": false
       },
       "predictions": {
@@ -7100,8 +7998,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 2,
@@ -7170,6 +8068,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -7202,8 +8262,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.034475,
-        "podiumChance": 0.15345,
+        "titleChance": 0.021775,
+        "podiumChance": 0.14625,
         "eliminated": false
       },
       "predictions": {
@@ -8209,8 +9269,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 2,
@@ -8279,6 +9339,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -8311,8 +9533,8 @@
         "exactKnockoutHits": 1
       },
       "chances": {
-        "titleChance": 0.03,
-        "podiumChance": 0.14075,
+        "titleChance": 0.0182,
+        "podiumChance": 0.129225,
         "eliminated": false
       },
       "predictions": {
@@ -9318,8 +10540,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 1,
@@ -9388,6 +10610,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -9420,8 +10804,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0437625,
-        "podiumChance": 0.133675,
+        "titleChance": 0.027875,
+        "podiumChance": 0.1156375,
         "eliminated": false
       },
       "predictions": {
@@ -10427,8 +11811,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 1,
@@ -10497,6 +11881,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -10529,8 +12075,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.0357375,
-        "podiumChance": 0.117225,
+        "titleChance": 0.021825,
+        "podiumChance": 0.092575,
         "eliminated": false
       },
       "predictions": {
@@ -11536,8 +13082,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 1,
@@ -11606,6 +13152,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -11638,8 +13346,8 @@
         "exactKnockoutHits": 1
       },
       "chances": {
-        "titleChance": 0.004375,
-        "podiumChance": 0.0232,
+        "titleChance": 0.00495,
+        "podiumChance": 0.02505,
         "eliminated": false
       },
       "predictions": {
@@ -12645,8 +14353,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 1,
@@ -12715,6 +14423,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -12747,8 +14617,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.00275,
-        "podiumChance": 0.039775,
+        "titleChance": 0.002825,
+        "podiumChance": 0.0432875,
         "eliminated": false
       },
       "predictions": {
@@ -13754,8 +15624,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 1,
@@ -13824,6 +15694,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -13856,8 +15888,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.00675,
-        "podiumChance": 0.04035,
+        "titleChance": 0.002625,
+        "podiumChance": 0.02775,
         "eliminated": false
       },
       "predictions": {
@@ -14863,8 +16895,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 0,
@@ -14933,6 +16965,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -14965,8 +17159,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.00015,
-        "podiumChance": 0.0028,
+        "titleChance": 0.000975,
+        "podiumChance": 0.00725,
         "eliminated": false
       },
       "predictions": {
@@ -15972,8 +18166,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 1,
@@ -16035,6 +18229,168 @@
               "home": 0,
               "away": 1,
               "label": "Colômbia x Gana"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
             },
             "points": 0,
             "outcomeHit": false,
@@ -17081,8 +19437,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": 2,
@@ -17144,6 +19500,168 @@
               "home": 1,
               "away": 2,
               "label": "Colômbia x Gana"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
             },
             "points": 0,
             "outcomeHit": false,
@@ -18097,8 +20615,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": null,
@@ -18146,6 +20664,168 @@
               "homeTeam": "Colômbia",
               "awayTeam": "Gana",
               "kickoff": "2026-07-03T22:30:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
               "status": "scheduled",
               "result": {
                 "home": null,
@@ -19110,8 +21790,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": null,
@@ -19159,6 +21839,168 @@
               "homeTeam": "Colômbia",
               "awayTeam": "Gana",
               "kickoff": "2026-07-03T22:30:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
               "status": "scheduled",
               "result": {
                 "home": null,
@@ -20123,8 +22965,8 @@
                 "home": 1,
                 "away": 1
               },
-              "sourceUrl": null,
-              "advanced": null
+              "advanced": "Egito",
+              "sourceUrl": null
             },
             "prediction": {
               "home": null,
@@ -20190,6 +23032,168 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -20224,8 +23228,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.293,
-        "podiumChance": 0.6683,
+        "titleChance": 0.32285,
+        "podiumChance": 0.688725,
         "eliminated": false
       }
     },
@@ -20247,8 +23251,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.1865,
-        "podiumChance": 0.518575,
+        "titleChance": 0.194775,
+        "podiumChance": 0.51485,
         "eliminated": false
       }
     },
@@ -20270,8 +23274,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.060225,
-        "podiumChance": 0.298,
+        "titleChance": 0.0657,
+        "podiumChance": 0.311575,
         "eliminated": false
       }
     },
@@ -20293,8 +23297,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.0885,
-        "podiumChance": 0.2981,
+        "titleChance": 0.10275,
+        "podiumChance": 0.300125,
         "eliminated": false
       }
     },
@@ -20316,8 +23320,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.152575,
-        "podiumChance": 0.319725,
+        "titleChance": 0.149825,
+        "podiumChance": 0.34335,
         "eliminated": false
       }
     },
@@ -20339,8 +23343,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.0612,
-        "podiumChance": 0.246075,
+        "titleChance": 0.06305,
+        "podiumChance": 0.25435,
         "eliminated": false
       }
     },
@@ -20362,8 +23366,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.034475,
-        "podiumChance": 0.15345,
+        "titleChance": 0.021775,
+        "podiumChance": 0.14625,
         "eliminated": false
       }
     },
@@ -20385,8 +23389,8 @@
         "exactKnockoutHits": 1
       },
       "chances": {
-        "titleChance": 0.03,
-        "podiumChance": 0.14075,
+        "titleChance": 0.0182,
+        "podiumChance": 0.129225,
         "eliminated": false
       }
     },
@@ -20408,8 +23412,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0437625,
-        "podiumChance": 0.133675,
+        "titleChance": 0.027875,
+        "podiumChance": 0.1156375,
         "eliminated": false
       }
     },
@@ -20431,8 +23435,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.0357375,
-        "podiumChance": 0.117225,
+        "titleChance": 0.021825,
+        "podiumChance": 0.092575,
         "eliminated": false
       }
     },
@@ -20454,8 +23458,8 @@
         "exactKnockoutHits": 1
       },
       "chances": {
-        "titleChance": 0.004375,
-        "podiumChance": 0.0232,
+        "titleChance": 0.00495,
+        "podiumChance": 0.02505,
         "eliminated": false
       }
     },
@@ -20477,8 +23481,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.00275,
-        "podiumChance": 0.039775,
+        "titleChance": 0.002825,
+        "podiumChance": 0.0432875,
         "eliminated": false
       }
     },
@@ -20500,8 +23504,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.00675,
-        "podiumChance": 0.04035,
+        "titleChance": 0.002625,
+        "podiumChance": 0.02775,
         "eliminated": false
       }
     },
@@ -20523,8 +23527,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.00015,
-        "podiumChance": 0.0028,
+        "titleChance": 0.000975,
+        "podiumChance": 0.00725,
         "eliminated": false
       }
     },

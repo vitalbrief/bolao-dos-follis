@@ -10,17 +10,17 @@ import { isCompleteScore, KNOCKOUT_STAGES, normalizeKey, outcome, scoreMatchPred
 //
 // Fonte do cruzamento (numeros de jogo FIFA 89-96):
 //   89 = V(ger-par) x V(fra-swe)   90 = V(rsa-can) x V(ned-mar)
-//   91 = V(bra-jpn) x V(civ-nor)   92 = V(mex-ecu) x V(eng-cod)
-//   93 = V(por-cro) x V(esp-aut)   94 = V(usa-bih) x V(bel-sen)
+//   91 = V(por-cro) x V(esp-aut)   92 = V(usa-bih) x V(bel-sen)
+//   93 = V(bra-jpn) x V(civ-nor)   94 = V(mex-ecu) x V(eng-cod)
 //   95 = V(arg-cpv) x V(aus-egy)   96 = V(sui-alg) x V(col-gan)
 // ----------------------------------------------------------------------------
 export const ROUND_OF_16_PAIRS = Object.freeze([
   ["ger-par", "fra-swe"],
   ["rsa-can", "ned-mar"],
-  ["bra-jpn", "civ-nor"],
-  ["mex-ecu", "eng-cod"],
   ["por-cro", "esp-aut"],
   ["usa-bih", "bel-sen"],
+  ["bra-jpn", "civ-nor"],
+  ["mex-ecu", "eng-cod"],
   ["arg-cpv", "aus-egy"],
   ["sui-alg", "col-gan"],
 ]);

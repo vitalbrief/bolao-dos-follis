@@ -1,7 +1,7 @@
 {
   "name": "Bolão dos Follis",
   "season": "Copa do Mundo 2026",
-  "lastResultsCheckedAt": "2026-07-01T11:27:24Z",
+  "lastResultsCheckedAt": "2026-07-03T18:28:57-03:00",
   "champion": null,
   "runnerUp": null,
   "groups": {
@@ -211,6 +211,7 @@
       "kickoff": "2026-07-03T15:00:00-03:00",
       "status": "final",
       "result": { "home": 1, "away": 1 },
+      "advanced": "Egito",
       "sourceUrl": null
     },
     {
@@ -231,6 +232,72 @@
       "homeTeam": "Colômbia",
       "awayTeam": "Gana",
       "kickoff": "2026-07-03T22:30:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "par-fra",
+      "stage": "round_of_16",
+      "stageLabel": "Oitavas 1 · 04/07 18:00",
+      "homeTeam": "Paraguai",
+      "awayTeam": "França",
+      "kickoff": "2026-07-04T18:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "can-mar",
+      "stage": "round_of_16",
+      "stageLabel": "Oitavas 2 · 04/07 14:00",
+      "homeTeam": "Canadá",
+      "awayTeam": "Marrocos",
+      "kickoff": "2026-07-04T14:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "por-esp",
+      "stage": "round_of_16",
+      "stageLabel": "Oitavas 3 · 06/07 16:00",
+      "homeTeam": "Portugal",
+      "awayTeam": "Espanha",
+      "kickoff": "2026-07-06T16:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "usa-bel",
+      "stage": "round_of_16",
+      "stageLabel": "Oitavas 4 · 06/07 21:00",
+      "homeTeam": "EUA",
+      "awayTeam": "Bélgica",
+      "kickoff": "2026-07-06T21:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "bra-nor",
+      "stage": "round_of_16",
+      "stageLabel": "Oitavas 5 · 05/07 17:00",
+      "homeTeam": "Brasil",
+      "awayTeam": "Noruega",
+      "kickoff": "2026-07-05T17:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "mex-eng",
+      "stage": "round_of_16",
+      "stageLabel": "Oitavas 6 · 05/07 21:00",
+      "homeTeam": "México",
+      "awayTeam": "Inglaterra",
+      "kickoff": "2026-07-05T21:00:00-03:00",
       "status": "scheduled",
       "result": { "home": null, "away": null },
       "sourceUrl": null
