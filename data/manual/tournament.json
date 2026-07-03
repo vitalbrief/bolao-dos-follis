@@ -198,8 +198,8 @@
       "homeTeam": "Suíça",
       "awayTeam": "Argélia",
       "kickoff": "2026-07-03T00:00:00-03:00",
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 2, "away": 0 },
       "sourceUrl": null
     },
     {
