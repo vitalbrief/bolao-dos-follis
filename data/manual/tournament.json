@@ -187,8 +187,8 @@
       "homeTeam": "Portugal",
       "awayTeam": "Croácia",
       "kickoff": "2026-07-02T20:00:00-03:00",
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 2, "away": 1 },
       "sourceUrl": null
     },
     {
