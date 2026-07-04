@@ -931,7 +931,7 @@ function renderChampionBoard() {
 }
 
 function renderResults() {
-  const matches = state.data.tournament.matches;
+  const matches = [...state.data.tournament.matches].sort(compareMatchesByKickoff);
   const finished = matches.filter((match) => isCompleteScore(match.result)).length;
   const status = document.querySelector("#results-status");
   status.textContent = finished ? `${finished} jogo(s) finalizado(s)` : "Sem jogos finalizados";
@@ -981,6 +981,15 @@ function renderResults() {
       `;
     })
     .join("");
+}
+
+function compareMatchesByKickoff(a, b) {
+  return kickoffTimestamp(a) - kickoffTimestamp(b);
+}
+
+function kickoffTimestamp(match) {
+  const timestamp = Date.parse(match.kickoff ?? "");
+  return Number.isFinite(timestamp) ? timestamp : Number.POSITIVE_INFINITY;
 }
 
 function wireMatchModal() {
