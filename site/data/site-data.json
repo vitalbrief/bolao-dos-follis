@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-07-04T10:13:19.566Z",
+    "generatedAt": "2026-07-04T10:17:40.995Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
-    "submissionCount": 33,
+    "submissionCount": 49,
     "ignoredSubmissionCount": 0,
     "pointsAtStake": {
       "total": 105,
@@ -666,8 +666,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.32805,
-        "podiumChance": 0.6871,
+        "titleChance": 0.351075,
+        "podiumChance": 0.728925,
         "eliminated": false
       },
       "predictions": {
@@ -818,6 +818,36 @@
             "home": 2,
             "away": 0,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 1,
+            "away": 2,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 1,
+            "away": 3,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 3,
+            "away": 1,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 1,
+            "away": 2,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 1,
+            "away": 1,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -1761,8 +1791,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 3,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -1788,8 +1819,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -1815,8 +1847,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -1842,8 +1875,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -1869,8 +1903,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 1,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -1896,8 +1931,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -1991,8 +2027,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.20375,
-        "podiumChance": 0.517375,
+        "titleChance": 0.207125,
+        "podiumChance": 0.531275,
         "eliminated": false
       },
       "predictions": {
@@ -2143,6 +2179,36 @@
             "home": 2,
             "away": 0,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 1,
+            "away": 2,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 0,
+            "away": 3,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 1,
+            "away": 1,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 1,
+            "away": 1,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 1,
+            "away": 2,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -3086,8 +3152,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 3,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3113,8 +3180,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3140,8 +3208,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3167,8 +3236,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3194,8 +3264,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3221,8 +3292,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3316,8 +3388,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.103825,
-        "podiumChance": 0.304825,
+        "titleChance": 0.093,
+        "podiumChance": 0.27305,
         "eliminated": false
       },
       "predictions": {
@@ -3468,6 +3540,36 @@
             "home": 2,
             "away": 0,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 2,
+            "away": 0,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 0,
+            "away": 3,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 2,
+            "away": 2,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 1,
+            "away": 2,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 2,
+            "away": 0,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -4411,8 +4513,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 3,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -4438,8 +4541,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -4465,8 +4569,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -4492,8 +4597,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -4519,8 +4625,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -4546,8 +4653,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 2,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -4642,7 +4750,7 @@
       },
       "chances": {
         "titleChance": 0.147975,
-        "podiumChance": 0.3326,
+        "podiumChance": 0.34655,
         "eliminated": false
       },
       "predictions": {
@@ -4793,6 +4901,36 @@
             "home": 2,
             "away": 1,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 1,
+            "away": 2,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 0,
+            "away": 2,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 1,
+            "away": 1,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 1,
+            "away": 1,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -5736,8 +5874,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 2,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -5763,8 +5902,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -5790,8 +5930,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -5817,8 +5958,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -5844,8 +5986,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -5871,8 +6014,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -5966,8 +6110,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.0573,
-        "podiumChance": 0.251675,
+        "titleChance": 0.0635,
+        "podiumChance": 0.275225,
         "eliminated": false
       },
       "predictions": {
@@ -6118,6 +6262,36 @@
             "home": 2,
             "away": 1,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 1,
+            "away": 1,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 0,
+            "away": 2,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 1,
+            "away": 1,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 1,
+            "away": 2,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -7061,8 +7235,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 2,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -7088,8 +7263,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -7115,8 +7291,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -7142,8 +7319,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -7169,8 +7347,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -7196,8 +7375,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -7291,8 +7471,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.02775,
-        "podiumChance": 0.20985,
+        "titleChance": 0.022475,
+        "podiumChance": 0.1897,
         "eliminated": false
       },
       "predictions": {
@@ -7443,6 +7623,36 @@
             "home": 1,
             "away": 1,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 1,
+            "away": 2,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 0,
+            "away": 3,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 2,
+            "away": 0,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 1,
+            "away": 1,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 1,
+            "away": 1,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 2,
+            "away": 1,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -8386,8 +8596,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 3,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -8413,8 +8624,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -8440,8 +8652,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -8467,8 +8680,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -8494,8 +8708,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -8521,8 +8736,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -8616,8 +8832,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.031,
-        "podiumChance": 0.192175,
+        "titleChance": 0.0314,
+        "podiumChance": 0.181875,
         "eliminated": false
       },
       "predictions": {
@@ -8768,6 +8984,36 @@
             "home": 1,
             "away": 0,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 1,
+            "away": 3,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 1,
+            "away": 3,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 3,
+            "away": 2,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 3,
+            "away": 1,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -9711,8 +9957,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 3,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -9738,8 +9985,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -9765,8 +10013,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 2,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -9792,8 +10041,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 1,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -9819,8 +10069,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -9846,8 +10097,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 3,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -9941,8 +10193,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.02015,
-        "podiumChance": 0.14365,
+        "titleChance": 0.01755,
+        "podiumChance": 0.1281,
         "eliminated": false
       },
       "predictions": {
@@ -10093,6 +10345,36 @@
             "home": 3,
             "away": 0,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 1,
+            "away": 1,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 0,
+            "away": 2,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 1,
+            "away": 0,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 2,
+            "away": 2,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 1,
+            "away": 2,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 2,
+            "away": 1,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -11036,8 +11318,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 2,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -11063,8 +11346,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -11090,8 +11374,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -11117,8 +11402,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -11144,8 +11430,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 0,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -11171,8 +11458,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 2,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -11266,8 +11554,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.0376,
-        "podiumChance": 0.1454875,
+        "titleChance": 0.0349625,
+        "podiumChance": 0.1439,
         "eliminated": false
       },
       "predictions": {
@@ -11418,6 +11706,36 @@
             "home": 1,
             "away": 0,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 1,
+            "away": 2,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 0,
+            "away": 2,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 3,
+            "away": 1,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 1,
+            "away": 1,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 0,
+            "away": 1,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 2,
+            "away": 1,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -12361,8 +12679,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 2,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -12388,8 +12707,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -12415,8 +12735,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 1,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -12442,8 +12763,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -12469,8 +12791,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 1,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -12496,8 +12819,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -12591,8 +12915,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.031075,
-        "podiumChance": 0.1229125,
+        "titleChance": 0.0194625,
+        "podiumChance": 0.1108,
         "eliminated": false
       },
       "predictions": {
@@ -12743,6 +13067,36 @@
             "home": 2,
             "away": 0,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 1,
+            "away": 2,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 0,
+            "away": 2,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 2,
+            "away": 2,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 1,
+            "away": 3,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 2,
+            "away": 2,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -13686,8 +14040,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 2,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -13713,8 +14068,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -13740,8 +14096,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 3,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -13767,8 +14124,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 2,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -13794,8 +14152,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -13821,8 +14180,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 2,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -13916,8 +14276,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.007425,
-        "podiumChance": 0.037375,
+        "titleChance": 0.00775,
+        "podiumChance": 0.04135,
         "eliminated": false
       },
       "predictions": {
@@ -14068,6 +14428,36 @@
             "home": 2,
             "away": 1,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 1,
+            "away": 3,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 2,
+            "away": 3,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 1,
+            "away": 3,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 1,
+            "away": 2,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 1,
+            "away": 2,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -15011,8 +15401,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 3,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -15038,8 +15429,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 3,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -15065,8 +15457,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -15092,8 +15485,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -15119,8 +15513,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -15146,8 +15541,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 3,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -15241,8 +15637,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.00275,
-        "podiumChance": 0.02715,
+        "titleChance": 0.00255,
+        "podiumChance": 0.027575,
         "eliminated": false
       },
       "predictions": {
@@ -15393,6 +15789,36 @@
             "home": 3,
             "away": 1,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 0,
+            "away": 2,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 1,
+            "away": 3,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 1,
+            "away": 2,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 1,
+            "away": 1,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 1,
+            "away": 0,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -16336,8 +16762,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 3,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -16363,8 +16790,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 2,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -16390,8 +16818,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -16417,8 +16846,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 0,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -16444,8 +16874,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -16471,8 +16902,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -16566,8 +16998,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.00105,
-        "podiumChance": 0.025125,
+        "titleChance": 0.0007,
+        "podiumChance": 0.0187,
         "eliminated": false
       },
       "predictions": {
@@ -16718,6 +17150,36 @@
             "home": 0,
             "away": 1,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 0,
+            "away": 2,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 0,
+            "away": 2,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 2,
+            "away": 1,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 1,
+            "away": 2,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -17661,8 +18123,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 2,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -17688,8 +18151,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -17715,8 +18179,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -17742,8 +18207,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -17769,8 +18235,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -17796,8 +18263,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 2,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -17891,8 +18359,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.0003,
-        "podiumChance": 0.0027,
+        "titleChance": 0.000475,
+        "podiumChance": 0.002975,
         "eliminated": false
       },
       "predictions": {
@@ -18043,6 +18511,36 @@
             "home": 0,
             "away": 1,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 1,
+            "away": 2,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 0,
+            "away": 1,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 2,
+            "away": 0,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 1,
+            "away": 0,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 2,
+            "away": 0,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 0,
+            "away": 1,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -18986,8 +19484,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 1,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -19013,8 +19512,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -19040,8 +19540,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -19067,8 +19568,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 1,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -19094,8 +19596,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -19121,8 +19624,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 0,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -19368,6 +19872,36 @@
             "home": 1,
             "away": 2,
             "label": "Colômbia x Gana"
+          },
+          "can-mar": {
+            "home": 2,
+            "away": 2,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 2,
+            "away": 3,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 2,
+            "away": 1,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 2,
+            "away": 1,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 1,
+            "away": 2,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -20311,8 +20845,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 3,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -20338,8 +20873,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 2,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -20365,8 +20901,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -20392,8 +20929,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -20419,8 +20957,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -20446,8 +20985,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -20613,6 +21153,36 @@
             "home": 2,
             "away": 3,
             "label": "Escócia x Brasil"
+          },
+          "can-mar": {
+            "home": 2,
+            "away": 0,
+            "label": "Canadá x Marrocos"
+          },
+          "par-fra": {
+            "home": 0,
+            "away": 3,
+            "label": "Paraguai x França"
+          },
+          "bra-nor": {
+            "home": 3,
+            "away": 0,
+            "label": "Brasil x Noruega"
+          },
+          "mex-eng": {
+            "home": 2,
+            "away": 1,
+            "label": "México x Inglaterra"
+          },
+          "por-esp": {
+            "home": 0,
+            "away": 0,
+            "label": "Portugal x Espanha"
+          },
+          "usa-bel": {
+            "home": 2,
+            "away": 1,
+            "label": "EUA x Bélgica"
           }
         }
       },
@@ -21540,8 +22110,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 3,
+              "label": "Paraguai x França"
             },
             "points": 0,
             "outcomeHit": false,
@@ -21567,8 +22138,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Canadá x Marrocos"
             },
             "points": 0,
             "outcomeHit": false,
@@ -21594,8 +22166,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 0,
+              "label": "Portugal x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -21621,8 +22194,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "EUA x Bélgica"
             },
             "points": 0,
             "outcomeHit": false,
@@ -21648,8 +22222,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 0,
+              "label": "Brasil x Noruega"
             },
             "points": 0,
             "outcomeHit": false,
@@ -21675,8 +22250,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "México x Inglaterra"
             },
             "points": 0,
             "outcomeHit": false,
@@ -24230,8 +24806,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.32805,
-        "podiumChance": 0.6871,
+        "titleChance": 0.351075,
+        "podiumChance": 0.728925,
         "eliminated": false
       }
     },
@@ -24253,8 +24829,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.20375,
-        "podiumChance": 0.517375,
+        "titleChance": 0.207125,
+        "podiumChance": 0.531275,
         "eliminated": false
       }
     },
@@ -24276,8 +24852,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.103825,
-        "podiumChance": 0.304825,
+        "titleChance": 0.093,
+        "podiumChance": 0.27305,
         "eliminated": false
       }
     },
@@ -24300,7 +24876,7 @@
       },
       "chances": {
         "titleChance": 0.147975,
-        "podiumChance": 0.3326,
+        "podiumChance": 0.34655,
         "eliminated": false
       }
     },
@@ -24322,8 +24898,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.0573,
-        "podiumChance": 0.251675,
+        "titleChance": 0.0635,
+        "podiumChance": 0.275225,
         "eliminated": false
       }
     },
@@ -24345,8 +24921,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.02775,
-        "podiumChance": 0.20985,
+        "titleChance": 0.022475,
+        "podiumChance": 0.1897,
         "eliminated": false
       }
     },
@@ -24368,8 +24944,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.031,
-        "podiumChance": 0.192175,
+        "titleChance": 0.0314,
+        "podiumChance": 0.181875,
         "eliminated": false
       }
     },
@@ -24391,8 +24967,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.02015,
-        "podiumChance": 0.14365,
+        "titleChance": 0.01755,
+        "podiumChance": 0.1281,
         "eliminated": false
       }
     },
@@ -24414,8 +24990,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.0376,
-        "podiumChance": 0.1454875,
+        "titleChance": 0.0349625,
+        "podiumChance": 0.1439,
         "eliminated": false
       }
     },
@@ -24437,8 +25013,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.031075,
-        "podiumChance": 0.1229125,
+        "titleChance": 0.0194625,
+        "podiumChance": 0.1108,
         "eliminated": false
       }
     },
@@ -24460,8 +25036,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.007425,
-        "podiumChance": 0.037375,
+        "titleChance": 0.00775,
+        "podiumChance": 0.04135,
         "eliminated": false
       }
     },
@@ -24483,8 +25059,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.00275,
-        "podiumChance": 0.02715,
+        "titleChance": 0.00255,
+        "podiumChance": 0.027575,
         "eliminated": false
       }
     },
@@ -24506,8 +25082,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.00105,
-        "podiumChance": 0.025125,
+        "titleChance": 0.0007,
+        "podiumChance": 0.0187,
         "eliminated": false
       }
     },
@@ -24529,8 +25105,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.0003,
-        "podiumChance": 0.0027,
+        "titleChance": 0.000475,
+        "podiumChance": 0.002975,
         "eliminated": false
       }
     },

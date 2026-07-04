@@ -10,6 +10,7 @@ Producao: https://bolao-dos-follis.pages.dev/
 2. Substitua o CSV bruto local da fase correspondente:
    - Fase de grupos: `data/raw/group-stage-current.csv`
    - 16 avos: `data/raw/round-of-32-current.csv`
+   - Oitavas parte 1: `data/raw/round-of-16-part1-current.csv`
 3. Ajuste nomes em `data/manual/people.json`, se alguem preencher diferente.
 4. Cadastre nomes que devem ser ignorados em `data/manual/ignored-people.json`, se houver.
 5. Ajuste correcoes manuais de palpites em `data/manual/prediction-overrides.json`, se houver.

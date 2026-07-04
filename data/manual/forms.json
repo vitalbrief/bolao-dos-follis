@@ -54,6 +54,22 @@
         { "matchId": "arg-cpv", "homeScoreColumnIndex": 30, "awayScoreColumnIndex": 31 },
         { "matchId": "col-gan", "homeScoreColumnIndex": 32, "awayScoreColumnIndex": 33 }
       ]
+    },
+    {
+      "id": "round-of-16-part1-2026",
+      "label": "Oitavas de Final (Parte 1)",
+      "stage": "round_of_16",
+      "sourceCsv": "data/raw/round-of-16-part1-current.csv",
+      "timestampColumnIndex": 0,
+      "nameColumnIndex": 1,
+      "matchScoreColumns": [
+        { "matchId": "can-mar", "homeScoreColumnIndex": 2, "awayScoreColumnIndex": 3 },
+        { "matchId": "par-fra", "homeScoreColumnIndex": 4, "awayScoreColumnIndex": 5 },
+        { "matchId": "bra-nor", "homeScoreColumnIndex": 6, "awayScoreColumnIndex": 7 },
+        { "matchId": "mex-eng", "homeScoreColumnIndex": 8, "awayScoreColumnIndex": 9 },
+        { "matchId": "por-esp", "homeScoreColumnIndex": 10, "awayScoreColumnIndex": 11 },
+        { "matchId": "usa-bel", "homeScoreColumnIndex": 12, "awayScoreColumnIndex": 13 }
+      ]
     }
   ]
 }
