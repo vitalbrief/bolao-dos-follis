@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-07-03T21:29:43.704Z",
+    "generatedAt": "2026-07-04T00:46:20.962Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
     "submissionCount": 33,
     "ignoredSubmissionCount": 0,
     "pointsAtStake": {
-      "total": 115,
+      "total": 110,
       "groups": 0,
       "brazilMatches": 0,
-      "knockout": 90,
+      "knockout": 85,
       "champion": 15,
       "runnerUp": 10
     },
@@ -183,7 +183,7 @@
   "tournament": {
     "name": "Bolão dos Follis",
     "season": "Copa do Mundo 2026",
-    "lastResultsCheckedAt": "2026-07-03T18:28:57-03:00",
+    "lastResultsCheckedAt": "2026-07-03T21:45:27-03:00",
     "champion": null,
     "runnerUp": null,
     "groups": {
@@ -502,10 +502,10 @@
         "homeTeam": "Argentina",
         "awayTeam": "Cabo Verde",
         "kickoff": "2026-07-03T19:00:00-03:00",
-        "status": "scheduled",
+        "status": "final",
         "result": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         },
         "sourceUrl": null,
         "advanced": null
@@ -614,6 +614,21 @@
         },
         "sourceUrl": null,
         "advanced": null
+      },
+      {
+        "id": "arg-egy",
+        "stage": "round_of_16",
+        "stageLabel": "Oitavas 7 · 07/07 13:00",
+        "homeTeam": "Argentina",
+        "awayTeam": "Egito",
+        "kickoff": "2026-07-07T13:00:00-03:00",
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null,
+        "advanced": null
       }
     ]
   },
@@ -623,21 +638,21 @@
       "displayName": "Fer e Bruno",
       "rank": 1,
       "score": {
-        "total": 109,
+        "total": 112,
         "groupClassificationPoints": 52,
         "brazilGroupMatchPoints": 13,
         "groupPhasePoints": 65,
-        "knockoutPoints": 44,
+        "knockoutPoints": 47,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 15,
+        "outcomeHits": 16,
         "exactScoreHits": 6,
         "exactTiebreakerHits": 6,
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.32285,
-        "podiumChance": 0.688725,
+        "titleChance": 0.3185,
+        "podiumChance": 0.677525,
         "eliminated": false
       },
       "predictions": {
@@ -1666,10 +1681,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -1679,12 +1694,12 @@
               "away": 0,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -1875,6 +1890,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -1894,21 +1936,21 @@
       "displayName": "Mayara Gielow",
       "rank": 2,
       "score": {
-        "total": 105,
+        "total": 108,
         "groupClassificationPoints": 49,
         "brazilGroupMatchPoints": 8,
         "groupPhasePoints": 57,
-        "knockoutPoints": 48,
+        "knockoutPoints": 51,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 14,
+        "outcomeHits": 15,
         "exactScoreHits": 7,
         "exactTiebreakerHits": 7,
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.194775,
-        "podiumChance": 0.51485,
+        "titleChance": 0.200675,
+        "podiumChance": 0.517525,
         "eliminated": false
       },
       "predictions": {
@@ -2937,10 +2979,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -2950,12 +2992,12 @@
               "away": 0,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -3146,6 +3188,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -3165,21 +3234,21 @@
       "displayName": "Jacques Bartolomeo",
       "rank": 3,
       "score": {
-        "total": 102,
+        "total": 105,
         "groupClassificationPoints": 52,
         "brazilGroupMatchPoints": 8,
         "groupPhasePoints": 60,
-        "knockoutPoints": 42,
+        "knockoutPoints": 45,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 14,
+        "outcomeHits": 15,
         "exactScoreHits": 4,
         "exactTiebreakerHits": 4,
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.0657,
-        "podiumChance": 0.311575,
+        "titleChance": 0.0634,
+        "podiumChance": 0.30675,
         "eliminated": false
       },
       "predictions": {
@@ -4208,10 +4277,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -4221,12 +4290,12 @@
               "away": 0,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -4417,6 +4486,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -4436,21 +4532,21 @@
       "displayName": "Lucas Taveira Follis",
       "rank": 4,
       "score": {
-        "total": 102,
+        "total": 105,
         "groupClassificationPoints": 58,
         "brazilGroupMatchPoints": 8,
         "groupPhasePoints": 66,
-        "knockoutPoints": 36,
+        "knockoutPoints": 39,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 12,
+        "outcomeHits": 13,
         "exactScoreHits": 4,
         "exactTiebreakerHits": 4,
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.10275,
-        "podiumChance": 0.300125,
+        "titleChance": 0.10405,
+        "podiumChance": 0.303,
         "eliminated": false
       },
       "predictions": {
@@ -5479,10 +5575,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -5492,12 +5588,12 @@
               "away": 0,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -5688,6 +5784,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -5707,21 +5830,21 @@
       "displayName": "Gustavo Espírito",
       "rank": 5,
       "score": {
-        "total": 101,
+        "total": 104,
         "groupClassificationPoints": 61,
         "brazilGroupMatchPoints": 3,
         "groupPhasePoints": 64,
-        "knockoutPoints": 37,
+        "knockoutPoints": 40,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 12,
+        "outcomeHits": 13,
         "exactScoreHits": 2,
         "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.149825,
-        "podiumChance": 0.34335,
+        "titleChance": 0.1464,
+        "podiumChance": 0.336425,
         "eliminated": false
       },
       "predictions": {
@@ -6750,10 +6873,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -6763,12 +6886,12 @@
               "away": 0,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -6959,6 +7082,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -6978,21 +7128,21 @@
       "displayName": "Guh e Mah",
       "rank": 6,
       "score": {
-        "total": 100,
+        "total": 103,
         "groupClassificationPoints": 58,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 64,
-        "knockoutPoints": 36,
+        "knockoutPoints": 39,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 12,
+        "outcomeHits": 13,
         "exactScoreHits": 3,
         "exactTiebreakerHits": 3,
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.06305,
-        "podiumChance": 0.25435,
+        "titleChance": 0.0579,
+        "podiumChance": 0.248075,
         "eliminated": false
       },
       "predictions": {
@@ -8021,10 +8171,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -8034,12 +8184,12 @@
               "away": 0,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -8230,6 +8380,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -8249,21 +8426,21 @@
       "displayName": "Marcelo Tasso",
       "rank": 7,
       "score": {
-        "total": 97,
+        "total": 100,
         "groupClassificationPoints": 55,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 61,
-        "knockoutPoints": 36,
+        "knockoutPoints": 39,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 12,
+        "outcomeHits": 13,
         "exactScoreHits": 3,
         "exactTiebreakerHits": 3,
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.021775,
-        "podiumChance": 0.14625,
+        "titleChance": 0.01965,
+        "podiumChance": 0.13975,
         "eliminated": false
       },
       "predictions": {
@@ -9292,10 +9469,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -9305,12 +9482,12 @@
               "away": 0,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -9501,6 +9678,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -9520,21 +9724,21 @@
       "displayName": "Lara Vieira Balieiro Tasso",
       "rank": 8,
       "score": {
-        "total": 97,
+        "total": 100,
         "groupClassificationPoints": 56,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 62,
-        "knockoutPoints": 35,
+        "knockoutPoints": 38,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 13,
+        "outcomeHits": 14,
         "exactScoreHits": 1,
         "exactTiebreakerHits": 1,
         "exactKnockoutHits": 1
       },
       "chances": {
-        "titleChance": 0.0182,
-        "podiumChance": 0.129225,
+        "titleChance": 0.017875,
+        "podiumChance": 0.12455,
         "eliminated": false
       },
       "predictions": {
@@ -10563,10 +10767,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -10576,12 +10780,12 @@
               "away": 0,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -10772,6 +10976,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -10791,21 +11022,21 @@
       "displayName": "Hélio Tasso Júnior",
       "rank": 9,
       "score": {
-        "total": 91,
+        "total": 94,
         "groupClassificationPoints": 45,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 51,
-        "knockoutPoints": 40,
+        "knockoutPoints": 43,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 12,
+        "outcomeHits": 13,
         "exactScoreHits": 5,
         "exactTiebreakerHits": 5,
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.027875,
-        "podiumChance": 0.1156375,
+        "titleChance": 0.0317125,
+        "podiumChance": 0.1278375,
         "eliminated": false
       },
       "predictions": {
@@ -11834,10 +12065,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -11847,12 +12078,12 @@
               "away": 0,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -12043,1259 +12274,15 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
-          }
-        },
-        "champion": {
-          "prediction": "Argentina",
-          "actual": null,
-          "points": 0
-        },
-        "runnerUp": {
-          "prediction": "Brasil",
-          "actual": null,
-          "points": 0
-        }
-      }
-    },
-    {
-      "id": "vinicius-follis-tasso",
-      "displayName": "Vinicius Follis Tasso",
-      "rank": 10,
-      "score": {
-        "total": 90,
-        "groupClassificationPoints": 45,
-        "brazilGroupMatchPoints": 6,
-        "groupPhasePoints": 51,
-        "knockoutPoints": 39,
-        "championPoints": 0,
-        "runnerUpPoints": 0,
-        "outcomeHits": 13,
-        "exactScoreHits": 3,
-        "exactTiebreakerHits": 3,
-        "exactKnockoutHits": 3
-      },
-      "chances": {
-        "titleChance": 0.021825,
-        "podiumChance": 0.092575,
-        "eliminated": false
-      },
-      "predictions": {
-        "champion": "Argentina",
-        "runnerUp": "Brasil",
-        "groups": {
-          "A": {
-            "first": "Coreia do Sul",
-            "second": "México"
           },
-          "B": {
-            "first": "Suíça",
-            "second": "Bósnia e Herz."
-          },
-          "C": {
-            "first": "Brasil",
-            "second": "Marrocos"
-          },
-          "D": {
-            "first": "EUA",
-            "second": "Paraguai"
-          },
-          "E": {
-            "first": "Equador",
-            "second": "Alemanha"
-          },
-          "F": {
-            "first": "Holanda",
-            "second": "Suécia"
-          },
-          "G": {
-            "first": "Bélgica",
-            "second": "Egito"
-          },
-          "H": {
-            "first": "Espanha",
-            "second": "Uruguai"
-          },
-          "I": {
-            "first": "França",
-            "second": "Noruega"
-          },
-          "J": {
-            "first": "Argentina",
-            "second": "Argélia"
-          },
-          "K": {
-            "first": "Portugal",
-            "second": "Colômbia"
-          },
-          "L": {
-            "first": "Croácia",
-            "second": "Inglaterra"
-          }
-        },
-        "matches": {
-          "bra-mar": {
-            "home": 1,
-            "away": 0,
-            "label": "Brasil x Marrocos"
-          },
-          "bra-hai": {
-            "home": 5,
-            "away": 0,
-            "label": "Brasil x Haiti"
-          },
-          "sco-bra": {
-            "home": 1,
-            "away": 2,
-            "label": "Escócia x Brasil"
-          },
-          "rsa-can": {
-            "home": 0,
-            "away": 1,
-            "label": "África do Sul x Canadá"
-          },
-          "bra-jpn": {
-            "home": 1,
-            "away": 0,
-            "label": "Brasil x Japão"
-          },
-          "ger-par": {
-            "home": 2,
-            "away": 1,
-            "label": "Alemanha x Paraguai"
-          },
-          "ned-mar": {
-            "home": 2,
-            "away": 2,
-            "label": "Holanda x Marrocos"
-          },
-          "civ-nor": {
-            "home": 2,
-            "away": 1,
-            "label": "Costa do Marfim x Noruega"
-          },
-          "fra-swe": {
-            "home": 3,
-            "away": 0,
-            "label": "França x Suécia"
-          },
-          "mex-ecu": {
-            "home": 1,
-            "away": 0,
-            "label": "México x Equador"
-          },
-          "eng-cod": {
-            "home": 2,
-            "away": 0,
-            "label": "Inglaterra x RD Congo"
-          },
-          "bel-sen": {
-            "home": 2,
-            "away": 1,
-            "label": "Bélgica x Senegal"
-          },
-          "usa-bih": {
-            "home": 1,
-            "away": 0,
-            "label": "EUA x Bósnia e Herz."
-          },
-          "esp-aut": {
-            "home": 2,
-            "away": 0,
-            "label": "Espanha x Áustria"
-          },
-          "por-cro": {
-            "home": 1,
-            "away": 1,
-            "label": "Portugal x Croácia"
-          },
-          "sui-alg": {
-            "home": 2,
-            "away": 1,
-            "label": "Suíça x Argélia"
-          },
-          "aus-egy": {
-            "home": 1,
-            "away": 1,
-            "label": "Austrália x Egito"
-          },
-          "arg-cpv": {
-            "home": 3,
-            "away": 0,
-            "label": "Argentina x Cabo Verde"
-          },
-          "col-gan": {
-            "home": 1,
-            "away": 0,
-            "label": "Colômbia x Gana"
-          }
-        }
-      },
-      "breakdown": {
-        "groups": {
-          "A": {
-            "prediction": {
-              "first": "Coreia do Sul",
-              "second": "México"
-            },
-            "actual": {
-              "first": "México",
-              "second": "África do Sul"
-            },
-            "points": 2,
-            "qualifiedHits": 1,
-            "exactPositionHits": 0,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "Coreia do Sul",
-                "qualifiedHit": false,
-                "exactPositionHit": false,
-                "points": 0,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "México",
-                "qualifiedHit": true,
-                "exactPositionHit": false,
-                "points": 2,
-                "duplicateIgnored": false
-              }
-            ]
-          },
-          "B": {
-            "prediction": {
-              "first": "Suíça",
-              "second": "Bósnia e Herz."
-            },
-            "actual": {
-              "first": "Suíça",
-              "second": "Canadá"
-            },
-            "points": 3,
-            "qualifiedHits": 1,
-            "exactPositionHits": 1,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "Suíça",
-                "qualifiedHit": true,
-                "exactPositionHit": true,
-                "points": 3,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "Bósnia e Herz.",
-                "qualifiedHit": false,
-                "exactPositionHit": false,
-                "points": 0,
-                "duplicateIgnored": false
-              }
-            ]
-          },
-          "C": {
-            "prediction": {
-              "first": "Brasil",
-              "second": "Marrocos"
-            },
-            "actual": {
-              "first": "Brasil",
-              "second": "Marrocos"
-            },
-            "points": 6,
-            "qualifiedHits": 2,
-            "exactPositionHits": 2,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "Brasil",
-                "qualifiedHit": true,
-                "exactPositionHit": true,
-                "points": 3,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "Marrocos",
-                "qualifiedHit": true,
-                "exactPositionHit": true,
-                "points": 3,
-                "duplicateIgnored": false
-              }
-            ]
-          },
-          "D": {
-            "prediction": {
-              "first": "EUA",
-              "second": "Paraguai"
-            },
-            "actual": {
-              "first": "EUA",
-              "second": "Austrália"
-            },
-            "points": 3,
-            "qualifiedHits": 1,
-            "exactPositionHits": 1,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "EUA",
-                "qualifiedHit": true,
-                "exactPositionHit": true,
-                "points": 3,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "Paraguai",
-                "qualifiedHit": false,
-                "exactPositionHit": false,
-                "points": 0,
-                "duplicateIgnored": false
-              }
-            ]
-          },
-          "E": {
-            "prediction": {
-              "first": "Equador",
-              "second": "Alemanha"
-            },
-            "actual": {
-              "first": "Alemanha",
-              "second": "Costa do Marfim"
-            },
-            "points": 2,
-            "qualifiedHits": 1,
-            "exactPositionHits": 0,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "Equador",
-                "qualifiedHit": false,
-                "exactPositionHit": false,
-                "points": 0,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "Alemanha",
-                "qualifiedHit": true,
-                "exactPositionHit": false,
-                "points": 2,
-                "duplicateIgnored": false
-              }
-            ]
-          },
-          "F": {
-            "prediction": {
-              "first": "Holanda",
-              "second": "Suécia"
-            },
-            "actual": {
-              "first": "Holanda",
-              "second": "Japão"
-            },
-            "points": 3,
-            "qualifiedHits": 1,
-            "exactPositionHits": 1,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "Holanda",
-                "qualifiedHit": true,
-                "exactPositionHit": true,
-                "points": 3,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "Suécia",
-                "qualifiedHit": false,
-                "exactPositionHit": false,
-                "points": 0,
-                "duplicateIgnored": false
-              }
-            ]
-          },
-          "G": {
-            "prediction": {
-              "first": "Bélgica",
-              "second": "Egito"
-            },
-            "actual": {
-              "first": "Bélgica",
-              "second": "Egito"
-            },
-            "points": 6,
-            "qualifiedHits": 2,
-            "exactPositionHits": 2,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "Bélgica",
-                "qualifiedHit": true,
-                "exactPositionHit": true,
-                "points": 3,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "Egito",
-                "qualifiedHit": true,
-                "exactPositionHit": true,
-                "points": 3,
-                "duplicateIgnored": false
-              }
-            ]
-          },
-          "H": {
-            "prediction": {
-              "first": "Espanha",
-              "second": "Uruguai"
-            },
-            "actual": {
-              "first": "Espanha",
-              "second": "Cabo Verde"
-            },
-            "points": 3,
-            "qualifiedHits": 1,
-            "exactPositionHits": 1,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "Espanha",
-                "qualifiedHit": true,
-                "exactPositionHit": true,
-                "points": 3,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "Uruguai",
-                "qualifiedHit": false,
-                "exactPositionHit": false,
-                "points": 0,
-                "duplicateIgnored": false
-              }
-            ]
-          },
-          "I": {
-            "prediction": {
-              "first": "França",
-              "second": "Noruega"
-            },
-            "actual": {
-              "first": "França",
-              "second": "Noruega"
-            },
-            "points": 6,
-            "qualifiedHits": 2,
-            "exactPositionHits": 2,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "França",
-                "qualifiedHit": true,
-                "exactPositionHit": true,
-                "points": 3,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "Noruega",
-                "qualifiedHit": true,
-                "exactPositionHit": true,
-                "points": 3,
-                "duplicateIgnored": false
-              }
-            ]
-          },
-          "J": {
-            "prediction": {
-              "first": "Argentina",
-              "second": "Argélia"
-            },
-            "actual": {
-              "first": "Argentina",
-              "second": "Áustria"
-            },
-            "points": 3,
-            "qualifiedHits": 1,
-            "exactPositionHits": 1,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "Argentina",
-                "qualifiedHit": true,
-                "exactPositionHit": true,
-                "points": 3,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "Argélia",
-                "qualifiedHit": false,
-                "exactPositionHit": false,
-                "points": 0,
-                "duplicateIgnored": false
-              }
-            ]
-          },
-          "K": {
-            "prediction": {
-              "first": "Portugal",
-              "second": "Colômbia"
-            },
-            "actual": {
-              "first": "Colômbia",
-              "second": "Portugal"
-            },
-            "points": 4,
-            "qualifiedHits": 2,
-            "exactPositionHits": 0,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "Portugal",
-                "qualifiedHit": true,
-                "exactPositionHit": false,
-                "points": 2,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "Colômbia",
-                "qualifiedHit": true,
-                "exactPositionHit": false,
-                "points": 2,
-                "duplicateIgnored": false
-              }
-            ]
-          },
-          "L": {
-            "prediction": {
-              "first": "Croácia",
-              "second": "Inglaterra"
-            },
-            "actual": {
-              "first": "Inglaterra",
-              "second": "Croácia"
-            },
-            "points": 4,
-            "qualifiedHits": 2,
-            "exactPositionHits": 0,
-            "pending": false,
-            "slots": [
-              {
-                "position": "first",
-                "team": "Croácia",
-                "qualifiedHit": true,
-                "exactPositionHit": false,
-                "points": 2,
-                "duplicateIgnored": false
-              },
-              {
-                "position": "second",
-                "team": "Inglaterra",
-                "qualifiedHit": true,
-                "exactPositionHit": false,
-                "points": 2,
-                "duplicateIgnored": false
-              }
-            ]
-          }
-        },
-        "matches": {
-          "bra-mar": {
+          "arg-egy": {
             "match": {
-              "id": "bra-mar",
-              "stage": "group_brazil",
-              "stageLabel": "Brasil na fase de grupos",
-              "group": "C",
-              "homeTeam": "Brasil",
-              "awayTeam": "Marrocos",
-              "kickoff": null,
-              "status": "final",
-              "result": {
-                "home": 1,
-                "away": 1
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 1,
-              "away": 0,
-              "label": "Brasil x Marrocos"
-            },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "bra-hai": {
-            "match": {
-              "id": "bra-hai",
-              "stage": "group_brazil",
-              "stageLabel": "Brasil na fase de grupos",
-              "group": "C",
-              "homeTeam": "Brasil",
-              "awayTeam": "Haiti",
-              "kickoff": null,
-              "status": "final",
-              "result": {
-                "home": 3,
-                "away": 0
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 5,
-              "away": 0,
-              "label": "Brasil x Haiti"
-            },
-            "points": 3,
-            "outcomeHit": true,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "sco-bra": {
-            "match": {
-              "id": "sco-bra",
-              "stage": "group_brazil",
-              "stageLabel": "Brasil na fase de grupos",
-              "group": "C",
-              "homeTeam": "Escócia",
-              "awayTeam": "Brasil",
-              "kickoff": null,
-              "status": "final",
-              "result": {
-                "home": 0,
-                "away": 3
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 1,
-              "away": 2,
-              "label": "Escócia x Brasil"
-            },
-            "points": 3,
-            "outcomeHit": true,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "rsa-can": {
-            "match": {
-              "id": "rsa-can",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 28/06 16:00",
-              "homeTeam": "África do Sul",
-              "awayTeam": "Canadá",
-              "kickoff": "2026-06-28T16:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 0,
-                "away": 1
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 0,
-              "away": 1,
-              "label": "África do Sul x Canadá"
-            },
-            "points": 5,
-            "outcomeHit": true,
-            "exactHit": true,
-            "exactTiebreakerHit": true,
-            "exactKnockoutHit": true,
-            "pending": false
-          },
-          "bra-jpn": {
-            "match": {
-              "id": "bra-jpn",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 29/06 14:00",
-              "homeTeam": "Brasil",
-              "awayTeam": "Japão",
-              "kickoff": "2026-06-29T14:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 2,
-                "away": 1
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 1,
-              "away": 0,
-              "label": "Brasil x Japão"
-            },
-            "points": 3,
-            "outcomeHit": true,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "ger-par": {
-            "match": {
-              "id": "ger-par",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 29/06 17:30",
-              "homeTeam": "Alemanha",
-              "awayTeam": "Paraguai",
-              "kickoff": "2026-06-29T17:30:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 1,
-                "away": 1
-              },
-              "advanced": "Paraguai",
-              "sourceUrl": null
-            },
-            "prediction": {
-              "home": 2,
-              "away": 1,
-              "label": "Alemanha x Paraguai"
-            },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "ned-mar": {
-            "match": {
-              "id": "ned-mar",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 29/06 22:00",
-              "homeTeam": "Holanda",
-              "awayTeam": "Marrocos",
-              "kickoff": "2026-06-29T22:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 1,
-                "away": 1
-              },
-              "advanced": "Marrocos",
-              "sourceUrl": null
-            },
-            "prediction": {
-              "home": 2,
-              "away": 2,
-              "label": "Holanda x Marrocos"
-            },
-            "points": 3,
-            "outcomeHit": true,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "civ-nor": {
-            "match": {
-              "id": "civ-nor",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 30/06 14:00",
-              "homeTeam": "Costa do Marfim",
-              "awayTeam": "Noruega",
-              "kickoff": "2026-06-30T14:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 1,
-                "away": 2
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 2,
-              "away": 1,
-              "label": "Costa do Marfim x Noruega"
-            },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "fra-swe": {
-            "match": {
-              "id": "fra-swe",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 30/06 18:00",
-              "homeTeam": "França",
-              "awayTeam": "Suécia",
-              "kickoff": "2026-06-30T18:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 3,
-                "away": 0
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 3,
-              "away": 0,
-              "label": "França x Suécia"
-            },
-            "points": 5,
-            "outcomeHit": true,
-            "exactHit": true,
-            "exactTiebreakerHit": true,
-            "exactKnockoutHit": true,
-            "pending": false
-          },
-          "mex-ecu": {
-            "match": {
-              "id": "mex-ecu",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 30/06 22:00",
-              "homeTeam": "México",
-              "awayTeam": "Equador",
-              "kickoff": "2026-06-30T22:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 2,
-                "away": 0
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 1,
-              "away": 0,
-              "label": "México x Equador"
-            },
-            "points": 3,
-            "outcomeHit": true,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "eng-cod": {
-            "match": {
-              "id": "eng-cod",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 01/07 13:00",
-              "homeTeam": "Inglaterra",
-              "awayTeam": "RD Congo",
-              "kickoff": "2026-07-01T13:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 2,
-                "away": 1
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 2,
-              "away": 0,
-              "label": "Inglaterra x RD Congo"
-            },
-            "points": 3,
-            "outcomeHit": true,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "bel-sen": {
-            "match": {
-              "id": "bel-sen",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 01/07 17:00",
-              "homeTeam": "Bélgica",
-              "awayTeam": "Senegal",
-              "kickoff": "2026-07-01T17:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 3,
-                "away": 2
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 2,
-              "away": 1,
-              "label": "Bélgica x Senegal"
-            },
-            "points": 3,
-            "outcomeHit": true,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "usa-bih": {
-            "match": {
-              "id": "usa-bih",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 01/07 21:00",
-              "homeTeam": "EUA",
-              "awayTeam": "Bósnia e Herz.",
-              "kickoff": "2026-07-01T21:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 2,
-                "away": 0
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 1,
-              "away": 0,
-              "label": "EUA x Bósnia e Herz."
-            },
-            "points": 3,
-            "outcomeHit": true,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "esp-aut": {
-            "match": {
-              "id": "esp-aut",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 02/07 16:00",
-              "homeTeam": "Espanha",
-              "awayTeam": "Áustria",
-              "kickoff": "2026-07-02T16:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 3,
-                "away": 0
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 2,
-              "away": 0,
-              "label": "Espanha x Áustria"
-            },
-            "points": 3,
-            "outcomeHit": true,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "por-cro": {
-            "match": {
-              "id": "por-cro",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 02/07 20:00",
-              "homeTeam": "Portugal",
-              "awayTeam": "Croácia",
-              "kickoff": "2026-07-02T20:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 2,
-                "away": 1
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 1,
-              "away": 1,
-              "label": "Portugal x Croácia"
-            },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "sui-alg": {
-            "match": {
-              "id": "sui-alg",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 03/07 00:00",
-              "homeTeam": "Suíça",
-              "awayTeam": "Argélia",
-              "kickoff": "2026-07-03T00:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 2,
-                "away": 0
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 2,
-              "away": 1,
-              "label": "Suíça x Argélia"
-            },
-            "points": 3,
-            "outcomeHit": true,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": false
-          },
-          "aus-egy": {
-            "match": {
-              "id": "aus-egy",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 03/07 15:00",
-              "homeTeam": "Austrália",
-              "awayTeam": "Egito",
-              "kickoff": "2026-07-03T15:00:00-03:00",
-              "status": "final",
-              "result": {
-                "home": 1,
-                "away": 1
-              },
-              "advanced": "Egito",
-              "sourceUrl": null
-            },
-            "prediction": {
-              "home": 1,
-              "away": 1,
-              "label": "Austrália x Egito"
-            },
-            "points": 5,
-            "outcomeHit": true,
-            "exactHit": true,
-            "exactTiebreakerHit": true,
-            "exactKnockoutHit": true,
-            "pending": false
-          },
-          "arg-cpv": {
-            "match": {
-              "id": "arg-cpv",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 03/07 19:00",
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
               "homeTeam": "Argentina",
-              "awayTeam": "Cabo Verde",
-              "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
-              "result": {
-                "home": null,
-                "away": null
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 3,
-              "away": 0,
-              "label": "Argentina x Cabo Verde"
-            },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": true
-          },
-          "col-gan": {
-            "match": {
-              "id": "col-gan",
-              "stage": "round_of_32",
-              "stageLabel": "16 avos · 03/07 22:30",
-              "homeTeam": "Colômbia",
-              "awayTeam": "Gana",
-              "kickoff": "2026-07-03T22:30:00-03:00",
-              "status": "scheduled",
-              "result": {
-                "home": null,
-                "away": null
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": 1,
-              "away": 0,
-              "label": "Colômbia x Gana"
-            },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": true
-          },
-          "par-fra": {
-            "match": {
-              "id": "par-fra",
-              "stage": "round_of_16",
-              "stageLabel": "Oitavas 1 · 04/07 18:00",
-              "homeTeam": "Paraguai",
-              "awayTeam": "França",
-              "kickoff": "2026-07-04T18:00:00-03:00",
-              "status": "scheduled",
-              "result": {
-                "home": null,
-                "away": null
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": null,
-              "away": null
-            },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": true
-          },
-          "can-mar": {
-            "match": {
-              "id": "can-mar",
-              "stage": "round_of_16",
-              "stageLabel": "Oitavas 2 · 04/07 14:00",
-              "homeTeam": "Canadá",
-              "awayTeam": "Marrocos",
-              "kickoff": "2026-07-04T14:00:00-03:00",
-              "status": "scheduled",
-              "result": {
-                "home": null,
-                "away": null
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": null,
-              "away": null
-            },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": true
-          },
-          "por-esp": {
-            "match": {
-              "id": "por-esp",
-              "stage": "round_of_16",
-              "stageLabel": "Oitavas 3 · 06/07 16:00",
-              "homeTeam": "Portugal",
-              "awayTeam": "Espanha",
-              "kickoff": "2026-07-06T16:00:00-03:00",
-              "status": "scheduled",
-              "result": {
-                "home": null,
-                "away": null
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": null,
-              "away": null
-            },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": true
-          },
-          "usa-bel": {
-            "match": {
-              "id": "usa-bel",
-              "stage": "round_of_16",
-              "stageLabel": "Oitavas 4 · 06/07 21:00",
-              "homeTeam": "EUA",
-              "awayTeam": "Bélgica",
-              "kickoff": "2026-07-06T21:00:00-03:00",
-              "status": "scheduled",
-              "result": {
-                "home": null,
-                "away": null
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": null,
-              "away": null
-            },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": true
-          },
-          "bra-nor": {
-            "match": {
-              "id": "bra-nor",
-              "stage": "round_of_16",
-              "stageLabel": "Oitavas 5 · 05/07 17:00",
-              "homeTeam": "Brasil",
-              "awayTeam": "Noruega",
-              "kickoff": "2026-07-05T17:00:00-03:00",
-              "status": "scheduled",
-              "result": {
-                "home": null,
-                "away": null
-              },
-              "sourceUrl": null,
-              "advanced": null
-            },
-            "prediction": {
-              "home": null,
-              "away": null
-            },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": true
-          },
-          "mex-eng": {
-            "match": {
-              "id": "mex-eng",
-              "stage": "round_of_16",
-              "stageLabel": "Oitavas 6 · 05/07 21:00",
-              "homeTeam": "México",
-              "awayTeam": "Inglaterra",
-              "kickoff": "2026-07-05T21:00:00-03:00",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
               "status": "scheduled",
               "result": {
                 "home": null,
@@ -13331,23 +12318,23 @@
     {
       "id": "rose",
       "displayName": "Rose Follis Tasso",
-      "rank": 11,
+      "rank": 10,
       "score": {
-        "total": 89,
+        "total": 94,
         "groupClassificationPoints": 51,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 57,
-        "knockoutPoints": 32,
+        "knockoutPoints": 37,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 12,
-        "exactScoreHits": 1,
-        "exactTiebreakerHits": 1,
-        "exactKnockoutHits": 1
+        "outcomeHits": 13,
+        "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
+        "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.00495,
-        "podiumChance": 0.02505,
+        "titleChance": 0.008075,
+        "podiumChance": 0.038125,
         "eliminated": false
       },
       "predictions": {
@@ -14376,10 +13363,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -14389,12 +13376,12 @@
               "away": 2,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": true
+            "points": 5,
+            "outcomeHit": true,
+            "exactHit": true,
+            "exactTiebreakerHit": true,
+            "exactKnockoutHit": true,
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -14585,6 +13572,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -14600,25 +13614,1323 @@
       }
     },
     {
+      "id": "vinicius-follis-tasso",
+      "displayName": "Vinicius Follis Tasso",
+      "rank": 11,
+      "score": {
+        "total": 93,
+        "groupClassificationPoints": 45,
+        "brazilGroupMatchPoints": 6,
+        "groupPhasePoints": 51,
+        "knockoutPoints": 42,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 14,
+        "exactScoreHits": 3,
+        "exactTiebreakerHits": 3,
+        "exactKnockoutHits": 3
+      },
+      "chances": {
+        "titleChance": 0.0262125,
+        "podiumChance": 0.1055125,
+        "eliminated": false
+      },
+      "predictions": {
+        "champion": "Argentina",
+        "runnerUp": "Brasil",
+        "groups": {
+          "A": {
+            "first": "Coreia do Sul",
+            "second": "México"
+          },
+          "B": {
+            "first": "Suíça",
+            "second": "Bósnia e Herz."
+          },
+          "C": {
+            "first": "Brasil",
+            "second": "Marrocos"
+          },
+          "D": {
+            "first": "EUA",
+            "second": "Paraguai"
+          },
+          "E": {
+            "first": "Equador",
+            "second": "Alemanha"
+          },
+          "F": {
+            "first": "Holanda",
+            "second": "Suécia"
+          },
+          "G": {
+            "first": "Bélgica",
+            "second": "Egito"
+          },
+          "H": {
+            "first": "Espanha",
+            "second": "Uruguai"
+          },
+          "I": {
+            "first": "França",
+            "second": "Noruega"
+          },
+          "J": {
+            "first": "Argentina",
+            "second": "Argélia"
+          },
+          "K": {
+            "first": "Portugal",
+            "second": "Colômbia"
+          },
+          "L": {
+            "first": "Croácia",
+            "second": "Inglaterra"
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "home": 1,
+            "away": 0,
+            "label": "Brasil x Marrocos"
+          },
+          "bra-hai": {
+            "home": 5,
+            "away": 0,
+            "label": "Brasil x Haiti"
+          },
+          "sco-bra": {
+            "home": 1,
+            "away": 2,
+            "label": "Escócia x Brasil"
+          },
+          "rsa-can": {
+            "home": 0,
+            "away": 1,
+            "label": "África do Sul x Canadá"
+          },
+          "bra-jpn": {
+            "home": 1,
+            "away": 0,
+            "label": "Brasil x Japão"
+          },
+          "ger-par": {
+            "home": 2,
+            "away": 1,
+            "label": "Alemanha x Paraguai"
+          },
+          "ned-mar": {
+            "home": 2,
+            "away": 2,
+            "label": "Holanda x Marrocos"
+          },
+          "civ-nor": {
+            "home": 2,
+            "away": 1,
+            "label": "Costa do Marfim x Noruega"
+          },
+          "fra-swe": {
+            "home": 3,
+            "away": 0,
+            "label": "França x Suécia"
+          },
+          "mex-ecu": {
+            "home": 1,
+            "away": 0,
+            "label": "México x Equador"
+          },
+          "eng-cod": {
+            "home": 2,
+            "away": 0,
+            "label": "Inglaterra x RD Congo"
+          },
+          "bel-sen": {
+            "home": 2,
+            "away": 1,
+            "label": "Bélgica x Senegal"
+          },
+          "usa-bih": {
+            "home": 1,
+            "away": 0,
+            "label": "EUA x Bósnia e Herz."
+          },
+          "esp-aut": {
+            "home": 2,
+            "away": 0,
+            "label": "Espanha x Áustria"
+          },
+          "por-cro": {
+            "home": 1,
+            "away": 1,
+            "label": "Portugal x Croácia"
+          },
+          "sui-alg": {
+            "home": 2,
+            "away": 1,
+            "label": "Suíça x Argélia"
+          },
+          "aus-egy": {
+            "home": 1,
+            "away": 1,
+            "label": "Austrália x Egito"
+          },
+          "arg-cpv": {
+            "home": 3,
+            "away": 0,
+            "label": "Argentina x Cabo Verde"
+          },
+          "col-gan": {
+            "home": 1,
+            "away": 0,
+            "label": "Colômbia x Gana"
+          }
+        }
+      },
+      "breakdown": {
+        "groups": {
+          "A": {
+            "prediction": {
+              "first": "Coreia do Sul",
+              "second": "México"
+            },
+            "actual": {
+              "first": "México",
+              "second": "África do Sul"
+            },
+            "points": 2,
+            "qualifiedHits": 1,
+            "exactPositionHits": 0,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "Coreia do Sul",
+                "qualifiedHit": false,
+                "exactPositionHit": false,
+                "points": 0,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "México",
+                "qualifiedHit": true,
+                "exactPositionHit": false,
+                "points": 2,
+                "duplicateIgnored": false
+              }
+            ]
+          },
+          "B": {
+            "prediction": {
+              "first": "Suíça",
+              "second": "Bósnia e Herz."
+            },
+            "actual": {
+              "first": "Suíça",
+              "second": "Canadá"
+            },
+            "points": 3,
+            "qualifiedHits": 1,
+            "exactPositionHits": 1,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "Suíça",
+                "qualifiedHit": true,
+                "exactPositionHit": true,
+                "points": 3,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "Bósnia e Herz.",
+                "qualifiedHit": false,
+                "exactPositionHit": false,
+                "points": 0,
+                "duplicateIgnored": false
+              }
+            ]
+          },
+          "C": {
+            "prediction": {
+              "first": "Brasil",
+              "second": "Marrocos"
+            },
+            "actual": {
+              "first": "Brasil",
+              "second": "Marrocos"
+            },
+            "points": 6,
+            "qualifiedHits": 2,
+            "exactPositionHits": 2,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "Brasil",
+                "qualifiedHit": true,
+                "exactPositionHit": true,
+                "points": 3,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "Marrocos",
+                "qualifiedHit": true,
+                "exactPositionHit": true,
+                "points": 3,
+                "duplicateIgnored": false
+              }
+            ]
+          },
+          "D": {
+            "prediction": {
+              "first": "EUA",
+              "second": "Paraguai"
+            },
+            "actual": {
+              "first": "EUA",
+              "second": "Austrália"
+            },
+            "points": 3,
+            "qualifiedHits": 1,
+            "exactPositionHits": 1,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "EUA",
+                "qualifiedHit": true,
+                "exactPositionHit": true,
+                "points": 3,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "Paraguai",
+                "qualifiedHit": false,
+                "exactPositionHit": false,
+                "points": 0,
+                "duplicateIgnored": false
+              }
+            ]
+          },
+          "E": {
+            "prediction": {
+              "first": "Equador",
+              "second": "Alemanha"
+            },
+            "actual": {
+              "first": "Alemanha",
+              "second": "Costa do Marfim"
+            },
+            "points": 2,
+            "qualifiedHits": 1,
+            "exactPositionHits": 0,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "Equador",
+                "qualifiedHit": false,
+                "exactPositionHit": false,
+                "points": 0,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "Alemanha",
+                "qualifiedHit": true,
+                "exactPositionHit": false,
+                "points": 2,
+                "duplicateIgnored": false
+              }
+            ]
+          },
+          "F": {
+            "prediction": {
+              "first": "Holanda",
+              "second": "Suécia"
+            },
+            "actual": {
+              "first": "Holanda",
+              "second": "Japão"
+            },
+            "points": 3,
+            "qualifiedHits": 1,
+            "exactPositionHits": 1,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "Holanda",
+                "qualifiedHit": true,
+                "exactPositionHit": true,
+                "points": 3,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "Suécia",
+                "qualifiedHit": false,
+                "exactPositionHit": false,
+                "points": 0,
+                "duplicateIgnored": false
+              }
+            ]
+          },
+          "G": {
+            "prediction": {
+              "first": "Bélgica",
+              "second": "Egito"
+            },
+            "actual": {
+              "first": "Bélgica",
+              "second": "Egito"
+            },
+            "points": 6,
+            "qualifiedHits": 2,
+            "exactPositionHits": 2,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "Bélgica",
+                "qualifiedHit": true,
+                "exactPositionHit": true,
+                "points": 3,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "Egito",
+                "qualifiedHit": true,
+                "exactPositionHit": true,
+                "points": 3,
+                "duplicateIgnored": false
+              }
+            ]
+          },
+          "H": {
+            "prediction": {
+              "first": "Espanha",
+              "second": "Uruguai"
+            },
+            "actual": {
+              "first": "Espanha",
+              "second": "Cabo Verde"
+            },
+            "points": 3,
+            "qualifiedHits": 1,
+            "exactPositionHits": 1,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "Espanha",
+                "qualifiedHit": true,
+                "exactPositionHit": true,
+                "points": 3,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "Uruguai",
+                "qualifiedHit": false,
+                "exactPositionHit": false,
+                "points": 0,
+                "duplicateIgnored": false
+              }
+            ]
+          },
+          "I": {
+            "prediction": {
+              "first": "França",
+              "second": "Noruega"
+            },
+            "actual": {
+              "first": "França",
+              "second": "Noruega"
+            },
+            "points": 6,
+            "qualifiedHits": 2,
+            "exactPositionHits": 2,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "França",
+                "qualifiedHit": true,
+                "exactPositionHit": true,
+                "points": 3,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "Noruega",
+                "qualifiedHit": true,
+                "exactPositionHit": true,
+                "points": 3,
+                "duplicateIgnored": false
+              }
+            ]
+          },
+          "J": {
+            "prediction": {
+              "first": "Argentina",
+              "second": "Argélia"
+            },
+            "actual": {
+              "first": "Argentina",
+              "second": "Áustria"
+            },
+            "points": 3,
+            "qualifiedHits": 1,
+            "exactPositionHits": 1,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "Argentina",
+                "qualifiedHit": true,
+                "exactPositionHit": true,
+                "points": 3,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "Argélia",
+                "qualifiedHit": false,
+                "exactPositionHit": false,
+                "points": 0,
+                "duplicateIgnored": false
+              }
+            ]
+          },
+          "K": {
+            "prediction": {
+              "first": "Portugal",
+              "second": "Colômbia"
+            },
+            "actual": {
+              "first": "Colômbia",
+              "second": "Portugal"
+            },
+            "points": 4,
+            "qualifiedHits": 2,
+            "exactPositionHits": 0,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "Portugal",
+                "qualifiedHit": true,
+                "exactPositionHit": false,
+                "points": 2,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "Colômbia",
+                "qualifiedHit": true,
+                "exactPositionHit": false,
+                "points": 2,
+                "duplicateIgnored": false
+              }
+            ]
+          },
+          "L": {
+            "prediction": {
+              "first": "Croácia",
+              "second": "Inglaterra"
+            },
+            "actual": {
+              "first": "Inglaterra",
+              "second": "Croácia"
+            },
+            "points": 4,
+            "qualifiedHits": 2,
+            "exactPositionHits": 0,
+            "pending": false,
+            "slots": [
+              {
+                "position": "first",
+                "team": "Croácia",
+                "qualifiedHit": true,
+                "exactPositionHit": false,
+                "points": 2,
+                "duplicateIgnored": false
+              },
+              {
+                "position": "second",
+                "team": "Inglaterra",
+                "qualifiedHit": true,
+                "exactPositionHit": false,
+                "points": 2,
+                "duplicateIgnored": false
+              }
+            ]
+          }
+        },
+        "matches": {
+          "bra-mar": {
+            "match": {
+              "id": "bra-mar",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Marrocos",
+              "kickoff": null,
+              "status": "final",
+              "result": {
+                "home": 1,
+                "away": 1
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "Brasil x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "bra-hai": {
+            "match": {
+              "id": "bra-hai",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Brasil",
+              "awayTeam": "Haiti",
+              "kickoff": null,
+              "status": "final",
+              "result": {
+                "home": 3,
+                "away": 0
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 5,
+              "away": 0,
+              "label": "Brasil x Haiti"
+            },
+            "points": 3,
+            "outcomeHit": true,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "sco-bra": {
+            "match": {
+              "id": "sco-bra",
+              "stage": "group_brazil",
+              "stageLabel": "Brasil na fase de grupos",
+              "group": "C",
+              "homeTeam": "Escócia",
+              "awayTeam": "Brasil",
+              "kickoff": null,
+              "status": "final",
+              "result": {
+                "home": 0,
+                "away": 3
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 2,
+              "label": "Escócia x Brasil"
+            },
+            "points": 3,
+            "outcomeHit": true,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "rsa-can": {
+            "match": {
+              "id": "rsa-can",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 28/06 16:00",
+              "homeTeam": "África do Sul",
+              "awayTeam": "Canadá",
+              "kickoff": "2026-06-28T16:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 0,
+                "away": 1
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 0,
+              "away": 1,
+              "label": "África do Sul x Canadá"
+            },
+            "points": 5,
+            "outcomeHit": true,
+            "exactHit": true,
+            "exactTiebreakerHit": true,
+            "exactKnockoutHit": true,
+            "pending": false
+          },
+          "bra-jpn": {
+            "match": {
+              "id": "bra-jpn",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 29/06 14:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Japão",
+              "kickoff": "2026-06-29T14:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 2,
+                "away": 1
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "Brasil x Japão"
+            },
+            "points": 3,
+            "outcomeHit": true,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "ger-par": {
+            "match": {
+              "id": "ger-par",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 29/06 17:30",
+              "homeTeam": "Alemanha",
+              "awayTeam": "Paraguai",
+              "kickoff": "2026-06-29T17:30:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 1,
+                "away": 1
+              },
+              "advanced": "Paraguai",
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Alemanha x Paraguai"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "ned-mar": {
+            "match": {
+              "id": "ned-mar",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 29/06 22:00",
+              "homeTeam": "Holanda",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-06-29T22:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 1,
+                "away": 1
+              },
+              "advanced": "Marrocos",
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 2,
+              "label": "Holanda x Marrocos"
+            },
+            "points": 3,
+            "outcomeHit": true,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "civ-nor": {
+            "match": {
+              "id": "civ-nor",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 30/06 14:00",
+              "homeTeam": "Costa do Marfim",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-06-30T14:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 1,
+                "away": 2
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Costa do Marfim x Noruega"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "fra-swe": {
+            "match": {
+              "id": "fra-swe",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 30/06 18:00",
+              "homeTeam": "França",
+              "awayTeam": "Suécia",
+              "kickoff": "2026-06-30T18:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 3,
+                "away": 0
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 0,
+              "label": "França x Suécia"
+            },
+            "points": 5,
+            "outcomeHit": true,
+            "exactHit": true,
+            "exactTiebreakerHit": true,
+            "exactKnockoutHit": true,
+            "pending": false
+          },
+          "mex-ecu": {
+            "match": {
+              "id": "mex-ecu",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 30/06 22:00",
+              "homeTeam": "México",
+              "awayTeam": "Equador",
+              "kickoff": "2026-06-30T22:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 2,
+                "away": 0
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "México x Equador"
+            },
+            "points": 3,
+            "outcomeHit": true,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "eng-cod": {
+            "match": {
+              "id": "eng-cod",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 01/07 13:00",
+              "homeTeam": "Inglaterra",
+              "awayTeam": "RD Congo",
+              "kickoff": "2026-07-01T13:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 2,
+                "away": 1
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 0,
+              "label": "Inglaterra x RD Congo"
+            },
+            "points": 3,
+            "outcomeHit": true,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "bel-sen": {
+            "match": {
+              "id": "bel-sen",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 01/07 17:00",
+              "homeTeam": "Bélgica",
+              "awayTeam": "Senegal",
+              "kickoff": "2026-07-01T17:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 3,
+                "away": 2
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Bélgica x Senegal"
+            },
+            "points": 3,
+            "outcomeHit": true,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "usa-bih": {
+            "match": {
+              "id": "usa-bih",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 01/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bósnia e Herz.",
+              "kickoff": "2026-07-01T21:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 2,
+                "away": 0
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "EUA x Bósnia e Herz."
+            },
+            "points": 3,
+            "outcomeHit": true,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "esp-aut": {
+            "match": {
+              "id": "esp-aut",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 02/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Áustria",
+              "kickoff": "2026-07-02T16:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 3,
+                "away": 0
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 0,
+              "label": "Espanha x Áustria"
+            },
+            "points": 3,
+            "outcomeHit": true,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "por-cro": {
+            "match": {
+              "id": "por-cro",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 02/07 20:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Croácia",
+              "kickoff": "2026-07-02T20:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 2,
+                "away": 1
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 1,
+              "label": "Portugal x Croácia"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "sui-alg": {
+            "match": {
+              "id": "sui-alg",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 03/07 00:00",
+              "homeTeam": "Suíça",
+              "awayTeam": "Argélia",
+              "kickoff": "2026-07-03T00:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 2,
+                "away": 0
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Suíça x Argélia"
+            },
+            "points": 3,
+            "outcomeHit": true,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "aus-egy": {
+            "match": {
+              "id": "aus-egy",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 03/07 15:00",
+              "homeTeam": "Austrália",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-03T15:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 1,
+                "away": 1
+              },
+              "advanced": "Egito",
+              "sourceUrl": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 1,
+              "label": "Austrália x Egito"
+            },
+            "points": 5,
+            "outcomeHit": true,
+            "exactHit": true,
+            "exactTiebreakerHit": true,
+            "exactKnockoutHit": true,
+            "pending": false
+          },
+          "arg-cpv": {
+            "match": {
+              "id": "arg-cpv",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 03/07 19:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Cabo Verde",
+              "kickoff": "2026-07-03T19:00:00-03:00",
+              "status": "final",
+              "result": {
+                "home": 3,
+                "away": 2
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 0,
+              "label": "Argentina x Cabo Verde"
+            },
+            "points": 3,
+            "outcomeHit": true,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": false
+          },
+          "col-gan": {
+            "match": {
+              "id": "col-gan",
+              "stage": "round_of_32",
+              "stageLabel": "16 avos · 03/07 22:30",
+              "homeTeam": "Colômbia",
+              "awayTeam": "Gana",
+              "kickoff": "2026-07-03T22:30:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "Colômbia x Gana"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "par-fra": {
+            "match": {
+              "id": "par-fra",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 1 · 04/07 18:00",
+              "homeTeam": "Paraguai",
+              "awayTeam": "França",
+              "kickoff": "2026-07-04T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "can-mar": {
+            "match": {
+              "id": "can-mar",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 2 · 04/07 14:00",
+              "homeTeam": "Canadá",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-04T14:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "por-esp": {
+            "match": {
+              "id": "por-esp",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 3 · 06/07 16:00",
+              "homeTeam": "Portugal",
+              "awayTeam": "Espanha",
+              "kickoff": "2026-07-06T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "usa-bel": {
+            "match": {
+              "id": "usa-bel",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 4 · 06/07 21:00",
+              "homeTeam": "EUA",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-06T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "bra-nor": {
+            "match": {
+              "id": "bra-nor",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 5 · 05/07 17:00",
+              "homeTeam": "Brasil",
+              "awayTeam": "Noruega",
+              "kickoff": "2026-07-05T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "mex-eng": {
+            "match": {
+              "id": "mex-eng",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 6 · 05/07 21:00",
+              "homeTeam": "México",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          }
+        },
+        "champion": {
+          "prediction": "Argentina",
+          "actual": null,
+          "points": 0
+        },
+        "runnerUp": {
+          "prediction": "Brasil",
+          "actual": null,
+          "points": 0
+        }
+      }
+    },
+    {
       "id": "camilo-follis",
       "displayName": "Camilo Follis",
       "rank": 12,
       "score": {
-        "total": 88,
+        "total": 91,
         "groupClassificationPoints": 45,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 51,
-        "knockoutPoints": 37,
+        "knockoutPoints": 40,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 13,
+        "outcomeHits": 14,
         "exactScoreHits": 2,
         "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.002825,
-        "podiumChance": 0.0432875,
+        "titleChance": 0.00245,
+        "podiumChance": 0.04155,
         "eliminated": false
       },
       "predictions": {
@@ -15647,10 +15959,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -15660,12 +15972,12 @@
               "away": 1,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -15856,6 +16168,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -15875,21 +16214,21 @@
       "displayName": "Flavia Follis Bartolomeo",
       "rank": 13,
       "score": {
-        "total": 86,
+        "total": 89,
         "groupClassificationPoints": 46,
         "brazilGroupMatchPoints": 5,
         "groupPhasePoints": 51,
-        "knockoutPoints": 35,
+        "knockoutPoints": 38,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 10,
+        "outcomeHits": 11,
         "exactScoreHits": 5,
         "exactTiebreakerHits": 5,
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.002625,
-        "podiumChance": 0.02775,
+        "titleChance": 0.0025,
+        "podiumChance": 0.0272,
         "eliminated": false
       },
       "predictions": {
@@ -16918,10 +17257,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -16931,12 +17270,12 @@
               "away": 1,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -17127,6 +17466,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -17146,21 +17512,21 @@
       "displayName": "Silvia Follis Bartolomeo",
       "rank": 14,
       "score": {
-        "total": 81,
+        "total": 84,
         "groupClassificationPoints": 47,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 53,
-        "knockoutPoints": 28,
+        "knockoutPoints": 31,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 10,
+        "outcomeHits": 11,
         "exactScoreHits": 2,
         "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.000975,
-        "podiumChance": 0.00725,
+        "titleChance": 0.0006,
+        "podiumChance": 0.006175,
         "eliminated": false
       },
       "predictions": {
@@ -18189,10 +18555,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -18202,12 +18568,12 @@
               "away": 0,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -18398,6 +18764,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -18417,17 +18810,17 @@
       "displayName": "Aláyne Lindozo Follis",
       "rank": 15,
       "score": {
-        "total": 63,
+        "total": 68,
         "groupClassificationPoints": 40,
         "brazilGroupMatchPoints": 3,
         "groupPhasePoints": 43,
-        "knockoutPoints": 20,
+        "knockoutPoints": 25,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 7,
-        "exactScoreHits": 1,
-        "exactTiebreakerHits": 1,
-        "exactKnockoutHits": 1
+        "outcomeHits": 8,
+        "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
+        "exactKnockoutHits": 2
       },
       "chances": {
         "titleChance": 0,
@@ -19460,10 +19853,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -19473,12 +19866,12 @@
               "away": 2,
               "label": "Argentina x Cabo Verde"
             },
-            "points": 0,
-            "outcomeHit": false,
-            "exactHit": false,
-            "exactTiebreakerHit": false,
-            "exactKnockoutHit": false,
-            "pending": true
+            "points": 5,
+            "outcomeHit": true,
+            "exactHit": true,
+            "exactTiebreakerHit": true,
+            "exactKnockoutHit": true,
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -19651,6 +20044,33 @@
               "homeTeam": "México",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
               "status": "scheduled",
               "result": {
                 "home": null,
@@ -20637,10 +21057,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -20654,7 +21074,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -20826,6 +21246,33 @@
               "homeTeam": "México",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
               "status": "scheduled",
               "result": {
                 "home": null,
@@ -21812,10 +22259,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -21829,7 +22276,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -22001,6 +22448,33 @@
               "homeTeam": "México",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-05T21:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
               "status": "scheduled",
               "result": {
                 "home": null,
@@ -22987,10 +23461,10 @@
               "homeTeam": "Argentina",
               "awayTeam": "Cabo Verde",
               "kickoff": "2026-07-03T19:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -23004,7 +23478,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "col-gan": {
             "match": {
@@ -23194,6 +23668,33 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": true
+          },
+          "arg-egy": {
+            "match": {
+              "id": "arg-egy",
+              "stage": "round_of_16",
+              "stageLabel": "Oitavas 7 · 07/07 13:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Egito",
+              "kickoff": "2026-07-07T13:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -23215,21 +23716,21 @@
       "displayName": "Fer e Bruno",
       "rank": 1,
       "score": {
-        "total": 109,
+        "total": 112,
         "groupClassificationPoints": 52,
         "brazilGroupMatchPoints": 13,
         "groupPhasePoints": 65,
-        "knockoutPoints": 44,
+        "knockoutPoints": 47,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 15,
+        "outcomeHits": 16,
         "exactScoreHits": 6,
         "exactTiebreakerHits": 6,
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.32285,
-        "podiumChance": 0.688725,
+        "titleChance": 0.3185,
+        "podiumChance": 0.677525,
         "eliminated": false
       }
     },
@@ -23238,21 +23739,21 @@
       "displayName": "Mayara Gielow",
       "rank": 2,
       "score": {
-        "total": 105,
+        "total": 108,
         "groupClassificationPoints": 49,
         "brazilGroupMatchPoints": 8,
         "groupPhasePoints": 57,
-        "knockoutPoints": 48,
+        "knockoutPoints": 51,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 14,
+        "outcomeHits": 15,
         "exactScoreHits": 7,
         "exactTiebreakerHits": 7,
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.194775,
-        "podiumChance": 0.51485,
+        "titleChance": 0.200675,
+        "podiumChance": 0.517525,
         "eliminated": false
       }
     },
@@ -23261,21 +23762,21 @@
       "displayName": "Jacques Bartolomeo",
       "rank": 3,
       "score": {
-        "total": 102,
+        "total": 105,
         "groupClassificationPoints": 52,
         "brazilGroupMatchPoints": 8,
         "groupPhasePoints": 60,
-        "knockoutPoints": 42,
+        "knockoutPoints": 45,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 14,
+        "outcomeHits": 15,
         "exactScoreHits": 4,
         "exactTiebreakerHits": 4,
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.0657,
-        "podiumChance": 0.311575,
+        "titleChance": 0.0634,
+        "podiumChance": 0.30675,
         "eliminated": false
       }
     },
@@ -23284,21 +23785,21 @@
       "displayName": "Lucas Taveira Follis",
       "rank": 4,
       "score": {
-        "total": 102,
+        "total": 105,
         "groupClassificationPoints": 58,
         "brazilGroupMatchPoints": 8,
         "groupPhasePoints": 66,
-        "knockoutPoints": 36,
+        "knockoutPoints": 39,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 12,
+        "outcomeHits": 13,
         "exactScoreHits": 4,
         "exactTiebreakerHits": 4,
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.10275,
-        "podiumChance": 0.300125,
+        "titleChance": 0.10405,
+        "podiumChance": 0.303,
         "eliminated": false
       }
     },
@@ -23307,21 +23808,21 @@
       "displayName": "Gustavo Espírito",
       "rank": 5,
       "score": {
-        "total": 101,
+        "total": 104,
         "groupClassificationPoints": 61,
         "brazilGroupMatchPoints": 3,
         "groupPhasePoints": 64,
-        "knockoutPoints": 37,
+        "knockoutPoints": 40,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 12,
+        "outcomeHits": 13,
         "exactScoreHits": 2,
         "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.149825,
-        "podiumChance": 0.34335,
+        "titleChance": 0.1464,
+        "podiumChance": 0.336425,
         "eliminated": false
       }
     },
@@ -23330,102 +23831,10 @@
       "displayName": "Guh e Mah",
       "rank": 6,
       "score": {
-        "total": 100,
+        "total": 103,
         "groupClassificationPoints": 58,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 64,
-        "knockoutPoints": 36,
-        "championPoints": 0,
-        "runnerUpPoints": 0,
-        "outcomeHits": 12,
-        "exactScoreHits": 3,
-        "exactTiebreakerHits": 3,
-        "exactKnockoutHits": 3
-      },
-      "chances": {
-        "titleChance": 0.06305,
-        "podiumChance": 0.25435,
-        "eliminated": false
-      }
-    },
-    {
-      "id": "marcelo-tasso",
-      "displayName": "Marcelo Tasso",
-      "rank": 7,
-      "score": {
-        "total": 97,
-        "groupClassificationPoints": 55,
-        "brazilGroupMatchPoints": 6,
-        "groupPhasePoints": 61,
-        "knockoutPoints": 36,
-        "championPoints": 0,
-        "runnerUpPoints": 0,
-        "outcomeHits": 12,
-        "exactScoreHits": 3,
-        "exactTiebreakerHits": 3,
-        "exactKnockoutHits": 3
-      },
-      "chances": {
-        "titleChance": 0.021775,
-        "podiumChance": 0.14625,
-        "eliminated": false
-      }
-    },
-    {
-      "id": "lara-vieira-balieiro-tasso",
-      "displayName": "Lara Vieira Balieiro Tasso",
-      "rank": 8,
-      "score": {
-        "total": 97,
-        "groupClassificationPoints": 56,
-        "brazilGroupMatchPoints": 6,
-        "groupPhasePoints": 62,
-        "knockoutPoints": 35,
-        "championPoints": 0,
-        "runnerUpPoints": 0,
-        "outcomeHits": 13,
-        "exactScoreHits": 1,
-        "exactTiebreakerHits": 1,
-        "exactKnockoutHits": 1
-      },
-      "chances": {
-        "titleChance": 0.0182,
-        "podiumChance": 0.129225,
-        "eliminated": false
-      }
-    },
-    {
-      "id": "helio-tasso-junior",
-      "displayName": "Hélio Tasso Júnior",
-      "rank": 9,
-      "score": {
-        "total": 91,
-        "groupClassificationPoints": 45,
-        "brazilGroupMatchPoints": 6,
-        "groupPhasePoints": 51,
-        "knockoutPoints": 40,
-        "championPoints": 0,
-        "runnerUpPoints": 0,
-        "outcomeHits": 12,
-        "exactScoreHits": 5,
-        "exactTiebreakerHits": 5,
-        "exactKnockoutHits": 5
-      },
-      "chances": {
-        "titleChance": 0.027875,
-        "podiumChance": 0.1156375,
-        "eliminated": false
-      }
-    },
-    {
-      "id": "vinicius-follis-tasso",
-      "displayName": "Vinicius Follis Tasso",
-      "rank": 10,
-      "score": {
-        "total": 90,
-        "groupClassificationPoints": 45,
-        "brazilGroupMatchPoints": 6,
-        "groupPhasePoints": 51,
         "knockoutPoints": 39,
         "championPoints": 0,
         "runnerUpPoints": 0,
@@ -23435,43 +23844,89 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.021825,
-        "podiumChance": 0.092575,
+        "titleChance": 0.0579,
+        "podiumChance": 0.248075,
+        "eliminated": false
+      }
+    },
+    {
+      "id": "marcelo-tasso",
+      "displayName": "Marcelo Tasso",
+      "rank": 7,
+      "score": {
+        "total": 100,
+        "groupClassificationPoints": 55,
+        "brazilGroupMatchPoints": 6,
+        "groupPhasePoints": 61,
+        "knockoutPoints": 39,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 13,
+        "exactScoreHits": 3,
+        "exactTiebreakerHits": 3,
+        "exactKnockoutHits": 3
+      },
+      "chances": {
+        "titleChance": 0.01965,
+        "podiumChance": 0.13975,
+        "eliminated": false
+      }
+    },
+    {
+      "id": "lara-vieira-balieiro-tasso",
+      "displayName": "Lara Vieira Balieiro Tasso",
+      "rank": 8,
+      "score": {
+        "total": 100,
+        "groupClassificationPoints": 56,
+        "brazilGroupMatchPoints": 6,
+        "groupPhasePoints": 62,
+        "knockoutPoints": 38,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 14,
+        "exactScoreHits": 1,
+        "exactTiebreakerHits": 1,
+        "exactKnockoutHits": 1
+      },
+      "chances": {
+        "titleChance": 0.017875,
+        "podiumChance": 0.12455,
+        "eliminated": false
+      }
+    },
+    {
+      "id": "helio-tasso-junior",
+      "displayName": "Hélio Tasso Júnior",
+      "rank": 9,
+      "score": {
+        "total": 94,
+        "groupClassificationPoints": 45,
+        "brazilGroupMatchPoints": 6,
+        "groupPhasePoints": 51,
+        "knockoutPoints": 43,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 13,
+        "exactScoreHits": 5,
+        "exactTiebreakerHits": 5,
+        "exactKnockoutHits": 5
+      },
+      "chances": {
+        "titleChance": 0.0317125,
+        "podiumChance": 0.1278375,
         "eliminated": false
       }
     },
     {
       "id": "rose",
       "displayName": "Rose Follis Tasso",
-      "rank": 11,
+      "rank": 10,
       "score": {
-        "total": 89,
+        "total": 94,
         "groupClassificationPoints": 51,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 57,
-        "knockoutPoints": 32,
-        "championPoints": 0,
-        "runnerUpPoints": 0,
-        "outcomeHits": 12,
-        "exactScoreHits": 1,
-        "exactTiebreakerHits": 1,
-        "exactKnockoutHits": 1
-      },
-      "chances": {
-        "titleChance": 0.00495,
-        "podiumChance": 0.02505,
-        "eliminated": false
-      }
-    },
-    {
-      "id": "camilo-follis",
-      "displayName": "Camilo Follis",
-      "rank": 12,
-      "score": {
-        "total": 88,
-        "groupClassificationPoints": 45,
-        "brazilGroupMatchPoints": 6,
-        "groupPhasePoints": 51,
         "knockoutPoints": 37,
         "championPoints": 0,
         "runnerUpPoints": 0,
@@ -23481,8 +23936,54 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.002825,
-        "podiumChance": 0.0432875,
+        "titleChance": 0.008075,
+        "podiumChance": 0.038125,
+        "eliminated": false
+      }
+    },
+    {
+      "id": "vinicius-follis-tasso",
+      "displayName": "Vinicius Follis Tasso",
+      "rank": 11,
+      "score": {
+        "total": 93,
+        "groupClassificationPoints": 45,
+        "brazilGroupMatchPoints": 6,
+        "groupPhasePoints": 51,
+        "knockoutPoints": 42,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 14,
+        "exactScoreHits": 3,
+        "exactTiebreakerHits": 3,
+        "exactKnockoutHits": 3
+      },
+      "chances": {
+        "titleChance": 0.0262125,
+        "podiumChance": 0.1055125,
+        "eliminated": false
+      }
+    },
+    {
+      "id": "camilo-follis",
+      "displayName": "Camilo Follis",
+      "rank": 12,
+      "score": {
+        "total": 91,
+        "groupClassificationPoints": 45,
+        "brazilGroupMatchPoints": 6,
+        "groupPhasePoints": 51,
+        "knockoutPoints": 40,
+        "championPoints": 0,
+        "runnerUpPoints": 0,
+        "outcomeHits": 14,
+        "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
+        "exactKnockoutHits": 2
+      },
+      "chances": {
+        "titleChance": 0.00245,
+        "podiumChance": 0.04155,
         "eliminated": false
       }
     },
@@ -23491,21 +23992,21 @@
       "displayName": "Flavia Follis Bartolomeo",
       "rank": 13,
       "score": {
-        "total": 86,
+        "total": 89,
         "groupClassificationPoints": 46,
         "brazilGroupMatchPoints": 5,
         "groupPhasePoints": 51,
-        "knockoutPoints": 35,
+        "knockoutPoints": 38,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 10,
+        "outcomeHits": 11,
         "exactScoreHits": 5,
         "exactTiebreakerHits": 5,
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.002625,
-        "podiumChance": 0.02775,
+        "titleChance": 0.0025,
+        "podiumChance": 0.0272,
         "eliminated": false
       }
     },
@@ -23514,21 +24015,21 @@
       "displayName": "Silvia Follis Bartolomeo",
       "rank": 14,
       "score": {
-        "total": 81,
+        "total": 84,
         "groupClassificationPoints": 47,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 53,
-        "knockoutPoints": 28,
+        "knockoutPoints": 31,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 10,
+        "outcomeHits": 11,
         "exactScoreHits": 2,
         "exactTiebreakerHits": 2,
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.000975,
-        "podiumChance": 0.00725,
+        "titleChance": 0.0006,
+        "podiumChance": 0.006175,
         "eliminated": false
       }
     },
@@ -23537,17 +24038,17 @@
       "displayName": "Aláyne Lindozo Follis",
       "rank": 15,
       "score": {
-        "total": 63,
+        "total": 68,
         "groupClassificationPoints": 40,
         "brazilGroupMatchPoints": 3,
         "groupPhasePoints": 43,
-        "knockoutPoints": 20,
+        "knockoutPoints": 25,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 7,
-        "exactScoreHits": 1,
-        "exactTiebreakerHits": 1,
-        "exactKnockoutHits": 1
+        "outcomeHits": 8,
+        "exactScoreHits": 2,
+        "exactTiebreakerHits": 2,
+        "exactKnockoutHits": 2
       },
       "chances": {
         "titleChance": 0,
