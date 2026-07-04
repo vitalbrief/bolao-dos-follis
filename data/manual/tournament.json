@@ -1,7 +1,7 @@
 {
   "name": "Bolão dos Follis",
   "season": "Copa do Mundo 2026",
-  "lastResultsCheckedAt": "2026-07-03T21:45:27-03:00",
+  "lastResultsCheckedAt": "2026-07-04T07:12:30-03:00",
   "champion": null,
   "runnerUp": null,
   "groups": {
@@ -232,8 +232,8 @@
       "homeTeam": "Colômbia",
       "awayTeam": "Gana",
       "kickoff": "2026-07-03T22:30:00-03:00",
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 1, "away": 0 },
       "sourceUrl": null
     },
     {
@@ -309,6 +309,17 @@
       "homeTeam": "Argentina",
       "awayTeam": "Egito",
       "kickoff": "2026-07-07T13:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "sui-col",
+      "stage": "round_of_16",
+      "stageLabel": "Oitavas 8 · 07/07 17:00",
+      "homeTeam": "Suíça",
+      "awayTeam": "Colômbia",
+      "kickoff": "2026-07-07T17:00:00-03:00",
       "status": "scheduled",
       "result": { "home": null, "away": null },
       "sourceUrl": null
