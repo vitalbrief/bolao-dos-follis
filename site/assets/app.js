@@ -931,7 +931,10 @@ function renderChampionBoard() {
 }
 
 function renderResults() {
-  const matches = [...state.data.tournament.matches].sort(compareMatchesByKickoff);
+  const matches = state.data.tournament.matches
+    .map((match, index) => ({ match, index }))
+    .sort(compareMatchEntries)
+    .map((entry) => entry.match);
   const finished = matches.filter((match) => isCompleteScore(match.result)).length;
   const status = document.querySelector("#results-status");
   status.textContent = finished ? `${finished} jogo(s) finalizado(s)` : "Sem jogos finalizados";
@@ -983,8 +986,16 @@ function renderResults() {
     .join("");
 }
 
-function compareMatchesByKickoff(a, b) {
-  return kickoffTimestamp(a) - kickoffTimestamp(b);
+function compareMatchEntries(a, b) {
+  return (
+    stageOrder(a.match) - stageOrder(b.match) ||
+    kickoffTimestamp(a.match) - kickoffTimestamp(b.match) ||
+    a.index - b.index
+  );
+}
+
+function stageOrder(match) {
+  return match.stage === "group_brazil" ? 0 : 1;
 }
 
 function kickoffTimestamp(match) {
