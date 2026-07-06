@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-07-06T10:42:59.863Z",
+    "generatedAt": "2026-07-06T12:03:14.358Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
-    "submissionCount": 49,
+    "submissionCount": 65,
     "ignoredSubmissionCount": 0,
     "pointsAtStake": {
       "total": 85,
@@ -75,7 +75,8 @@
           "ROSE",
           "Rose",
           "Rose Follis Tasso",
-          "Rosemary Follis Tasso"
+          "Rosemary Follis Tasso",
+          "Rosemary Follus Tasso"
         ]
       },
       {
@@ -666,8 +667,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.479275,
-        "podiumChance": 0.87065,
+        "titleChance": 0.479775,
+        "podiumChance": 0.873325,
         "eliminated": false
       },
       "predictions": {
@@ -848,6 +849,16 @@
             "home": 1,
             "away": 1,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 2,
+            "away": 1,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 1,
+            "away": 1,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -1959,8 +1970,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -1986,8 +1998,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -2027,8 +2040,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.195025,
-        "podiumChance": 0.566575,
+        "titleChance": 0.1908,
+        "podiumChance": 0.5519,
         "eliminated": false
       },
       "predictions": {
@@ -2209,6 +2222,16 @@
             "home": 1,
             "away": 2,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 2,
+            "away": 0,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 1,
+            "away": 1,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -3320,8 +3343,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3347,8 +3371,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3388,8 +3413,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.204475,
-        "podiumChance": 0.477125,
+        "titleChance": 0.21175,
+        "podiumChance": 0.492125,
         "eliminated": false
       },
       "predictions": {
@@ -3570,6 +3595,16 @@
             "home": 1,
             "away": 1,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 2,
+            "away": 0,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 1,
+            "away": 2,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -4681,8 +4716,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -4708,8 +4744,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -4749,8 +4786,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.0207,
-        "podiumChance": 0.2033,
+        "titleChance": 0.017375,
+        "podiumChance": 0.197175,
         "eliminated": false
       },
       "predictions": {
@@ -4931,6 +4968,16 @@
             "home": 1,
             "away": 2,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 3,
+            "away": 1,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 1,
+            "away": 1,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -6042,8 +6089,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 1,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -6069,8 +6117,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -6110,8 +6159,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.013075,
-        "podiumChance": 0.209825,
+        "titleChance": 0.015275,
+        "podiumChance": 0.22085,
         "eliminated": false
       },
       "predictions": {
@@ -6292,6 +6341,16 @@
             "home": 2,
             "away": 1,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 2,
+            "away": 1,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 0,
+            "away": 1,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -7403,8 +7462,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -7430,8 +7490,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 1,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -7471,8 +7532,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.0182,
-        "podiumChance": 0.123925,
+        "titleChance": 0.020325,
+        "podiumChance": 0.1293,
         "eliminated": false
       },
       "predictions": {
@@ -7653,6 +7714,16 @@
             "home": 2,
             "away": 0,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 2,
+            "away": 1,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 2,
+            "away": 1,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -8764,8 +8835,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -8791,8 +8863,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -8832,8 +8905,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.00885,
-        "podiumChance": 0.10685,
+        "titleChance": 0.01105,
+        "podiumChance": 0.10715,
         "eliminated": false
       },
       "predictions": {
@@ -9014,6 +9087,16 @@
             "home": 3,
             "away": 1,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 2,
+            "away": 1,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 3,
+            "away": 2,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -10125,8 +10208,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -10152,8 +10236,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 2,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -10193,8 +10278,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.017425,
-        "podiumChance": 0.14545,
+        "titleChance": 0.016225,
+        "podiumChance": 0.146225,
         "eliminated": false
       },
       "predictions": {
@@ -10375,6 +10460,16 @@
             "home": 1,
             "away": 0,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 3,
+            "away": 0,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 1,
+            "away": 2,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -11486,8 +11581,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 0,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -11513,8 +11609,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -11554,8 +11651,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.0011,
-        "podiumChance": 0.029075,
+        "titleChance": 0.000825,
+        "podiumChance": 0.0256,
         "eliminated": false
       },
       "predictions": {
@@ -11736,6 +11833,16 @@
             "home": 2,
             "away": 1,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 2,
+            "away": 0,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 1,
+            "away": 1,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -12847,8 +12954,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -12874,8 +12982,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -12915,8 +13024,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.003125,
-        "podiumChance": 0.027975,
+        "titleChance": 0.00415,
+        "podiumChance": 0.030925,
         "eliminated": false
       },
       "predictions": {
@@ -13097,6 +13206,16 @@
             "home": 1,
             "away": 2,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 3,
+            "away": 1,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 0,
+            "away": 1,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -14208,8 +14327,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 1,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -14235,8 +14355,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 1,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -14276,8 +14397,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.0247,
-        "podiumChance": 0.1308125,
+        "titleChance": 0.0208125,
+        "podiumChance": 0.1241,
         "eliminated": false
       },
       "predictions": {
@@ -14458,6 +14579,16 @@
             "home": 2,
             "away": 1,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 2,
+            "away": 1,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 1,
+            "away": 1,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -15569,8 +15700,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -15596,8 +15728,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -15637,8 +15770,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.014,
-        "podiumChance": 0.1038625,
+        "titleChance": 0.0116125,
+        "podiumChance": 0.097175,
         "eliminated": false
       },
       "predictions": {
@@ -15819,6 +15952,16 @@
             "home": 2,
             "away": 2,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 3,
+            "away": 0,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 1,
+            "away": 1,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -16930,8 +17073,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 0,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -16957,8 +17101,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -16998,8 +17143,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.00005,
-        "podiumChance": 0.0037,
+        "titleChance": 0.000025,
+        "podiumChance": 0.00365,
         "eliminated": false
       },
       "predictions": {
@@ -17180,6 +17325,16 @@
             "home": 1,
             "away": 2,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 2,
+            "away": 0,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 2,
+            "away": 1,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -18291,8 +18446,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -18318,8 +18474,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -18360,7 +18517,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000875,
+        "podiumChance": 0.0005,
         "eliminated": false
       },
       "predictions": {
@@ -18541,6 +18698,16 @@
             "home": 0,
             "away": 1,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 2,
+            "away": 0,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 1,
+            "away": 1,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -19652,8 +19819,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -19679,8 +19847,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -19902,6 +20071,16 @@
             "home": 1,
             "away": 2,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 2,
+            "away": 1,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 1,
+            "away": 0,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -21013,8 +21192,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -21040,8 +21220,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 0,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -21183,6 +21364,16 @@
             "home": 2,
             "away": 1,
             "label": "EUA x Bélgica"
+          },
+          "arg-egy": {
+            "home": 3,
+            "away": 0,
+            "label": "Argentina x Egito"
+          },
+          "sui-col": {
+            "home": 2,
+            "away": 0,
+            "label": "Suíça x Colômbia"
           }
         }
       },
@@ -22278,8 +22469,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 0,
+              "label": "Argentina x Egito"
             },
             "points": 0,
             "outcomeHit": false,
@@ -22305,8 +22497,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Suíça x Colômbia"
             },
             "points": 0,
             "outcomeHit": false,
@@ -24806,8 +24999,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.479275,
-        "podiumChance": 0.87065,
+        "titleChance": 0.479775,
+        "podiumChance": 0.873325,
         "eliminated": false
       }
     },
@@ -24829,8 +25022,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.195025,
-        "podiumChance": 0.566575,
+        "titleChance": 0.1908,
+        "podiumChance": 0.5519,
         "eliminated": false
       }
     },
@@ -24852,8 +25045,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.204475,
-        "podiumChance": 0.477125,
+        "titleChance": 0.21175,
+        "podiumChance": 0.492125,
         "eliminated": false
       }
     },
@@ -24875,8 +25068,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.0207,
-        "podiumChance": 0.2033,
+        "titleChance": 0.017375,
+        "podiumChance": 0.197175,
         "eliminated": false
       }
     },
@@ -24898,8 +25091,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.013075,
-        "podiumChance": 0.209825,
+        "titleChance": 0.015275,
+        "podiumChance": 0.22085,
         "eliminated": false
       }
     },
@@ -24921,8 +25114,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.0182,
-        "podiumChance": 0.123925,
+        "titleChance": 0.020325,
+        "podiumChance": 0.1293,
         "eliminated": false
       }
     },
@@ -24944,8 +25137,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.00885,
-        "podiumChance": 0.10685,
+        "titleChance": 0.01105,
+        "podiumChance": 0.10715,
         "eliminated": false
       }
     },
@@ -24967,8 +25160,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.017425,
-        "podiumChance": 0.14545,
+        "titleChance": 0.016225,
+        "podiumChance": 0.146225,
         "eliminated": false
       }
     },
@@ -24990,8 +25183,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.0011,
-        "podiumChance": 0.029075,
+        "titleChance": 0.000825,
+        "podiumChance": 0.0256,
         "eliminated": false
       }
     },
@@ -25013,8 +25206,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.003125,
-        "podiumChance": 0.027975,
+        "titleChance": 0.00415,
+        "podiumChance": 0.030925,
         "eliminated": false
       }
     },
@@ -25036,8 +25229,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.0247,
-        "podiumChance": 0.1308125,
+        "titleChance": 0.0208125,
+        "podiumChance": 0.1241,
         "eliminated": false
       }
     },
@@ -25059,8 +25252,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.014,
-        "podiumChance": 0.1038625,
+        "titleChance": 0.0116125,
+        "podiumChance": 0.097175,
         "eliminated": false
       }
     },
@@ -25082,8 +25275,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.00005,
-        "podiumChance": 0.0037,
+        "titleChance": 0.000025,
+        "podiumChance": 0.00365,
         "eliminated": false
       }
     },
@@ -25106,7 +25299,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000875,
+        "podiumChance": 0.0005,
         "eliminated": false
       }
     },

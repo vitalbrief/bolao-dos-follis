@@ -70,6 +70,18 @@
         { "matchId": "por-esp", "homeScoreColumnIndex": 10, "awayScoreColumnIndex": 11 },
         { "matchId": "usa-bel", "homeScoreColumnIndex": 12, "awayScoreColumnIndex": 13 }
       ]
+    },
+    {
+      "id": "round-of-16-part2-2026",
+      "label": "Oitavas de Final (Parte 2)",
+      "stage": "round_of_16",
+      "sourceCsv": "data/raw/round-of-16-part2-current.csv",
+      "timestampColumnIndex": 0,
+      "nameColumnIndex": 1,
+      "matchScoreColumns": [
+        { "matchId": "arg-egy", "homeScoreColumnIndex": 2, "awayScoreColumnIndex": 3 },
+        { "matchId": "sui-col", "homeScoreColumnIndex": 4, "awayScoreColumnIndex": 5 }
+      ]
     }
   ]
 }
