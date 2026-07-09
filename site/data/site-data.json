@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-07-07T23:13:46.096Z",
+    "generatedAt": "2026-07-09T15:23:46.766Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
-    "submissionCount": 65,
+    "submissionCount": 80,
     "ignoredSubmissionCount": 0,
     "pointsAtStake": {
       "total": 65,
@@ -51,7 +51,8 @@
         "aliases": [
           "Lucas Taveira Follis",
           "Lucas Taveira Follis ",
-          "Lucas Follis"
+          "Lucas Follis",
+          "Lucas"
         ]
       },
       {
@@ -645,6 +646,66 @@
         },
         "advanced": "Suíça",
         "sourceUrl": null
+      },
+      {
+        "id": "fra-mar",
+        "stage": "quarterfinal",
+        "stageLabel": "Quartas 1 · 09/07 17:00",
+        "homeTeam": "França",
+        "awayTeam": "Marrocos",
+        "kickoff": "2026-07-09T17:00:00-03:00",
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null,
+        "advanced": null
+      },
+      {
+        "id": "esp-bel",
+        "stage": "quarterfinal",
+        "stageLabel": "Quartas 2 · 10/07 16:00",
+        "homeTeam": "Espanha",
+        "awayTeam": "Bélgica",
+        "kickoff": "2026-07-10T16:00:00-03:00",
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null,
+        "advanced": null
+      },
+      {
+        "id": "nor-eng",
+        "stage": "quarterfinal",
+        "stageLabel": "Quartas 3 · 11/07 18:00",
+        "homeTeam": "Noruega",
+        "awayTeam": "Inglaterra",
+        "kickoff": "2026-07-11T18:00:00-03:00",
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null,
+        "advanced": null
+      },
+      {
+        "id": "arg-sui",
+        "stage": "quarterfinal",
+        "stageLabel": "Quartas 4 · 11/07 22:00",
+        "homeTeam": "Argentina",
+        "awayTeam": "Suíça",
+        "kickoff": "2026-07-11T22:00:00-03:00",
+        "status": "scheduled",
+        "result": {
+          "home": null,
+          "away": null
+        },
+        "sourceUrl": null,
+        "advanced": null
       }
     ]
   },
@@ -667,8 +728,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.50165,
-        "podiumChance": 0.95075,
+        "titleChance": 0.49805,
+        "podiumChance": 0.953475,
         "eliminated": false
       },
       "predictions": {
@@ -859,6 +920,26 @@
             "home": 1,
             "away": 1,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 0,
+            "away": 1,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 3,
+            "away": 1,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -2008,6 +2089,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 0,
+              "away": 1,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 2,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 1,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -2040,8 +2233,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.284325,
-        "podiumChance": 0.699175,
+        "titleChance": 0.291125,
+        "podiumChance": 0.7452,
         "eliminated": false
       },
       "predictions": {
@@ -2232,6 +2425,26 @@
             "home": 1,
             "away": 1,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 1,
+            "away": 0,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 2,
+            "away": 0,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 1,
+            "away": 0,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -3381,6 +3594,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 0,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 2,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -3413,8 +3738,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.02265,
-        "podiumChance": 0.31245,
+        "titleChance": 0.017625,
+        "podiumChance": 0.281925,
         "eliminated": false
       },
       "predictions": {
@@ -3605,6 +3930,26 @@
             "home": 1,
             "away": 1,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 2,
+            "away": 1,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 2,
+            "away": 2,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 2,
+            "away": 2,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -4754,6 +5099,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 2,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 2,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -4786,8 +5243,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.112175,
-        "podiumChance": 0.332575,
+        "titleChance": 0.12565,
+        "podiumChance": 0.356,
         "eliminated": false
       },
       "predictions": {
@@ -4978,6 +5435,26 @@
             "home": 1,
             "away": 2,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 2,
+            "away": 1,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 2,
+            "away": 0,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -6127,6 +6604,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 2,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 0,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -6159,8 +6748,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.01165,
-        "podiumChance": 0.0985,
+        "titleChance": 0.014625,
+        "podiumChance": 0.10345,
         "eliminated": false
       },
       "predictions": {
@@ -6351,6 +6940,26 @@
             "home": 2,
             "away": 1,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 3,
+            "away": 1,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 2,
+            "away": 1,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 2,
+            "away": 1,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -7500,6 +8109,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 1,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 2,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -7532,8 +8253,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0480875,
-        "podiumChance": 0.2470375,
+        "titleChance": 0.0402625,
+        "podiumChance": 0.2310875,
         "eliminated": false
       },
       "predictions": {
@@ -7724,6 +8445,26 @@
             "home": 1,
             "away": 1,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 2,
+            "away": 2,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 0,
+            "away": 1,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 0,
+            "away": 1,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 2,
+            "away": 1,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -8873,6 +9614,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 2,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 0,
+              "away": 1,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 0,
+              "away": 1,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -8905,8 +9758,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.000975,
-        "podiumChance": 0.0471,
+        "titleChance": 0.0006,
+        "podiumChance": 0.0452,
         "eliminated": false
       },
       "predictions": {
@@ -9097,6 +9950,26 @@
             "home": 1,
             "away": 1,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 1,
+            "away": 0,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 2,
+            "away": 2,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 2,
+            "away": 0,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -10246,6 +11119,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 2,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 2,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 0,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -10278,8 +11263,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.0001,
-        "podiumChance": 0.0096,
+        "titleChance": 0.000075,
+        "podiumChance": 0.009375,
         "eliminated": false
       },
       "predictions": {
@@ -10470,6 +11455,26 @@
             "home": 0,
             "away": 1,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 2,
+            "away": 3,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 2,
+            "away": 1,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 0,
+            "away": 2,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 3,
+            "away": 1,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -11619,6 +12624,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 3,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 0,
+              "away": 2,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 1,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -11651,8 +12768,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.000275,
-        "podiumChance": 0.071425,
+        "titleChance": 0.00025,
+        "podiumChance": 0.060225,
         "eliminated": false
       },
       "predictions": {
@@ -11843,6 +12960,26 @@
             "home": 0,
             "away": 1,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 1,
+            "away": 0,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 1,
+            "away": 0,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 0,
+            "away": 0,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -12992,6 +14129,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 0,
+              "away": 0,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -13024,8 +14273,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.000575,
-        "podiumChance": 0.02765,
+        "titleChance": 0.0003,
+        "podiumChance": 0.03115,
         "eliminated": false
       },
       "predictions": {
@@ -13216,6 +14465,26 @@
             "home": 3,
             "away": 2,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 1,
+            "away": 2,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 2,
+            "away": 1,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 2,
+            "away": 3,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 2,
+            "away": 0,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -14365,6 +15634,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 2,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 3,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 0,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -14397,8 +15778,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0151875,
-        "podiumChance": 0.1508375,
+        "titleChance": 0.0075125,
+        "podiumChance": 0.1485875,
         "eliminated": false
       },
       "predictions": {
@@ -14589,6 +15970,26 @@
             "home": 1,
             "away": 1,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 1,
+            "away": 2,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 3,
+            "away": 1,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -15738,6 +17139,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 2,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 2,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 1,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -15770,8 +17283,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.00235,
-        "podiumChance": 0.050425,
+        "titleChance": 0.003925,
+        "podiumChance": 0.032675,
         "eliminated": false
       },
       "predictions": {
@@ -15962,6 +17475,26 @@
             "home": 1,
             "away": 2,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 1,
+            "away": 1,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 1,
+            "away": 0,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 2,
+            "away": 1,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 2,
+            "away": 2,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -17111,6 +18644,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 1,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 2,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -17144,7 +18789,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.00165,
+        "podiumChance": 0.001225,
         "eliminated": false
       },
       "predictions": {
@@ -17335,6 +18980,26 @@
             "home": 2,
             "away": 1,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 3,
+            "away": 2,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 2,
+            "away": 1,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 1,
+            "away": 2,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 1,
+            "away": 0,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -18484,6 +20149,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 2,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 2,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 0,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -18517,7 +20294,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000825,
+        "podiumChance": 0.000425,
         "eliminated": false
       },
       "predictions": {
@@ -18708,6 +20485,26 @@
             "home": 1,
             "away": 1,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 1,
+            "away": 2,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 2,
+            "away": 1,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 3,
+            "away": 1,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -19857,6 +21654,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 1,
+              "away": 2,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 1,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -21230,6 +23139,114 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -21374,6 +23391,26 @@
             "home": 2,
             "away": 0,
             "label": "Suíça x Colômbia"
+          },
+          "fra-mar": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Marrocos"
+          },
+          "esp-bel": {
+            "home": 2,
+            "away": 2,
+            "label": "Espanha x Bélgica"
+          },
+          "nor-eng": {
+            "home": 2,
+            "away": 1,
+            "label": "Noruega x Inglaterra"
+          },
+          "arg-sui": {
+            "home": 3,
+            "away": 2,
+            "label": "Argentina x Suíça"
           }
         }
       },
@@ -22507,6 +24544,118 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "França x Marrocos"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 2,
+              "label": "Espanha x Bélgica"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 2,
+              "away": 1,
+              "label": "Noruega x Inglaterra"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": 3,
+              "away": 2,
+              "label": "Argentina x Suíça"
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -23736,6 +25885,114 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -24965,6 +27222,114 @@
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
             "pending": false
+          },
+          "fra-mar": {
+            "match": {
+              "id": "fra-mar",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 1 · 09/07 17:00",
+              "homeTeam": "França",
+              "awayTeam": "Marrocos",
+              "kickoff": "2026-07-09T17:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "esp-bel": {
+            "match": {
+              "id": "esp-bel",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 2 · 10/07 16:00",
+              "homeTeam": "Espanha",
+              "awayTeam": "Bélgica",
+              "kickoff": "2026-07-10T16:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "nor-eng": {
+            "match": {
+              "id": "nor-eng",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 3 · 11/07 18:00",
+              "homeTeam": "Noruega",
+              "awayTeam": "Inglaterra",
+              "kickoff": "2026-07-11T18:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
+          },
+          "arg-sui": {
+            "match": {
+              "id": "arg-sui",
+              "stage": "quarterfinal",
+              "stageLabel": "Quartas 4 · 11/07 22:00",
+              "homeTeam": "Argentina",
+              "awayTeam": "Suíça",
+              "kickoff": "2026-07-11T22:00:00-03:00",
+              "status": "scheduled",
+              "result": {
+                "home": null,
+                "away": null
+              },
+              "sourceUrl": null,
+              "advanced": null
+            },
+            "prediction": {
+              "home": null,
+              "away": null
+            },
+            "points": 0,
+            "outcomeHit": false,
+            "exactHit": false,
+            "exactTiebreakerHit": false,
+            "exactKnockoutHit": false,
+            "pending": true
           }
         },
         "champion": {
@@ -24999,8 +27364,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.50165,
-        "podiumChance": 0.95075,
+        "titleChance": 0.49805,
+        "podiumChance": 0.953475,
         "eliminated": false
       }
     },
@@ -25022,8 +27387,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.284325,
-        "podiumChance": 0.699175,
+        "titleChance": 0.291125,
+        "podiumChance": 0.7452,
         "eliminated": false
       }
     },
@@ -25045,8 +27410,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.02265,
-        "podiumChance": 0.31245,
+        "titleChance": 0.017625,
+        "podiumChance": 0.281925,
         "eliminated": false
       }
     },
@@ -25068,8 +27433,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.112175,
-        "podiumChance": 0.332575,
+        "titleChance": 0.12565,
+        "podiumChance": 0.356,
         "eliminated": false
       }
     },
@@ -25091,8 +27456,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.01165,
-        "podiumChance": 0.0985,
+        "titleChance": 0.014625,
+        "podiumChance": 0.10345,
         "eliminated": false
       }
     },
@@ -25114,8 +27479,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0480875,
-        "podiumChance": 0.2470375,
+        "titleChance": 0.0402625,
+        "podiumChance": 0.2310875,
         "eliminated": false
       }
     },
@@ -25137,8 +27502,8 @@
         "exactKnockoutHits": 3
       },
       "chances": {
-        "titleChance": 0.000975,
-        "podiumChance": 0.0471,
+        "titleChance": 0.0006,
+        "podiumChance": 0.0452,
         "eliminated": false
       }
     },
@@ -25160,8 +27525,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.0001,
-        "podiumChance": 0.0096,
+        "titleChance": 0.000075,
+        "podiumChance": 0.009375,
         "eliminated": false
       }
     },
@@ -25183,8 +27548,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.000275,
-        "podiumChance": 0.071425,
+        "titleChance": 0.00025,
+        "podiumChance": 0.060225,
         "eliminated": false
       }
     },
@@ -25206,8 +27571,8 @@
         "exactKnockoutHits": 2
       },
       "chances": {
-        "titleChance": 0.000575,
-        "podiumChance": 0.02765,
+        "titleChance": 0.0003,
+        "podiumChance": 0.03115,
         "eliminated": false
       }
     },
@@ -25229,8 +27594,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0151875,
-        "podiumChance": 0.1508375,
+        "titleChance": 0.0075125,
+        "podiumChance": 0.1485875,
         "eliminated": false
       }
     },
@@ -25252,8 +27617,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.00235,
-        "podiumChance": 0.050425,
+        "titleChance": 0.003925,
+        "podiumChance": 0.032675,
         "eliminated": false
       }
     },
@@ -25276,7 +27641,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.00165,
+        "podiumChance": 0.001225,
         "eliminated": false
       }
     },
@@ -25299,7 +27664,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000825,
+        "podiumChance": 0.000425,
         "eliminated": false
       }
     },

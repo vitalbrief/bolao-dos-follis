@@ -324,6 +324,50 @@
       "result": { "home": 0, "away": 0 },
       "advanced": "Suíça",
       "sourceUrl": null
+    },
+    {
+      "id": "fra-mar",
+      "stage": "quarterfinal",
+      "stageLabel": "Quartas 1 · 09/07 17:00",
+      "homeTeam": "França",
+      "awayTeam": "Marrocos",
+      "kickoff": "2026-07-09T17:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "esp-bel",
+      "stage": "quarterfinal",
+      "stageLabel": "Quartas 2 · 10/07 16:00",
+      "homeTeam": "Espanha",
+      "awayTeam": "Bélgica",
+      "kickoff": "2026-07-10T16:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "nor-eng",
+      "stage": "quarterfinal",
+      "stageLabel": "Quartas 3 · 11/07 18:00",
+      "homeTeam": "Noruega",
+      "awayTeam": "Inglaterra",
+      "kickoff": "2026-07-11T18:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "arg-sui",
+      "stage": "quarterfinal",
+      "stageLabel": "Quartas 4 · 11/07 22:00",
+      "homeTeam": "Argentina",
+      "awayTeam": "Suíça",
+      "kickoff": "2026-07-11T22:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
     }
   ]
 }
