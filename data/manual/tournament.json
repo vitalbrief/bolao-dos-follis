@@ -1,7 +1,7 @@
 {
   "name": "Bolão dos Follis",
   "season": "Copa do Mundo 2026",
-  "lastResultsCheckedAt": "2026-07-09T20:15:39-03:00",
+  "lastResultsCheckedAt": "2026-07-10T18:09:30-03:00",
   "champion": null,
   "runnerUp": null,
   "groups": {
@@ -343,8 +343,8 @@
       "homeTeam": "Espanha",
       "awayTeam": "Bélgica",
       "kickoff": "2026-07-10T16:00:00-03:00",
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 2, "away": 1 },
       "sourceUrl": null
     },
     {
