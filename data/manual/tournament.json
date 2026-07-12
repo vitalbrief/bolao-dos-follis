@@ -1,7 +1,7 @@
 {
   "name": "Bolão dos Follis",
   "season": "Copa do Mundo 2026",
-  "lastResultsCheckedAt": "2026-07-12T13:01:47-03:00",
+  "lastResultsCheckedAt": "2026-07-12T13:06:11-03:00",
   "champion": null,
   "runnerUp": null,
   "groups": {
@@ -367,6 +367,28 @@
       "kickoff": "2026-07-11T22:00:00-03:00",
       "status": "final",
       "result": { "home": 3, "away": 1 },
+      "sourceUrl": null
+    },
+    {
+      "id": "fra-esp",
+      "stage": "semifinal",
+      "stageLabel": "Semi 1 · 14/07 16:00",
+      "homeTeam": "França",
+      "awayTeam": "Espanha",
+      "kickoff": "2026-07-14T16:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
+      "sourceUrl": null
+    },
+    {
+      "id": "eng-arg",
+      "stage": "semifinal",
+      "stageLabel": "Semi 2 · 15/07 16:00",
+      "homeTeam": "Inglaterra",
+      "awayTeam": "Argentina",
+      "kickoff": "2026-07-15T16:00:00-03:00",
+      "status": "scheduled",
+      "result": { "home": null, "away": null },
       "sourceUrl": null
     }
   ]
