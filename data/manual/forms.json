@@ -96,6 +96,18 @@
         { "matchId": "nor-eng", "homeScoreColumnIndex": 6, "awayScoreColumnIndex": 7 },
         { "matchId": "arg-sui", "homeScoreColumnIndex": 8, "awayScoreColumnIndex": 9 }
       ]
+    },
+    {
+      "id": "semifinal-2026",
+      "label": "Semifinais",
+      "stage": "semifinal",
+      "sourceCsv": "data/raw/semifinal-current.csv",
+      "timestampColumnIndex": 0,
+      "nameColumnIndex": 1,
+      "matchScoreColumns": [
+        { "matchId": "fra-esp", "homeScoreColumnIndex": 2, "awayScoreColumnIndex": 3 },
+        { "matchId": "eng-arg", "homeScoreColumnIndex": 4, "awayScoreColumnIndex": 5 }
+      ]
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-07-12T16:06:37.276Z",
+    "generatedAt": "2026-07-14T02:39:30.096Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
-    "submissionCount": 80,
+    "submissionCount": 95,
     "ignoredSubmissionCount": 0,
     "pointsAtStake": {
       "total": 45,
@@ -758,8 +758,8 @@
         "exactKnockoutHits": 8
       },
       "chances": {
-        "titleChance": 0.41775,
-        "podiumChance": 0.97985,
+        "titleChance": 0.419875,
+        "podiumChance": 0.968325,
         "eliminated": false
       },
       "predictions": {
@@ -970,6 +970,16 @@
             "home": 3,
             "away": 1,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 2,
+            "away": 1,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -2249,8 +2259,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -2276,8 +2287,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -2317,8 +2329,8 @@
         "exactKnockoutHits": 8
       },
       "chances": {
-        "titleChance": 0.332725,
-        "podiumChance": 0.799475,
+        "titleChance": 0.331525,
+        "podiumChance": 0.806875,
         "eliminated": false
       },
       "predictions": {
@@ -2529,6 +2541,16 @@
             "home": 1,
             "away": 0,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 1,
+            "away": 2,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -3808,8 +3830,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3835,8 +3858,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -3876,8 +3900,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.2128,
-        "podiumChance": 0.5183,
+        "titleChance": 0.214175,
+        "podiumChance": 0.526475,
         "eliminated": false
       },
       "predictions": {
@@ -4088,6 +4112,16 @@
             "home": 2,
             "away": 0,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 0,
+            "away": 1,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -5367,8 +5401,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -5394,8 +5429,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 1,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -5435,8 +5471,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.0298,
-        "podiumChance": 0.20325,
+        "titleChance": 0.0283,
+        "podiumChance": 0.198425,
         "eliminated": false
       },
       "predictions": {
@@ -5647,6 +5683,16 @@
             "home": 2,
             "away": 1,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 3,
+            "away": 2,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 1,
+            "away": 2,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -6926,8 +6972,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 2,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -6953,8 +7000,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -6994,8 +7042,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.000275,
-        "podiumChance": 0.24545,
+        "titleChance": 0.000175,
+        "podiumChance": 0.25515,
         "eliminated": false
       },
       "predictions": {
@@ -7206,6 +7254,16 @@
             "home": 2,
             "away": 2,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 1,
+            "away": 2,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 0,
+            "away": 2,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -8485,8 +8543,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -8512,8 +8571,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 0,
+              "away": 2,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -8554,7 +8614,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.0025,
+        "podiumChance": 0.000425,
         "eliminated": false
       },
       "predictions": {
@@ -8765,6 +8825,16 @@
             "home": 3,
             "away": 1,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 1,
+            "away": 2,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -10044,8 +10114,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -10071,8 +10142,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -10113,7 +10185,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.008425,
+        "podiumChance": 0.003575,
         "eliminated": false
       },
       "predictions": {
@@ -10324,6 +10396,16 @@
             "home": 2,
             "away": 0,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 0,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 1,
+            "away": 2,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -11603,8 +11685,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -11630,8 +11713,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -11671,8 +11755,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.0060625,
-        "podiumChance": 0.179025,
+        "titleChance": 0.00535,
+        "podiumChance": 0.1836375,
         "eliminated": false
       },
       "predictions": {
@@ -11883,6 +11967,16 @@
             "home": 3,
             "away": 1,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 1,
+            "away": 2,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -13162,8 +13256,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -13189,8 +13284,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -13231,7 +13327,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.00195,
+        "podiumChance": 0.00055,
         "eliminated": false
       },
       "predictions": {
@@ -13442,6 +13538,16 @@
             "home": 2,
             "away": 0,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 1,
+            "away": 2,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -14721,8 +14827,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -14748,8 +14855,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -14789,8 +14897,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0005875,
-        "podiumChance": 0.048175,
+        "titleChance": 0.0006,
+        "podiumChance": 0.0389875,
         "eliminated": false
       },
       "predictions": {
@@ -15001,6 +15109,16 @@
             "home": 2,
             "away": 1,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 0,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 1,
+            "away": 1,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -16280,8 +16398,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -16307,8 +16426,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -16349,7 +16469,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.0088,
+        "podiumChance": 0.016375,
         "eliminated": false
       },
       "predictions": {
@@ -16560,6 +16680,16 @@
             "home": 0,
             "away": 0,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 2,
+            "away": 0,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -17839,8 +17969,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -17866,8 +17997,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -17908,7 +18040,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.004525,
+        "podiumChance": 0.0011,
         "eliminated": false
       },
       "predictions": {
@@ -18119,6 +18251,16 @@
             "home": 1,
             "away": 0,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 0,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 2,
+            "away": 1,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -19398,8 +19540,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 0,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -19425,8 +19568,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -19467,7 +19611,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000275,
+        "podiumChance": 0.0001,
         "eliminated": false
       },
       "predictions": {
@@ -19678,6 +19822,16 @@
             "home": 2,
             "away": 2,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 1,
+            "away": 1,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -20957,8 +21111,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -20984,8 +21139,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 1,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -21237,6 +21393,16 @@
             "home": 3,
             "away": 1,
             "label": "Argentina x Suíça"
+          },
+          "fra-esp": {
+            "home": 2,
+            "away": 1,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 1,
+            "away": 2,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -22516,8 +22682,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 2,
+              "away": 1,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -22543,8 +22710,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -22776,6 +22944,16 @@
             "home": 1,
             "away": 0,
             "label": "Suíça x Colômbia"
+          },
+          "fra-esp": {
+            "home": 3,
+            "away": 1,
+            "label": "França x Espanha"
+          },
+          "eng-arg": {
+            "home": 1,
+            "away": 2,
+            "label": "Inglaterra x Argentina"
           }
         }
       },
@@ -24051,8 +24229,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 3,
+              "away": 1,
+              "label": "França x Espanha"
             },
             "points": 0,
             "outcomeHit": false,
@@ -24078,8 +24257,9 @@
               "advanced": null
             },
             "prediction": {
-              "home": null,
-              "away": null
+              "home": 1,
+              "away": 2,
+              "label": "Inglaterra x Argentina"
             },
             "points": 0,
             "outcomeHit": false,
@@ -28366,8 +28546,8 @@
         "exactKnockoutHits": 8
       },
       "chances": {
-        "titleChance": 0.41775,
-        "podiumChance": 0.97985,
+        "titleChance": 0.419875,
+        "podiumChance": 0.968325,
         "eliminated": false
       }
     },
@@ -28389,8 +28569,8 @@
         "exactKnockoutHits": 8
       },
       "chances": {
-        "titleChance": 0.332725,
-        "podiumChance": 0.799475,
+        "titleChance": 0.331525,
+        "podiumChance": 0.806875,
         "eliminated": false
       }
     },
@@ -28412,8 +28592,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.2128,
-        "podiumChance": 0.5183,
+        "titleChance": 0.214175,
+        "podiumChance": 0.526475,
         "eliminated": false
       }
     },
@@ -28435,8 +28615,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.0298,
-        "podiumChance": 0.20325,
+        "titleChance": 0.0283,
+        "podiumChance": 0.198425,
         "eliminated": false
       }
     },
@@ -28458,8 +28638,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.000275,
-        "podiumChance": 0.24545,
+        "titleChance": 0.000175,
+        "podiumChance": 0.25515,
         "eliminated": false
       }
     },
@@ -28482,7 +28662,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.0025,
+        "podiumChance": 0.000425,
         "eliminated": false
       }
     },
@@ -28505,7 +28685,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.008425,
+        "podiumChance": 0.003575,
         "eliminated": false
       }
     },
@@ -28527,8 +28707,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.0060625,
-        "podiumChance": 0.179025,
+        "titleChance": 0.00535,
+        "podiumChance": 0.1836375,
         "eliminated": false
       }
     },
@@ -28551,7 +28731,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.00195,
+        "podiumChance": 0.00055,
         "eliminated": false
       }
     },
@@ -28573,8 +28753,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0005875,
-        "podiumChance": 0.048175,
+        "titleChance": 0.0006,
+        "podiumChance": 0.0389875,
         "eliminated": false
       }
     },
@@ -28597,7 +28777,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.0088,
+        "podiumChance": 0.016375,
         "eliminated": false
       }
     },
@@ -28620,7 +28800,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.004525,
+        "podiumChance": 0.0011,
         "eliminated": false
       }
     },
@@ -28643,7 +28823,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000275,
+        "podiumChance": 0.0001,
         "eliminated": false
       }
     },
