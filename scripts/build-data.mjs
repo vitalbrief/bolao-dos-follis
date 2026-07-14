@@ -519,6 +519,14 @@ function deterministicSummary(rows) {
 }
 
 function pickChances(entry, reach) {
+  if (reach?.eliminated) {
+    return {
+      titleChance: 0,
+      podiumChance: entry.podiumChance,
+      eliminated: true,
+    };
+  }
+
   return {
     titleChance: entry.titleChance,
     podiumChance: entry.podiumChance,
@@ -558,7 +566,139 @@ function computeReachability(tournament, rows, pointsAtStake) {
     // alcanca o total atual dele nem no melhor cenario ja era: eliminado.
     reach.set(row.id, { maxTotal, eliminated: maxTotal < leaderTotal });
   }
+
+  const titlePossibleIds = computeTitlePossibleIds(tournament, rows);
+  if (titlePossibleIds) {
+    for (const row of rows) {
+      const current = reach.get(row.id) ?? {};
+      reach.set(row.id, {
+        ...current,
+        eliminated: !titlePossibleIds.has(row.id),
+      });
+    }
+  }
+
   return reach;
+}
+
+function computeTitlePossibleIds(tournament, rows) {
+  const semifinalMatches = tournament.matches.filter((match) => match.stage === "semifinal");
+  if (semifinalMatches.length !== 2) return null;
+
+  const [firstSemi, secondSemi] = semifinalMatches;
+  const firstStates = enumerateSemifinalStates(firstSemi, rows);
+  const secondStates = enumerateSemifinalStates(secondSemi, rows);
+  const possibleIds = new Set();
+
+  for (const firstState of firstStates) {
+    for (const secondState of secondStates) {
+      const finalists = [firstState.winner, secondState.winner].filter(Boolean);
+      if (finalists.length !== 2) continue;
+
+      for (const champion of finalists) {
+        const runnerUp = finalists.find((team) => team !== champion) ?? null;
+        const scenarioRows = rows.map((row) =>
+          scoreScenarioRow(row, [firstState, secondState], champion, runnerUp),
+        );
+        const ranked = rankScenarioRows(scenarioRows);
+        for (const row of ranked) {
+          if (compareScenarioRows(row, ranked[0]) !== 0) break;
+          possibleIds.add(row.id);
+        }
+      }
+    }
+  }
+
+  return possibleIds;
+}
+
+function enumerateSemifinalStates(match, rows) {
+  if (isCompleteScore(match.result)) {
+    return [
+      {
+        match,
+        score: match.result,
+        alreadyScored: true,
+        winner: winnerFromActualMatch(match, match.result),
+      },
+    ];
+  }
+
+  const scoreCandidates = new Map();
+  addScoreCandidate(scoreCandidates, { home: 1, away: 0 });
+  addScoreCandidate(scoreCandidates, { home: 0, away: 1 });
+  addScoreCandidate(scoreCandidates, { home: 0, away: 0 });
+
+  for (const row of rows) {
+    const prediction = row.predictions.matches?.[match.id];
+    if (prediction && !prediction.ignored && isCompleteScore(prediction)) {
+      addScoreCandidate(scoreCandidates, { home: prediction.home, away: prediction.away });
+    }
+  }
+
+  const states = [];
+  for (const score of scoreCandidates.values()) {
+    if (score.home > score.away) {
+      states.push({ match, score, alreadyScored: false, winner: match.homeTeam });
+    } else if (score.away > score.home) {
+      states.push({ match, score, alreadyScored: false, winner: match.awayTeam });
+    } else {
+      states.push({ match, score, alreadyScored: false, winner: match.homeTeam });
+      states.push({ match, score, alreadyScored: false, winner: match.awayTeam });
+    }
+  }
+
+  return states;
+}
+
+function addScoreCandidate(scoreCandidates, score) {
+  scoreCandidates.set(`${score.home}-${score.away}`, score);
+}
+
+function winnerFromActualMatch(match, score) {
+  if (score.home > score.away) return match.homeTeam;
+  if (score.away > score.home) return match.awayTeam;
+  return match.advanced ?? null;
+}
+
+function scoreScenarioRow(row, semifinalStates, champion, runnerUp) {
+  const scenario = {
+    id: row.id,
+    displayName: row.displayName,
+    total: row.score.total,
+    exact: row.score.exactTiebreakerHits ?? row.score.exactKnockoutHits,
+    outcome: row.score.outcomeHits,
+    group: row.score.groupPhasePoints,
+  };
+
+  for (const state of semifinalStates) {
+    if (state.alreadyScored) continue;
+    const prediction = row.predictions.matches?.[state.match.id];
+    const scored = scoreMatchPrediction(prediction, state.score, { stage: state.match.stage });
+    scenario.total += scored.points;
+    if (scored.exactTiebreakerHit) scenario.exact += 1;
+    if (scored.outcomeHit) scenario.outcome += 1;
+  }
+
+  if (row.predictions.champion === champion) scenario.total += 15;
+  if (row.predictions.runnerUp === runnerUp) scenario.total += 10;
+
+  return scenario;
+}
+
+function rankScenarioRows(rows) {
+  return [...rows].sort(
+    (a, b) => compareScenarioRows(a, b) || a.displayName.localeCompare(b.displayName, "pt-BR"),
+  );
+}
+
+function compareScenarioRows(a, b) {
+  return (
+    b.total - a.total ||
+    b.exact - a.exact ||
+    b.outcome - a.outcome ||
+    b.group - a.group
+  );
 }
 
 function computePointsAtStake(tournament) {

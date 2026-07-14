@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-14T21:11:35.173Z",
+    "generatedAt": "2026-07-14T21:22:05.159Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
     "submissionCount": 95,
@@ -7042,9 +7042,9 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.00035,
+        "titleChance": 0,
         "podiumChance": 0.4986,
-        "eliminated": false
+        "eliminated": true
       },
       "predictions": {
         "champion": "Espanha",
@@ -8615,7 +8615,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0,
-        "eliminated": false
+        "eliminated": true
       },
       "predictions": {
         "champion": "Brasil",
@@ -10186,7 +10186,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0.002825,
-        "eliminated": false
+        "eliminated": true
       },
       "predictions": {
         "champion": "Brasil",
@@ -11755,9 +11755,9 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.011025,
+        "titleChance": 0,
         "podiumChance": 0.089575,
-        "eliminated": false
+        "eliminated": true
       },
       "predictions": {
         "champion": "Argentina",
@@ -13328,7 +13328,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0.000575,
-        "eliminated": false
+        "eliminated": true
       },
       "predictions": {
         "champion": "Brasil",
@@ -14897,9 +14897,9 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0012,
+        "titleChance": 0,
         "podiumChance": 0.018325,
-        "eliminated": false
+        "eliminated": true
       },
       "predictions": {
         "champion": "Argentina",
@@ -16470,7 +16470,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0,
-        "eliminated": false
+        "eliminated": true
       },
       "predictions": {
         "champion": "Portugal",
@@ -18041,7 +18041,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0.00055,
-        "eliminated": false
+        "eliminated": true
       },
       "predictions": {
         "champion": "Espanha",
@@ -19612,7 +19612,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0,
-        "eliminated": false
+        "eliminated": true
       },
       "predictions": {
         "champion": "França",
@@ -21183,7 +21183,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0,
-        "eliminated": false
+        "eliminated": true
       },
       "predictions": {
         "champion": "Brasil",
@@ -28638,9 +28638,9 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.00035,
+        "titleChance": 0,
         "podiumChance": 0.4986,
-        "eliminated": false
+        "eliminated": true
       }
     },
     {
@@ -28663,7 +28663,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0,
-        "eliminated": false
+        "eliminated": true
       }
     },
     {
@@ -28686,7 +28686,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0.002825,
-        "eliminated": false
+        "eliminated": true
       }
     },
     {
@@ -28707,9 +28707,9 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.011025,
+        "titleChance": 0,
         "podiumChance": 0.089575,
-        "eliminated": false
+        "eliminated": true
       }
     },
     {
@@ -28732,7 +28732,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0.000575,
-        "eliminated": false
+        "eliminated": true
       }
     },
     {
@@ -28753,9 +28753,9 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0012,
+        "titleChance": 0,
         "podiumChance": 0.018325,
-        "eliminated": false
+        "eliminated": true
       }
     },
     {
@@ -28778,7 +28778,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0,
-        "eliminated": false
+        "eliminated": true
       }
     },
     {
@@ -28801,7 +28801,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0.00055,
-        "eliminated": false
+        "eliminated": true
       }
     },
     {
@@ -28824,7 +28824,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0,
-        "eliminated": false
+        "eliminated": true
       }
     },
     {
@@ -28847,7 +28847,7 @@
       "chances": {
         "titleChance": 0,
         "podiumChance": 0,
-        "eliminated": false
+        "eliminated": true
       }
     },
     {
