@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-07-14T02:39:30.096Z",
+    "generatedAt": "2026-07-14T21:11:35.173Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
     "submissionCount": 95,
     "ignoredSubmissionCount": 0,
     "pointsAtStake": {
-      "total": 45,
+      "total": 40,
       "groups": 0,
       "brazilMatches": 0,
-      "knockout": 20,
+      "knockout": 15,
       "champion": 15,
       "runnerUp": 10
     },
@@ -185,7 +185,7 @@
   "tournament": {
     "name": "Bolão dos Follis",
     "season": "Copa do Mundo 2026",
-    "lastResultsCheckedAt": "2026-07-12T13:06:11-03:00",
+    "lastResultsCheckedAt": "2026-07-14T18:11:21-03:00",
     "champion": null,
     "runnerUp": null,
     "groups": {
@@ -714,10 +714,10 @@
         "homeTeam": "França",
         "awayTeam": "Espanha",
         "kickoff": "2026-07-14T16:00:00-03:00",
-        "status": "scheduled",
+        "status": "final",
         "result": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "sourceUrl": null,
         "advanced": null
@@ -758,8 +758,8 @@
         "exactKnockoutHits": 8
       },
       "chances": {
-        "titleChance": 0.419875,
-        "podiumChance": 0.968325,
+        "titleChance": 0.26085,
+        "podiumChance": 0.94315,
         "eliminated": false
       },
       "predictions": {
@@ -2250,10 +2250,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -2268,7 +2268,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -2329,8 +2329,8 @@
         "exactKnockoutHits": 8
       },
       "chances": {
-        "titleChance": 0.331525,
-        "podiumChance": 0.806875,
+        "titleChance": 0.503775,
+        "podiumChance": 0.649825,
         "eliminated": false
       },
       "predictions": {
@@ -3821,10 +3821,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -3839,7 +3839,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -3900,8 +3900,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.214175,
-        "podiumChance": 0.526475,
+        "titleChance": 0.16945,
+        "podiumChance": 0.45955,
         "eliminated": false
       },
       "predictions": {
@@ -5392,10 +5392,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -5410,7 +5410,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -5471,8 +5471,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.0283,
-        "podiumChance": 0.198425,
+        "titleChance": 0.05335,
+        "podiumChance": 0.337025,
         "eliminated": false
       },
       "predictions": {
@@ -6963,10 +6963,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -6981,7 +6981,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -7029,21 +7029,21 @@
       "displayName": "Guh e Mah",
       "rank": 5,
       "score": {
-        "total": 129,
+        "total": 132,
         "groupClassificationPoints": 58,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 64,
-        "knockoutPoints": 65,
+        "knockoutPoints": 68,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 21,
+        "outcomeHits": 22,
         "exactScoreHits": 4,
         "exactTiebreakerHits": 4,
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.000175,
-        "podiumChance": 0.25515,
+        "titleChance": 0.00035,
+        "podiumChance": 0.4986,
         "eliminated": false
       },
       "predictions": {
@@ -8534,10 +8534,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -8547,12 +8547,12 @@
               "away": 2,
               "label": "França x Espanha"
             },
-            "points": 0,
-            "outcomeHit": false,
+            "points": 3,
+            "outcomeHit": true,
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -8614,7 +8614,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000425,
+        "podiumChance": 0,
         "eliminated": false
       },
       "predictions": {
@@ -10105,10 +10105,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -10123,7 +10123,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -10185,7 +10185,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.003575,
+        "podiumChance": 0.002825,
         "eliminated": false
       },
       "predictions": {
@@ -11676,10 +11676,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -11694,7 +11694,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -11755,8 +11755,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.00535,
-        "podiumChance": 0.1836375,
+        "titleChance": 0.011025,
+        "podiumChance": 0.089575,
         "eliminated": false
       },
       "predictions": {
@@ -13247,10 +13247,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -13265,7 +13265,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -13327,7 +13327,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.00055,
+        "podiumChance": 0.000575,
         "eliminated": false
       },
       "predictions": {
@@ -14818,10 +14818,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -14836,7 +14836,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -14897,8 +14897,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0006,
-        "podiumChance": 0.0389875,
+        "titleChance": 0.0012,
+        "podiumChance": 0.018325,
         "eliminated": false
       },
       "predictions": {
@@ -16389,10 +16389,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -16407,7 +16407,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -16469,7 +16469,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.016375,
+        "podiumChance": 0,
         "eliminated": false
       },
       "predictions": {
@@ -17960,10 +17960,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -17978,7 +17978,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -18040,7 +18040,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.0011,
+        "podiumChance": 0.00055,
         "eliminated": false
       },
       "predictions": {
@@ -19531,10 +19531,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -19549,7 +19549,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -19611,7 +19611,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.0001,
+        "podiumChance": 0,
         "eliminated": false
       },
       "predictions": {
@@ -21102,10 +21102,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -21120,7 +21120,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -22673,10 +22673,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -22691,7 +22691,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -24220,10 +24220,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -24238,7 +24238,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -25685,10 +25685,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -25702,7 +25702,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -27076,10 +27076,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -27093,7 +27093,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -28467,10 +28467,10 @@
               "homeTeam": "França",
               "awayTeam": "Espanha",
               "kickoff": "2026-07-14T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "sourceUrl": null,
               "advanced": null
@@ -28484,7 +28484,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "eng-arg": {
             "match": {
@@ -28546,8 +28546,8 @@
         "exactKnockoutHits": 8
       },
       "chances": {
-        "titleChance": 0.419875,
-        "podiumChance": 0.968325,
+        "titleChance": 0.26085,
+        "podiumChance": 0.94315,
         "eliminated": false
       }
     },
@@ -28569,8 +28569,8 @@
         "exactKnockoutHits": 8
       },
       "chances": {
-        "titleChance": 0.331525,
-        "podiumChance": 0.806875,
+        "titleChance": 0.503775,
+        "podiumChance": 0.649825,
         "eliminated": false
       }
     },
@@ -28592,8 +28592,8 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.214175,
-        "podiumChance": 0.526475,
+        "titleChance": 0.16945,
+        "podiumChance": 0.45955,
         "eliminated": false
       }
     },
@@ -28615,8 +28615,8 @@
         "exactKnockoutHits": 6
       },
       "chances": {
-        "titleChance": 0.0283,
-        "podiumChance": 0.198425,
+        "titleChance": 0.05335,
+        "podiumChance": 0.337025,
         "eliminated": false
       }
     },
@@ -28625,21 +28625,21 @@
       "displayName": "Guh e Mah",
       "rank": 5,
       "score": {
-        "total": 129,
+        "total": 132,
         "groupClassificationPoints": 58,
         "brazilGroupMatchPoints": 6,
         "groupPhasePoints": 64,
-        "knockoutPoints": 65,
+        "knockoutPoints": 68,
         "championPoints": 0,
         "runnerUpPoints": 0,
-        "outcomeHits": 21,
+        "outcomeHits": 22,
         "exactScoreHits": 4,
         "exactTiebreakerHits": 4,
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0.000175,
-        "podiumChance": 0.25515,
+        "titleChance": 0.00035,
+        "podiumChance": 0.4986,
         "eliminated": false
       }
     },
@@ -28662,7 +28662,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.000425,
+        "podiumChance": 0,
         "eliminated": false
       }
     },
@@ -28685,7 +28685,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.003575,
+        "podiumChance": 0.002825,
         "eliminated": false
       }
     },
@@ -28707,8 +28707,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.00535,
-        "podiumChance": 0.1836375,
+        "titleChance": 0.011025,
+        "podiumChance": 0.089575,
         "eliminated": false
       }
     },
@@ -28731,7 +28731,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.00055,
+        "podiumChance": 0.000575,
         "eliminated": false
       }
     },
@@ -28753,8 +28753,8 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0.0006,
-        "podiumChance": 0.0389875,
+        "titleChance": 0.0012,
+        "podiumChance": 0.018325,
         "eliminated": false
       }
     },
@@ -28777,7 +28777,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.016375,
+        "podiumChance": 0,
         "eliminated": false
       }
     },
@@ -28800,7 +28800,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.0011,
+        "podiumChance": 0.00055,
         "eliminated": false
       }
     },
@@ -28823,7 +28823,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.0001,
+        "podiumChance": 0,
         "eliminated": false
       }
     },
