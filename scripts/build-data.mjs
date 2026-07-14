@@ -567,7 +567,7 @@ function computeReachability(tournament, rows, pointsAtStake) {
     reach.set(row.id, { maxTotal, eliminated: maxTotal < leaderTotal });
   }
 
-  const titlePossibleIds = computeTitlePossibleIds(tournament, rows);
+  const titlePossibleIds = computeTitlePossibleIds(tournament, rows, pointsAtStake);
   if (titlePossibleIds) {
     for (const row of rows) {
       const current = reach.get(row.id) ?? {};
@@ -581,10 +581,18 @@ function computeReachability(tournament, rows, pointsAtStake) {
   return reach;
 }
 
-function computeTitlePossibleIds(tournament, rows) {
+function computeTitlePossibleIds(tournament, rows, pointsAtStake) {
+  const MATCH_MAX = 5;
   const semifinalMatches = tournament.matches.filter((match) => match.stage === "semifinal");
   if (semifinalMatches.length !== 2) return null;
 
+  const pendingRegisteredKnockout = tournament.matches.filter(
+    (match) => KNOCKOUT_STAGES.has(match.stage) && !isCompleteScore(match.result),
+  );
+  const futureOpenMatchCount = Math.max(
+    0,
+    pointsAtStake.knockout / MATCH_MAX - pendingRegisteredKnockout.length,
+  );
   const [firstSemi, secondSemi] = semifinalMatches;
   const firstStates = enumerateSemifinalStates(firstSemi, rows);
   const secondStates = enumerateSemifinalStates(secondSemi, rows);
@@ -597,19 +605,35 @@ function computeTitlePossibleIds(tournament, rows) {
 
       for (const champion of finalists) {
         const runnerUp = finalists.find((team) => team !== champion) ?? null;
-        const scenarioRows = rows.map((row) =>
+        const baseScenarioRows = rows.map((row) =>
           scoreScenarioRow(row, [firstState, secondState], champion, runnerUp),
         );
-        const ranked = rankScenarioRows(scenarioRows);
-        for (const row of ranked) {
-          if (compareScenarioRows(row, ranked[0]) !== 0) break;
-          possibleIds.add(row.id);
+
+        for (const candidate of baseScenarioRows) {
+          const scenarioRows = baseScenarioRows.map((row) =>
+            row.id === candidate.id ? addFutureOpenMatchCeiling(row, futureOpenMatchCount) : row,
+          );
+          const ranked = rankScenarioRows(scenarioRows);
+          const candidateResult = ranked.find((row) => row.id === candidate.id);
+          if (candidateResult && compareScenarioRows(candidateResult, ranked[0]) === 0) {
+            possibleIds.add(candidate.id);
+          }
         }
       }
     }
   }
 
   return possibleIds;
+}
+
+function addFutureOpenMatchCeiling(row, futureOpenMatchCount) {
+  const MATCH_MAX = 5;
+  return {
+    ...row,
+    total: row.total + futureOpenMatchCount * MATCH_MAX,
+    exact: row.exact + futureOpenMatchCount,
+    outcome: row.outcome + futureOpenMatchCount,
+  };
 }
 
 function enumerateSemifinalStates(match, rows) {

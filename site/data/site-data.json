@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-14T21:22:05.159Z",
+    "generatedAt": "2026-07-14T23:20:07.681Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
     "submissionCount": 95,
@@ -7042,9 +7042,9 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0,
+        "titleChance": 0.00035,
         "podiumChance": 0.4986,
-        "eliminated": true
+        "eliminated": false
       },
       "predictions": {
         "champion": "Espanha",
@@ -11755,9 +11755,9 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0,
+        "titleChance": 0.011025,
         "podiumChance": 0.089575,
-        "eliminated": true
+        "eliminated": false
       },
       "predictions": {
         "champion": "Argentina",
@@ -14897,9 +14897,9 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0,
+        "titleChance": 0.0012,
         "podiumChance": 0.018325,
-        "eliminated": true
+        "eliminated": false
       },
       "predictions": {
         "champion": "Argentina",
@@ -28638,9 +28638,9 @@
         "exactKnockoutHits": 4
       },
       "chances": {
-        "titleChance": 0,
+        "titleChance": 0.00035,
         "podiumChance": 0.4986,
-        "eliminated": true
+        "eliminated": false
       }
     },
     {
@@ -28707,9 +28707,9 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0,
+        "titleChance": 0.011025,
         "podiumChance": 0.089575,
-        "eliminated": true
+        "eliminated": false
       }
     },
     {
@@ -28753,9 +28753,9 @@
         "exactKnockoutHits": 5
       },
       "chances": {
-        "titleChance": 0,
+        "titleChance": 0.0012,
         "podiumChance": 0.018325,
-        "eliminated": true
+        "eliminated": false
       }
     },
     {
