@@ -586,12 +586,15 @@ function computeTitlePossibleIds(tournament, rows, pointsAtStake) {
   const semifinalMatches = tournament.matches.filter((match) => match.stage === "semifinal");
   if (semifinalMatches.length !== 2) return null;
 
-  const pendingRegisteredKnockout = tournament.matches.filter(
-    (match) => KNOCKOUT_STAGES.has(match.stage) && !isCompleteScore(match.result),
+  const lockedPendingKnockout = tournament.matches.filter(
+    (match) =>
+      KNOCKOUT_STAGES.has(match.stage) &&
+      !isCompleteScore(match.result) &&
+      rows.some((row) => row.predictions.matches?.[match.id]),
   );
   const futureOpenMatchCount = Math.max(
     0,
-    pointsAtStake.knockout / MATCH_MAX - pendingRegisteredKnockout.length,
+    pointsAtStake.knockout / MATCH_MAX - lockedPendingKnockout.length,
   );
   const [firstSemi, secondSemi] = semifinalMatches;
   const firstStates = enumerateSemifinalStates(firstSemi, rows);
