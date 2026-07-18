@@ -108,6 +108,18 @@
         { "matchId": "fra-esp", "homeScoreColumnIndex": 2, "awayScoreColumnIndex": 3 },
         { "matchId": "eng-arg", "homeScoreColumnIndex": 4, "awayScoreColumnIndex": 5 }
       ]
+    },
+    {
+      "id": "final-third-place-2026",
+      "label": "Final e 3º lugar",
+      "stage": "final",
+      "sourceCsv": "data/raw/final-current.csv",
+      "timestampColumnIndex": 0,
+      "nameColumnIndex": 1,
+      "matchScoreColumns": [
+        { "matchId": "fra-eng", "homeScoreColumnIndex": 2, "awayScoreColumnIndex": 3 },
+        { "matchId": "esp-arg", "homeScoreColumnIndex": 4, "awayScoreColumnIndex": 5 }
+      ]
     }
   ]
 }
