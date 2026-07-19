@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-07-18T01:20:43.926Z",
+    "generatedAt": "2026-07-19T00:05:03.371Z",
     "source": "Google Forms CSV + arquivos manuais",
     "participantCount": 18,
     "submissionCount": 109,
     "ignoredSubmissionCount": 0,
     "pointsAtStake": {
-      "total": 35,
+      "total": 30,
       "groups": 0,
       "brazilMatches": 0,
-      "knockout": 10,
+      "knockout": 5,
       "champion": 15,
       "runnerUp": 10
     },
@@ -744,10 +744,10 @@
         "homeTeam": "França",
         "awayTeam": "Inglaterra",
         "kickoff": "2026-07-18T16:00:00-03:00",
-        "status": "scheduled",
+        "status": "final",
         "result": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 6
         },
         "sourceUrl": null,
         "advanced": null
@@ -789,7 +789,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.952625,
+        "podiumChance": 1,
         "eliminated": true
       },
       "predictions": {
@@ -2346,10 +2346,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -2364,7 +2364,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -2425,8 +2425,8 @@
         "exactKnockoutHits": 9
       },
       "chances": {
-        "titleChance": 0.590625,
-        "podiumChance": 0.70285,
+        "titleChance": 0.462375,
+        "podiumChance": 0.77055,
         "eliminated": false
       },
       "predictions": {
@@ -3983,10 +3983,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -4001,7 +4001,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -4062,8 +4062,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.409375,
-        "podiumChance": 0.538725,
+        "titleChance": 0.537625,
+        "podiumChance": 0.537625,
         "eliminated": false
       },
       "predictions": {
@@ -5620,10 +5620,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -5638,7 +5638,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -5700,7 +5700,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.1714,
+        "podiumChance": 0.14655,
         "eliminated": true
       },
       "predictions": {
@@ -7257,10 +7257,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -7275,7 +7275,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -7337,7 +7337,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.461275,
+        "podiumChance": 0.462375,
         "eliminated": true
       },
       "predictions": {
@@ -8894,10 +8894,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -8912,7 +8912,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -10531,10 +10531,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -10549,7 +10549,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -12168,10 +12168,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -12186,7 +12186,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -12248,7 +12248,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.1689,
+        "podiumChance": 0.0829,
         "eliminated": true
       },
       "predictions": {
@@ -13805,10 +13805,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -13823,7 +13823,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -13885,7 +13885,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.004225,
+        "podiumChance": 0,
         "eliminated": true
       },
       "predictions": {
@@ -15442,10 +15442,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -15460,7 +15460,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -17079,10 +17079,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -17097,7 +17097,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -18716,10 +18716,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -18734,7 +18734,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -20343,10 +20343,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -20360,7 +20360,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -21978,10 +21978,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -21996,7 +21996,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -23615,10 +23615,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -23633,7 +23633,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -25218,10 +25218,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -25235,7 +25235,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -26745,10 +26745,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -26763,7 +26763,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -28192,10 +28192,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -28209,7 +28209,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -29637,10 +29637,10 @@
               "homeTeam": "França",
               "awayTeam": "Inglaterra",
               "kickoff": "2026-07-18T16:00:00-03:00",
-              "status": "scheduled",
+              "status": "final",
               "result": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 6
               },
               "sourceUrl": null,
               "advanced": null
@@ -29654,7 +29654,7 @@
             "exactHit": false,
             "exactTiebreakerHit": false,
             "exactKnockoutHit": false,
-            "pending": true
+            "pending": false
           },
           "esp-arg": {
             "match": {
@@ -29717,7 +29717,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.952625,
+        "podiumChance": 1,
         "eliminated": true
       }
     },
@@ -29739,8 +29739,8 @@
         "exactKnockoutHits": 9
       },
       "chances": {
-        "titleChance": 0.590625,
-        "podiumChance": 0.70285,
+        "titleChance": 0.462375,
+        "podiumChance": 0.77055,
         "eliminated": false
       }
     },
@@ -29762,8 +29762,8 @@
         "exactKnockoutHits": 7
       },
       "chances": {
-        "titleChance": 0.409375,
-        "podiumChance": 0.538725,
+        "titleChance": 0.537625,
+        "podiumChance": 0.537625,
         "eliminated": false
       }
     },
@@ -29786,7 +29786,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.1714,
+        "podiumChance": 0.14655,
         "eliminated": true
       }
     },
@@ -29809,7 +29809,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.461275,
+        "podiumChance": 0.462375,
         "eliminated": true
       }
     },
@@ -29878,7 +29878,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.1689,
+        "podiumChance": 0.0829,
         "eliminated": true
       }
     },
@@ -29901,7 +29901,7 @@
       },
       "chances": {
         "titleChance": 0,
-        "podiumChance": 0.004225,
+        "podiumChance": 0,
         "eliminated": true
       }
     },

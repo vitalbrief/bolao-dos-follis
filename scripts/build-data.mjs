@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { parseCsvWithHeaders } from "./csv.mjs";
+import { computeEndgameTitlePossibleIds } from "./reachability.mjs";
 import { simulateStandings } from "./simulate.mjs";
 import {
   GROUP_LETTERS,
@@ -585,6 +586,11 @@ function computeTitlePossibleIds(tournament, rows, pointsAtStake) {
   const MATCH_MAX = 5;
   const semifinalMatches = tournament.matches.filter((match) => match.stage === "semifinal");
   if (semifinalMatches.length !== 2) return null;
+
+  if (semifinalMatches.every((match) => isCompleteScore(match.result))) {
+    const endgamePossibleIds = computeEndgameTitlePossibleIds(tournament, rows, pointsAtStake);
+    if (endgamePossibleIds) return endgamePossibleIds;
+  }
 
   const lockedPendingKnockout = tournament.matches.filter(
     (match) =>

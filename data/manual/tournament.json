@@ -398,8 +398,8 @@
       "homeTeam": "França",
       "awayTeam": "Inglaterra",
       "kickoff": "2026-07-18T16:00:00-03:00",
-      "status": "scheduled",
-      "result": { "home": null, "away": null },
+      "status": "final",
+      "result": { "home": 4, "away": 6 },
       "sourceUrl": null
     },
     {
