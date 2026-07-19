@@ -201,9 +201,10 @@ function renderPodium() {
 function renderRanking() {
   const rows = state.data.ranking;
   const live = hasAnyPoints();
+  const finished = live && (state.data.meta?.pointsAtStake?.total ?? 0) === 0;
   const byId = new Map(state.data.participants.map((p) => [p.id, p]));
   const status = document.querySelector("#ranking-status");
-  status.textContent = live ? "Pontuação em andamento" : "Aguardando resultados";
+  status.textContent = finished ? "Bolão encerrado" : live ? "Pontuação em andamento" : "Aguardando resultados";
   status.classList.toggle("is-live", live);
 
   document.querySelector("#ranking-body").innerHTML = rows
@@ -247,9 +248,11 @@ function renderRanking() {
     live && iterations > 0
       ? ` Chance de título estimada por ${iterations.toLocaleString("pt-BR")} simulações do restante da Copa (palpites reais + palpites futuros simulados).`
       : "";
-  document.querySelector("#ranking-note").textContent = live
-    ? `Desempate: 🎯 placares exatos nos jogos do Brasil e no mata-mata · ✅ resultados acertados · 🧩 pontos nos grupos.${chanceNote}`
-    : "Ranking provisório — todos zerados até os jogos começarem. A ordem é só alfabética por enquanto.";
+  document.querySelector("#ranking-note").textContent = finished
+    ? "Classificação final · Desempate: 🎯 placares exatos nos jogos do Brasil e no mata-mata · ✅ resultados acertados · 🧩 pontos nos grupos."
+    : live
+      ? `Desempate: 🎯 placares exatos nos jogos do Brasil e no mata-mata · ✅ resultados acertados · 🧩 pontos nos grupos.${chanceNote}`
+      : "Ranking provisório — todos zerados até os jogos começarem. A ordem é só alfabética por enquanto.";
 }
 
 function wireRankingShare() {
